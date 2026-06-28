@@ -1,0 +1,1585 @@
+{
+  "layer0": {
+    "count": 41,
+    "avg_derivability": 0.443,
+    "avg_condition_richness": 0.771,
+    "avg_abstraction_quality": 0.284,
+    "avg_composite": 0.469
+  },
+  "quality_checklist": {
+    "total_items": 41,
+    "check_pass_rates": {
+      "trigger_situation_first": 0.927,
+      "no_action_in_knowledge": 1.0,
+      "generalizes_to": 1.0,
+      "pitfalls_present": 1.0,
+      "confidence_rationale": 1.0,
+      "applicable_two_layer": 1.0,
+      "abstraction_distance": 1.0,
+      "cross_references": 1.0
+    },
+    "avg_pass_count": 7.93,
+    "max_possible": 8,
+    "items": [
+      {
+        "id": "ek_0000",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0001",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0002",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": false,
+            "reason": "trigger starts with action directive: 'Attempting to inject CRLF sequences into...'"
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 7
+      },
+      {
+        "id": "ek_0003",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0004",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0005",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0006",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0007",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": false,
+            "reason": "trigger starts with action directive: 'Attempting to reproduce a `CURLOPT_USERN...'"
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 7
+      },
+      {
+        "id": "ek_0008",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0009",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0010",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0011",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0012",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0013",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0014",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0015",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0016",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0017",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0018",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0019",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0020",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0021",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0022",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0023",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0024",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0025",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0026",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0027",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0028",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0029",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": false,
+            "reason": "trigger starts with action directive: 'Injecting a payload (e.g., alert(1)) int...'"
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 7
+      },
+      {
+        "id": "ek_0030",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0031",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0032",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0033",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0034",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0035",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0036",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0037",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0038",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0039",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      },
+      {
+        "id": "ek_0040",
+        "checks": {
+          "trigger_situation_first": {
+            "passed": true,
+            "reason": ""
+          },
+          "no_action_in_knowledge": {
+            "passed": true,
+            "reason": ""
+          },
+          "generalizes_to": {
+            "passed": true,
+            "reason": ""
+          },
+          "pitfalls_present": {
+            "passed": true,
+            "reason": ""
+          },
+          "confidence_rationale": {
+            "passed": true,
+            "reason": ""
+          },
+          "applicable_two_layer": {
+            "passed": true,
+            "reason": ""
+          },
+          "abstraction_distance": {
+            "passed": true,
+            "reason": ""
+          },
+          "cross_references": {
+            "passed": true,
+            "reason": ""
+          }
+        },
+        "pass_count": 8
+      }
+    ]
+  },
+  "computed_at": "2026-02-16T21:03:25.374184"
+}

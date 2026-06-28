@@ -1,0 +1,6 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.npz
+.cache_corpus_vectors.npz
