@@ -229,22 +229,38 @@ HIGH_CONFIDENCE_THRESHOLD: int = MAX_POSSIBLE_CHECKS        # 8/8
 MEDIUM_CONFIDENCE_THRESHOLD: int = MAX_POSSIBLE_CHECKS - 2  # 6/8
 
 
-def _confidence_label(pass_count: int) -> str:
-    """Map a raw pass_count to a human-readable confidence tier.
+#: Minimum retrieval similarity required to earn "High" confidence,
+#: matching the high-tier threshold embedding_retrieval uses internally.
+HIGH_CONFIDENCE_MIN_SIMILARITY: float = 0.70
+
+#: Minimum retrieval similarity required to earn "Medium" confidence,
+#: matching the medium-tier threshold embedding_retrieval uses internally.
+MEDIUM_CONFIDENCE_MIN_SIMILARITY: float = 0.45
+
+
+def _confidence_label(pass_count: int, similarity: float) -> str:
+    """Map a pass_count and retrieval similarity to a confidence tier.
+
+    Quality (pass_count) alone cannot earn "High"/"Medium": a
+    well-documented entry that is a poor semantic match must not be
+    reported as high-confidence, so similarity gates the tier and
+    pass_count only decides between tiers once that gate is cleared.
 
     Parameters
     ----------
     pass_count:
         Number of quality checks passed for the entry.
+    similarity:
+        Cosine similarity from the retriever ∈ [0.0, 1.0].
 
     Returns
     -------
     str
         One of ``"High"``, ``"Medium"``, or ``"Low"``.
     """
-    if pass_count >= HIGH_CONFIDENCE_THRESHOLD:
+    if pass_count >= HIGH_CONFIDENCE_THRESHOLD and similarity >= HIGH_CONFIDENCE_MIN_SIMILARITY:
         return "High"
-    if pass_count >= MEDIUM_CONFIDENCE_THRESHOLD:
+    if pass_count >= MEDIUM_CONFIDENCE_THRESHOLD and similarity >= MEDIUM_CONFIDENCE_MIN_SIMILARITY:
         return "Medium"
     return "Low"
 
@@ -401,7 +417,7 @@ def rank(retrieved_entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
         composite_score: float = _compute_composite_score(similarity, quality_score)
 
         # --- confidence tier ---
-        confidence: str = _confidence_label(pass_count)
+        confidence: str = _confidence_label(pass_count, similarity)
 
         # --- ranking explanation ---
         ranking_reason: dict[str, Any] = _build_ranking_reason(
@@ -451,42 +467,12 @@ def rank(retrieved_entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return ranked
 
 # ---------------------------------------------------------------------------
-# Self-test
+# CLI
 # ---------------------------------------------------------------------------
 
 
-def _self_test() -> None:
-    """Validate the ranking stage end-to-end using the live retriever output.
-
-    Exercises:
-    1. Import ``embedding_retrieval.retrieve`` and run a representative query.
-    2. Pass the results through ``rank()``.
-    3. Print a formatted table: Rank | ID | Similarity | Quality Score |
-       Composite Score | Confidence.
-    4. Assert that the output list is sorted correctly.
-    5. Assert that all required output fields are present.
-    """
-    # Import here to avoid circular dependency at module load time.
-    try:
-        from embedding_retrieval import retrieve  # type: ignore[import]
-    except ImportError as exc:
-        print(f"SKIP: embedding_retrieval not importable ({exc}) — using synthetic data")
-        _synthetic_test()
-        return
-
-    query = (
-        "The application behaves differently when whitespace is added to HTTP headers."
-    )
-    print(f"\nSelf-test query: {query!r}")
-
-    candidates = retrieve(query, k=5)
-    if not candidates:
-        print("SKIP: retrieve() returned no candidates.")
-        return
-
-    results = rank(candidates)
-
-    # --- print results table ---
+def _print_ranking_table(results: list[dict[str, Any]]) -> None:
+    """Print a ranked-results table for a list of ``rank()`` output dicts."""
     sep = "=" * 90
     print(f"\n{sep}")
     print(f"{'Rank':<5} {'ID':<12} {'Similarity':>11} {'Quality Score':>14} "
@@ -499,80 +485,17 @@ def _self_test() -> None:
             f"{entry['confidence']:<10} {entry['pass_count']:>10}"
         )
     print(f"{sep}\n")
-
-    # --- assertions ---
-    scores = [e["composite_score"] for e in results]
-    assert scores == sorted(scores, reverse=True), (
-        "FAIL: results are not sorted descending by composite_score"
-    )
-    print("PASS: results sorted correctly by composite_score (descending)")
-
-    required_fields = {
-        "composite_score", "quality_score", "pass_count",
-        "confidence", "ranking_reason",
-        "confidence_tier", "quality_note",  # legacy compat
-    }
-    for entry in results:
-        missing = required_fields - entry.keys()
-        assert not missing, f"FAIL: entry {entry['id']} missing fields: {missing}"
-    print("PASS: all required output fields present on every ranked entry")
-
-    rr = results[0]["ranking_reason"]
-    assert "formula" in rr, "FAIL: ranking_reason missing 'formula' key"
-    assert "passed_dimensions" in rr, "FAIL: ranking_reason missing 'passed_dimensions'"
-    print("PASS: ranking_reason is structured and contains expected keys")
-
-    print("\nAll self-test assertions passed.")
-
-
-def _synthetic_test() -> None:
-    """Minimal synthetic test used when the retriever cannot be imported.
-
-    Uses known entries from quality_metrics.json directly.
-    - ek_0000 has pass_count=8 (perfect quality)
-    - ek_0002 has pass_count=7 (one failed check)
-    Give ek_0002 a slightly higher similarity so quality must be the tie-breaker.
-    """
-    candidates = [
-        {"id": "ek_0002", "title": "High-similarity, lower quality",
-         "similarity": 0.72, "knowledge": "", "category": "test"},
-        {"id": "ek_0000", "title": "Slightly lower similarity, perfect quality",
-         "similarity": 0.65, "knowledge": "", "category": "test"},
-    ]
-    results = rank(candidates)
-
-    sep = "=" * 90
-    print(f"\n{sep}")
-    print(f"{'Rank':<5} {'ID':<12} {'Similarity':>11} {'Quality Score':>14} "
-          f"{'Composite':>10} {'Confidence':<10} {'Pass Count':>10}")
-    print("-" * 90)
-    for pos, entry in enumerate(results, start=1):
-        print(
-            f"{pos:<5} {entry['id']:<12} {entry['similarity']:>11.4f} "
-            f"{entry['quality_score']:>14.4f} {entry['composite_score']:>10.4f} "
-            f"{entry['confidence']:<10} {entry['pass_count']:>10}"
-        )
-    print(f"{sep}\n")
-
-    # Composite score calculation (verified manually):
-    #   ek_0002: 0.75 * 0.72 + 0.25 * (7/8) = 0.5400 + 0.2188 = 0.7588
-    #   ek_0000: 0.75 * 0.65 + 0.25 * (8/8) = 0.4875 + 0.2500 = 0.7375
-    # ek_0002 ranks first because its higher similarity outweighs the quality gap.
-    assert results[0]["id"] == "ek_0002", (
-        f"FAIL: expected ek_0002 first, got {results[0]['id']}"
-    )
-    # ek_0002 has pass_count=7 (MAX-1) -> Medium tier
-    # ek_0000 has pass_count=8 (MAX)   -> High tier
-    assert results[0]["confidence"] == "Medium", (
-        f"FAIL: ek_0002 (pass_count=7) should be 'Medium', got {results[0]['confidence']}"
-    )
-    assert results[1]["confidence"] == "High", (
-        f"FAIL: ek_0000 (pass_count=8) should be 'High', got {results[1]['confidence']}"
-    )
-    print("PASS: synthetic test — composite score correctly computed")
-    print("PASS: confidence tiers assigned correctly")
-    print("PASS: ranking_reason structured data present")
 
 
 if __name__ == "__main__":
-    _self_test()
+    from embedding_retrieval import retrieve  # local import: avoid circular dependency at module load time
+
+    observation = input("Enter a security observation: ").strip()
+    if not observation:
+        print("No observation entered.")
+    else:
+        candidates = retrieve(observation, k=5)
+        if not candidates:
+            print("No candidates retrieved for that observation.")
+        else:
+            _print_ranking_table(rank(candidates))

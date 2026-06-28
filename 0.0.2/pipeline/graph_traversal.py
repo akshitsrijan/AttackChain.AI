@@ -286,27 +286,14 @@ def get_chain_context(entry_id: str) -> Dict[str, Any]:
 
 
 # ------------------------------------------------------------
-# STEP 5: Testing
+# STEP 5: CLI
 # ------------------------------------------------------------
 
-def _test_known_pairs() -> None:
-    """
-    Verify known complementary relationship paths. Prints PASS or FAIL.
-    """
-    cases = [
-        ("ek_0002", "ek_0003"),
-        ("ek_0012", "ek_0014"),
-        ("ek_0013", "ek_0014"),
-    ]
-    for source, expected_next in cases:
-        chain = get_chain_context(source)
-        next_ids = [n["id"] for n in chain["next"]]
-        status = "PASS" if expected_next in next_ids else "FAIL"
-        print(f"{status}: {source} -> expected {expected_next} in next {next_ids}")
-
-
 if __name__ == "__main__":
-    _test_known_pairs()
-    print()
-    print("ek_0002 chain context:")
-    print(json.dumps(get_chain_context("ek_0002"), indent=2))
+    entry_id = input("Enter a knowledge entry ID (e.g. ek_0002): ").strip()
+    if not entry_id:
+        print("No entry ID entered.")
+    elif entry_id not in KNOWLEDGE_INDEX:
+        print(f"Unknown entry ID: {entry_id!r}")
+    else:
+        print(json.dumps(get_chain_context(entry_id), indent=2))

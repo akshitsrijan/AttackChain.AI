@@ -6,7 +6,7 @@ graph traversal -> response synthesis, and exposes it as a CLI.
 
     python main.py "your observation here"
 
-Requires `ollama serve` or `GEMINI_API_KEY` environment variable.
+Requires `ollama serve` running locally with the `qwen2.5vl:3b` model pulled.
 """
 
 import json

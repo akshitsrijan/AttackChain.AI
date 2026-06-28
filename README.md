@@ -1,5 +1,3 @@
-# AttackChain.AI
-
 # AttackChain Advisor
 
 An AI-powered reasoning assistant that takes a security researcher's
@@ -8,35 +6,62 @@ offensive-security knowledge base, weighs it against a quality scorecard,
 traces the attack chain it belongs to, and synthesizes a grounded advisory
 response.
 
-## How it works
+This repository keeps each working snapshot of the project in its own
+versioned subfolder (`0.0.1`, `0.0.2`, `0.0.3`, ...) rather than overwriting
+history in place. **`0.0.3` is the current/latest version** — start there
+unless you specifically need an older snapshot.
 
-```
-Researcher observation
-        |
-        v
-Embedding Retrieval   -> top-3 candidate knowledge entries (similarity score)
-        |
-        v
-Quality Ranking       -> re-scores candidates by similarity x quality, assigns
-                          a confidence tier
-        |
-        v
-Graph Traversal       -> follows the cross-reference graph from the top entry
-                          to find the next/previous steps in the attack chain
-        |
-        v
-Response Synthesis    -> combines all of the above into a structured
-                          template and generates a grounded advisory via a
-                          local LLM
-```
+## Version history
 
-See `experimental data/figures/overall_pipeline.png` for the original
-pipeline diagram.
+### 0.0.1 — initial pipeline
+The first working version of the four-stage pipeline, laid out under
+`knowledge_graph_processing/`:
+- `embedding_retrieval.py` — TF-IDF similarity search (no external model).
+- `quality_ranking.py` — quality-adjusted re-scoring.
+- `graph_traversal.py` — cross-reference graph traversal.
+- `response_synthesis.py` — response template + LLM call (Ollama).
+- `main.py` — CLI orchestrator wiring the four stages together.
+
+### 0.0.2 — semantic retrieval, Gemini synthesis, Streamlit UI
+A substantial rework, moved into a `pipeline/` folder:
+- **Retrieval** (`embedding_retrieval.py`) upgraded from TF-IDF to real
+  sentence embeddings (`sentence-transformers/all-MiniLM-L6-v2`) with a
+  cross-encoder reranking pass (`cross-encoder/ms-marco-MiniLM-L-6-v2`) for
+  finer relevance judgement. Corpus embeddings are cached to disk and
+  auto-invalidated via an MD5 fingerprint of the corpus text.
+- **Response synthesis** (`response_synthesis.py`) switched from a local
+  Ollama call to the **Gemini API** (`GEMINI_API_KEY`), adding an intent
+  extraction step and a consistency-validation step before generation, with
+  a local template fallback when no API key is set or the call fails.
+  Exposes a single `analyze(observation)` entry point that runs the whole
+  pipeline (intent → retrieval → ranking → traversal → validation →
+  generation) and returns one structured result dict.
+- **`app.py`** — a Streamlit dashboard (`streamlit run app.py`) visualizing
+  every stage of the pipeline: matched entry, confidence tier, attack chain
+  graph, execution time, and which LLM/fallback path was used.
+- **`run_benchmark.py` / `verify_retrieval.py`** — retrieval accuracy
+  benchmarking and verification scripts.
+- A set of `*_Review.md` documents recording the design rationale and
+  before/after analysis for each stage (`Embedding_Retrieval_Review.md`,
+  `Quality_Ranking_Review.md`, `Graph_Traversal_Review.md`,
+  `Response_Synthesis_Review.md`, `Streamlit_UI_Review.md`,
+  `Retrieval_Benchmark.md`, `Retrieval_Enhancement_Review.md`,
+  `Bug_Fix_Review.md`, `Root_Cause_Fix_Review.md`,
+  `Future_Import_Fix_Review.md`) — read these if you want the "why" behind
+  a specific stage's current implementation.
+
+### 0.0.3 — Ollama synthesis
+Started as an exact snapshot of `0.0.2`, then switched response synthesis
+back from the Gemini API to a local **Ollama** call (`qwen2.5vl:3b` by
+default, configurable via `OLLAMA_HOST`/`OLLAMA_MODEL`). Same retrieval,
+ranking, traversal, and validation stages as `0.0.2`; only the LLM backend
+in `response_synthesis.py` differs — no API key needed, but requires
+`ollama serve` running locally with the model pulled.
 
 ## Datasets
 
-All three datasets live in `experimental data/experimental data/` and are
-explained in detail in `instructions.md`:
+All three source datasets live under `experimental data/experimental data/`
+inside each version folder, and are explained in detail in `instructions.md`:
 
 - **`experiential_knowledge_41.json`** — 41 structured offensive-security
   knowledge entries (trigger conditions, abstracted IF/THEN patterns,
@@ -48,106 +73,117 @@ explained in detail in `instructions.md`:
   pairs and suggested multi-step attack chains, extending beyond the 41
   curated entries to `ek_0253`.
 
-## Project structure
+## How the pipeline works (0.0.2 / 0.0.3)
 
 ```
-DATAPORT/
-├── README.md
-├── instructions.md                  Dataset explanations and solution proposal
-├── attackchain_advisor.py           Standalone, single-file LLM-driven prototype
-├── pipeline_diagrams.py             Generates the figures under experimental data/figures
-├── visualise.py                     Dataset visualizations
-├── test_fixtures.json               Static fixtures for pipeline-combination tests
-├── test_pipeline_combination.py     Tests retrieval->ranking->traversal combination logic against fixtures
-├── experimental data/
-│   ├── experimental data/           The three source JSON datasets
-│   └── figures/                     Generated charts and pipeline diagrams
-└── pipeline/                        The modular, importable pipeline (see below)
-    ├── embedding_retrieval.py       Retrieval stage: TF-IDF similarity search
-    ├── quality_ranking.py          Ranking stage: quality-adjusted scoring
-    ├── graph_traversal.py          Chain stage: cross-reference graph traversal
-    ├── response_synthesis.py       Synthesis stage: response template + LLM call
-    └── main.py                     Orchestrator wiring all four stages + CLI
+Researcher observation
+        |
+        v
+Intent Extraction      -> (LLM, optional) distills a noisy observation
+                           into a concise security intent
+        |
+        v
+Embedding Retrieval     -> sentence-embedding similarity search + cross-encoder
+                            rerank -> top candidate knowledge entries
+        |
+        v
+Quality Ranking         -> re-scores candidates by similarity x quality,
+                            assigns a confidence tier
+        |
+        v
+Graph Traversal         -> follows the cross-reference graph from the top
+                            entry to find next/previous steps in the chain
+        |
+        v
+Consistency Validation  -> checks the matched entry/chain against the
+                            original observation before generating text
+        |
+        v
+Response Generation     -> LLM generates the advisory grounded in the above
+                            (Gemini API in 0.0.2, local Ollama in 0.0.3);
+                            falls back to a local template if the LLM is
+                            unavailable or the call fails
 ```
 
-### `pipeline/` modules
+## Quickstart (0.0.3 — latest version)
 
-- **`embedding_retrieval.py`** — Vectorizes each knowledge entry's trigger
-  conditions and core knowledge text (TF-IDF, cached to
-  `.cache_corpus_vectors.npz`), then matches an observation against that
-  vector space. Exposes `retrieve(observation) -> list[dict]`, returning the
-  top 3 entries with a `similarity` score.
-- **`quality_ranking.py`** — Loads the quality scorecard and computes
-  `composite_score = similarity * (pass_count / 8)`, discounting similarity
-  by how well-validated an entry is. Assigns `confidence_tier` (`"high"`
-  only at a perfect 8/8). Exposes `rank(candidates) -> list[dict]`.
-- **`graph_traversal.py`** — Builds a directed graph from the
-  complementary-pairs data and walks up to 2 hops forward/backward from a
-  matched entry. Flags any neighbor outside the curated 41-entry set rather
-  than dropping it silently. Exposes `get_chain_context(entry_id) -> dict`.
-- **`response_synthesis.py`** — Combines the top-ranked entry and its chain
-  context into a structured response template, then prompts a local LLM
-  (via Ollama) to produce a natural-language advisory grounded strictly in
-  that data.
-- **`main.py`** — Orchestrates `retrieve -> rank -> get_chain_context ->
-  synthesize` end to end and exposes it as a CLI.
+### 1. Requirements
+- Python 3.10+
+- A local Ollama server with `qwen2.5vl:3b` pulled (optional but
+  recommended — without it, the system falls back to a local templated
+  response instead of LLM-generated text)
 
-## Setup
-
+### 2. Set up the environment
 ```bash
-cd "C:/PROJECTS/DATAPORT"
-.venv\Scripts\activate          # or: source .venv/Scripts/activate on Git Bash
-pip install numpy networkx
+cd "AttackChain.AI/0.0.3"
+python -m venv .venv
+source .venv/Scripts/activate        # Windows Git Bash
+# .venv\Scripts\activate.bat         # Windows cmd
+# source .venv/bin/activate          # macOS/Linux
+
+pip install sentence-transformers numpy networkx pandas plotly streamlit matplotlib
 ```
 
-Response synthesis requires a local Ollama server:
+The first run will download the embedding model
+(`all-MiniLM-L6-v2`) and cross-encoder model
+(`ms-marco-MiniLM-L-6-v2`) from Hugging Face — this requires an internet
+connection once; they're cached locally afterward.
 
+### 3. (Optional) Start Ollama for LLM-generated responses
 ```bash
 ollama serve
 ollama pull qwen2.5vl:3b        # or set OLLAMA_MODEL to a model you have
 ```
+If `ollama serve` isn't running, the pipeline still runs end-to-end and
+produces a locally-templated advisory instead of an LLM-generated one —
+useful for testing without Ollama installed.
 
-## Usage
-
-Run the demo observations through retrieval, ranking, and chain traversal
-(no LLM call, fast):
-
+### 4. Run the pipeline
+From inside `0.0.3/pipeline/`:
 ```bash
 cd pipeline
-python main.py
-```
-
-Run a single observation through the full pipeline, including LLM-generated
-advisory text:
-
-```bash
 python main.py "I noticed CRLF sequences are tolerated inside a gopher:// URI without rejection"
 ```
+This prints the matched knowledge entry, its confidence tier, the attack
+chain, and the generated (or fallback) advisory text.
 
-Run each stage's standalone self-tests:
-
+### 5. Run the Streamlit dashboard
+From `0.0.3/`:
 ```bash
-python embedding_retrieval.py
-python quality_ranking.py
-python graph_traversal.py
-python response_synthesis.py
+streamlit run app.py
+```
+Opens a browser dashboard where you can type an observation and see every
+pipeline stage's output (matched entry, confidence tier, chain graph,
+execution time, and which model/fallback path answered).
+
+### 6. Run the test suite / benchmarks
+```bash
+python test_pipeline_combination.py    # fixture-based combination tests
+python verify_retrieval.py             # retrieval sanity checks
+python run_benchmark.py                # retrieval accuracy benchmark
 ```
 
-Run the fixture-based combination tests (no LLM, no live data dependency):
+## Quickstart (0.0.1 — original TF-IDF version)
+
+No external models or API key required — useful as a lightweight reference
+implementation.
 
 ```bash
-cd ..
-python test_pipeline_combination.py
+cd "AttackChain.AI/0.0.1"
+pip install numpy networkx
+cd knowledge_graph_processing
+python main.py "your observation here"
 ```
+Requires a local Ollama server (`ollama serve`, with a model such as
+`qwen2.5vl:3b` pulled) for LLM-generated text; otherwise only structured
+retrieval/ranking/chain output is produced.
 
 ## Notes
 
-- `embedding_retrieval.py` uses a from-scratch TF-IDF vectorizer rather than
-  a transformer embedding model, since no internet-connected embedding
-  service is available in this environment. The `retrieve()` contract is
-  stable, so the vectorization technique can be upgraded later without
-  changing any caller.
-- `attackchain_advisor.py` is an earlier, self-contained single-file
-  prototype of the same idea (LLM-driven matching instead of TF-IDF
-  retrieval) kept for reference; `pipeline/` is the actively maintained,
-  modular implementation.
+- Each version folder is self-contained — install dependencies and run
+  commands from inside the specific version you intend to use, not from
+  the repository root.
+- `0.0.2` and `0.0.3` share the same retrieval/ranking/traversal/validation
+  stages; they differ only in `response_synthesis.py`'s LLM backend
+  (Gemini API vs. local Ollama). `0.0.3` is the recommended starting point
+  for any new work.

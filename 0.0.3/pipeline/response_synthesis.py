@@ -2,8 +2,8 @@
 Response synthesis stage.
 
 Combines the matched-and-ranked knowledge entry with its chain context into
-a structured response template, then drives Gemini to turn that
-structured data into a readable advisory for the researcher.
+a structured response template, then drives a local Ollama model to turn
+that structured data into a readable advisory for the researcher.
 """
 
 import json
@@ -46,26 +46,22 @@ def build_response_template(top_entry: Dict[str, Any], chain_context: Dict[str, 
     }
 
 
-def _call_gemini(prompt: str) -> Optional[str]:
+OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "qwen2.5vl:3b")
+
+
+def _call_ollama(prompt: str) -> Optional[str]:
     """
-    Make an HTTP POST request to the Gemini API using urllib.
+    Make an HTTP POST request to a local Ollama server using urllib.
 
     Returns:
-        str | None: The generated response text from Gemini, or None if call fails.
+        str | None: The generated response text from Ollama, or None if call fails.
     """
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return None
-
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+    url = f"{OLLAMA_HOST}/api/generate"
     payload = {
-        "contents": [
-            {
-                "parts": [
-                    {"text": prompt}
-                ]
-            }
-        ]
+        "model": OLLAMA_MODEL,
+        "prompt": prompt,
+        "stream": False,
     }
 
     req = urllib.request.Request(
@@ -75,16 +71,11 @@ def _call_gemini(prompt: str) -> Optional[str]:
     )
 
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            candidates = data.get("candidates", [])
-            if candidates:
-                content = candidates[0].get("content", {})
-                parts = content.get("parts", [])
-                if parts:
-                    return parts[0].get("text")
+            return data.get("response")
     except Exception as e:
-        logger.warning(f"Error calling Gemini REST API: {e}")
+        logger.warning(f"Error calling Ollama API: {e}")
 
     return None
 
@@ -95,15 +86,11 @@ def _call_gemini(prompt: str) -> Optional[str]:
 
 def extract_intent(observation: str) -> str:
     """
-    Convert noisy observation into a concise cybersecurity intent using Gemini if available.
+    Convert noisy observation into a concise cybersecurity intent using Ollama if available.
 
-    Falls back to original observation if key is missing or call fails.
+    Falls back to original observation if the Ollama call fails.
     """
     logger.info("Extracting intent from observation...")
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        logger.info("No GEMINI_API_KEY environment variable found. Falling back to original observation.")
-        return observation
 
     prompt = (
         "You are a cybersecurity expert. Given a researcher's noisy observation, "
@@ -112,11 +99,11 @@ def extract_intent(observation: str) -> str:
         f"Observation: {observation}\n\n"
         "Concise Intent:"
     )
-    result = _call_gemini(prompt)
+    result = _call_ollama(prompt)
     if result:
         return result.strip()
 
-    logger.warning("Gemini intent extraction failed. Falling back to original observation.")
+    logger.warning("Ollama intent extraction failed. Falling back to original observation.")
     return observation
 
 
@@ -301,17 +288,12 @@ def generate_response(
     Generate an explainable AI response explaining the matched entries and chain context.
 
     Instructs the LLM to never invent techniques or paths and only explain provided data.
-    If Gemini is unavailable, falls back to a formatted Python template.
+    If Ollama is unavailable, falls back to a formatted Python template.
     """
     if not ranking_result:
         return "No matching techniques could be retrieved for the observation."
 
     top_entry = ranking_result[0]
-
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        logger.info("No Gemini API key available. Generating local template explanation.")
-        return _generate_fallback_response(observation, intent, top_entry, chain_context, validation_result)
 
     entry_id = top_entry.get("id") or top_entry.get("entry_id", "unknown")
     title = top_entry.get("title", "unknown")
@@ -376,11 +358,11 @@ Generate a report matching EXACTLY the following structure (markdown headers). D
 ### Recommendation
 [Provide actionable recommendations based strictly on the matched technique and pitfalls]"""
 
-    res = _call_gemini(prompt)
+    res = _call_ollama(prompt)
     if res:
         return res.strip()
 
-    logger.warning("Gemini response generation failed. Falling back to local template.")
+    logger.warning("Ollama response generation failed. Falling back to local template.")
     return _generate_fallback_response(observation, intent, top_entry, chain_context, validation_result)
 
 
@@ -441,9 +423,8 @@ def analyze(observation: str) -> Dict[str, Any]:
     validation_result = validate_consistency(retrieval_result, ranking_result, chain_context)
 
     # 6. Response Generation
-    api_key = os.environ.get("GEMINI_API_KEY")
-    llm_used = api_key is not None
-    fallback_used = not llm_used
+    llm_used = True
+    fallback_used = False
 
     answer = ""
     if top_entry:
@@ -462,7 +443,7 @@ def analyze(observation: str) -> Dict[str, Any]:
         llm_used = False
 
     execution_time_ms = int((time.perf_counter() - start_time) * 1000)
-    model_used = "gemini-2.5-flash" if llm_used else None
+    model_used = OLLAMA_MODEL if llm_used else None
 
     metadata = {
         "model_used": model_used,
