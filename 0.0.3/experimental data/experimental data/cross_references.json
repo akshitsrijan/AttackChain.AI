@@ -1,0 +1,1538 @@
+{
+  "complementary_pairs": [
+    {
+      "source": "8fb7d7751ba1",
+      "a": {
+        "id": "ek_0002",
+        "title": "Gopher Protocol CRLF Tolerance",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0003",
+        "title": "Gopher SSRF for Non-HTTP Services",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0002 -> ek_0003"
+    },
+    {
+      "source": "db3110846a6f",
+      "a": {
+        "id": "ek_0012",
+        "title": "Inconsistent Cross-Protocol Header Validation",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0014",
+        "title": "Cross-Protocol Downgrade Injection",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0012 -> ek_0014"
+    },
+    {
+      "source": "db3110846a6f",
+      "a": {
+        "id": "ek_0013",
+        "title": "RFC Violation Bypass via Leading Whitespace",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0014",
+        "title": "Cross-Protocol Downgrade Injection",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0013 -> ek_0014"
+    },
+    {
+      "source": "c6e9d63447fe",
+      "a": {
+        "id": "ek_0016",
+        "title": "Trust Boundary Smuggling via Redirect",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0017",
+        "title": "Header-Level vs Handle-Level Scoping",
+        "category": "pitfall"
+      },
+      "suggested_chain": "ek_0016 -> ek_0017"
+    },
+    {
+      "source": "f27e86a06e56",
+      "a": {
+        "id": "ek_0018",
+        "title": "Header Cloning via API Propagation",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0019",
+        "title": "Desynced Inspection Logic",
+        "category": "pitfall"
+      },
+      "suggested_chain": "ek_0018 -> ek_0019"
+    },
+    {
+      "source": "65e91c0812bc",
+      "a": {
+        "id": "ek_0020",
+        "title": "Production Leaks via Unclaimed Scoped Packages",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0021",
+        "title": "Scoped Namespace Ambiguity as Asset Discovery",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0020 -> ek_0021"
+    },
+    {
+      "source": "28f69648689b",
+      "a": {
+        "id": "ek_0022",
+        "title": "Differential Sanitization Signal",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0024",
+        "title": "Authless WebSocket Broadcast Injection",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0022 -> ek_0024"
+    },
+    {
+      "source": "28f69648689b",
+      "a": {
+        "id": "ek_0023",
+        "title": "Local Storage Variable Poisoning",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0024",
+        "title": "Authless WebSocket Broadcast Injection",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0023 -> ek_0024"
+    },
+    {
+      "source": "70ec8b172561",
+      "a": {
+        "id": "ek_0025",
+        "title": "Race-Condition Accounting Delta",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0026",
+        "title": "Reflected Flood Triggering Auto-Ban",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0025 -> ek_0026"
+    },
+    {
+      "source": "8e264bbced54",
+      "a": {
+        "id": "ek_0028",
+        "title": "APIM Reader Admin Key Leak via ARM",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0030",
+        "title": "ARM Token to Direct API Signature",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0028 -> ek_0030"
+    },
+    {
+      "source": "8e264bbced54",
+      "a": {
+        "id": "ek_0029",
+        "title": "APIM Portal Toggle False State",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0030",
+        "title": "ARM Token to Direct API Signature",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0029 -> ek_0030"
+    },
+    {
+      "source": "f0c751505050",
+      "a": {
+        "id": "ek_0031",
+        "title": "Agent Buildserver Arbitrage",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0032",
+        "title": "Argument Smuggling via Metasploit Passthrough",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0031 -> ek_0032"
+    },
+    {
+      "source": "46c47945052e",
+      "a": {
+        "id": "ek_0033",
+        "title": "CLIXML Deserialization Primitive Check",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0035",
+        "title": "CLIXML to Network Access Pivot",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0033 -> ek_0035"
+    },
+    {
+      "source": "46c47945052e",
+      "a": {
+        "id": "ek_0034",
+        "title": "Hyper-V PowerShell Direct CLIXML Injection",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0035",
+        "title": "CLIXML to Network Access Pivot",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0034 -> ek_0035"
+    },
+    {
+      "source": "566a7612c1d5",
+      "a": {
+        "id": "ek_0040",
+        "title": "Admin List View Sanitization Differential",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0041",
+        "title": "Text Mode Input Verification",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0040 -> ek_0041"
+    },
+    {
+      "source": "f00dd90c27c6",
+      "a": {
+        "id": "ek_0042",
+        "title": "Session Fixation via Cookie Value Validation",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0043",
+        "title": "XSS to Session Hijacking via Fixation",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0042 -> ek_0043"
+    },
+    {
+      "source": "9340d5173a5a",
+      "a": {
+        "id": "ek_0049",
+        "title": "Admin Actions as Reflected XSS Vectors",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0050",
+        "title": "IDOR-to-Admin-XSS Pivot",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0049 -> ek_0050"
+    },
+    {
+      "source": "9340d5173a5a",
+      "a": {
+        "id": "ek_0049",
+        "title": "Admin Actions as Reflected XSS Vectors",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0051",
+        "title": "Prioritizing IDOR Persistence After Partial Fixes",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0049 -> ek_0051"
+    },
+    {
+      "source": "6061ddc7040d",
+      "a": {
+        "id": "ek_0052",
+        "title": "Mobile-to-Web Cross-Context Sink",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0053",
+        "title": "AngularJS CSTi via Store Metadata",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0052 -> ek_0053"
+    },
+    {
+      "source": "1039cd210a8e",
+      "a": {
+        "id": "ek_0054",
+        "title": "Legacy Parameter Validation Inconsistency",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0056",
+        "title": "Post-Auth Admin Console Targeting",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0054 -> ek_0056"
+    },
+    {
+      "source": "dacdc88d0130",
+      "a": {
+        "id": "ek_0057",
+        "title": "Legacy HTML Tag Allowlist Bypass",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0058",
+        "title": "JavaScript String Construction for Input Constraints",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0057 -> ek_0058"
+    },
+    {
+      "source": "dacdc88d0130",
+      "a": {
+        "id": "ek_0057",
+        "title": "Legacy HTML Tag Allowlist Bypass",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0059",
+        "title": "DOM State Scraping for CSRF Worm Propagation",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0057 -> ek_0059"
+    },
+    {
+      "source": "6a532e4e7803",
+      "a": {
+        "id": "ek_0067",
+        "title": "Prompt-based Debug Console for Payload Iteration",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0069",
+        "title": "Infectious Wormable XSS in Collaborative Clients",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0067 -> ek_0069"
+    },
+    {
+      "source": "6a532e4e7803",
+      "a": {
+        "id": "ek_0068",
+        "title": "Native API Presence in Electron/node-webkit",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0069",
+        "title": "Infectious Wormable XSS in Collaborative Clients",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0068 -> ek_0069"
+    },
+    {
+      "source": "2cbbb6d09a81",
+      "a": {
+        "id": "ek_0070",
+        "title": "HTTPOnly Cookie Replication Bypass",
+        "category": "pitfall"
+      },
+      "b": {
+        "id": "ek_0071",
+        "title": "Parameter Fragmentation Injection",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0070 -> ek_0071"
+    },
+    {
+      "source": "ec7d5080310e",
+      "a": {
+        "id": "ek_0072",
+        "title": "Path Traversal via Zip Extraction",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0074",
+        "title": "Debug Output as Intel Source",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0072 -> ek_0074"
+    },
+    {
+      "source": "ec7d5080310e",
+      "a": {
+        "id": "ek_0073",
+        "title": "Configuration-Based SQL Injection",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0074",
+        "title": "Debug Output as Intel Source",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0073 -> ek_0074"
+    },
+    {
+      "source": "577014f2fc6a",
+      "a": {
+        "id": "ek_0076",
+        "title": "Error Page Parameter Reflection",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0077",
+        "title": "Repo Search Precedence",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0076 -> ek_0077"
+    },
+    {
+      "source": "9c51e3ee2e11",
+      "a": {
+        "id": "ek_0082",
+        "title": "LocalStorage Session Hijacking via Stored XSS",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0083",
+        "title": "Exfiltration via Img Src Onerror Redirection",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0082 -> ek_0083"
+    },
+    {
+      "source": "add253c01696",
+      "a": {
+        "id": "ek_0085",
+        "title": "CSE Promotion URL Handler Bypass",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0086",
+        "title": "Pre-filled Search Parameter Chain",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0085 -> ek_0086"
+    },
+    {
+      "source": "c9abdad5b369",
+      "a": {
+        "id": "ek_0088",
+        "title": "Asymmetric Output Encoding in Legacy vs New Domains",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0089",
+        "title": "Redirection as Data Boundary Indicator",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0088 -> ek_0089"
+    },
+    {
+      "source": "c9abdad5b369",
+      "a": {
+        "id": "ek_0089",
+        "title": "Redirection as Data Boundary Indicator",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0090",
+        "title": "Input Prioritization on Transitionary Interfaces",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0089 -> ek_0090"
+    },
+    {
+      "source": "39640cd410bb",
+      "a": {
+        "id": "ek_0091",
+        "title": "Headless Browser Race Condition",
+        "category": "pitfall"
+      },
+      "b": {
+        "id": "ek_0092",
+        "title": "Document Write Synchronization",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0091 -> ek_0092"
+    },
+    {
+      "source": "39640cd410bb",
+      "a": {
+        "id": "ek_0092",
+        "title": "Document Write Synchronization",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0093",
+        "title": "XHR to File System Bridge",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0092 -> ek_0093"
+    },
+    {
+      "source": "39640cd410bb",
+      "a": {
+        "id": "ek_0093",
+        "title": "XHR to File System Bridge",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0094",
+        "title": "/var/task/ Hostname Indicator",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0093 -> ek_0094"
+    },
+    {
+      "source": "d8a7029d12b1",
+      "a": {
+        "id": "ek_0102",
+        "title": "Cookie Tossing via CRLF Injection",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0103",
+        "title": "Identity Swap Attack Chain",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0102 -> ek_0103"
+    },
+    {
+      "source": "10f4352f94db",
+      "a": {
+        "id": "ek_0107",
+        "title": "Script Inclusion Assumption",
+        "category": "pitfall"
+      },
+      "b": {
+        "id": "ek_0108",
+        "title": "MIME-Type Sniffing Bypass",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0107 -> ek_0108"
+    },
+    {
+      "source": "8dc9e9543ac7",
+      "a": {
+        "id": "ek_0110",
+        "title": "Stored XSS Propagation via Administrative UI Mirroring",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0111",
+        "title": "Metadata Injection as Cross-Domain Carrier",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0110 -> ek_0111"
+    },
+    {
+      "source": "49d69424fcaa",
+      "a": {
+        "id": "ek_0112",
+        "title": "IE Adobe PDF XFA gotoURL Res:// Bypass",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0113",
+        "title": "Res:// XSS via Unsafe OpenAction",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0112 -> ek_0113"
+    },
+    {
+      "source": "2da279bd933e",
+      "a": {
+        "id": "ek_0119",
+        "title": "Unicode/Punycode Domain Length Optimization",
+        "category": "tactical_priority"
+      },
+      "b": {
+        "id": "ek_0120",
+        "title": "Action-Based Reflection vs State-Based Reflection",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0119 -> ek_0120"
+    },
+    {
+      "source": "5af3bd2929f1",
+      "a": {
+        "id": "ek_0122",
+        "title": "Silent Background XSS Execution",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0123",
+        "title": "UX Data Harvesting Over Redirection",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0122 -> ek_0123"
+    },
+    {
+      "source": "e7f216b4c8a7",
+      "a": {
+        "id": "ek_0125",
+        "title": "Login-Gated XSS Persistence",
+        "category": "tactical_priority"
+      },
+      "b": {
+        "id": "ek_0126",
+        "title": "Unsanitized Redirect Implication",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0125 -> ek_0126"
+    },
+    {
+      "source": "3803ec42dac1",
+      "a": {
+        "id": "ek_0127",
+        "title": "Tag-Stripping XSS WAF Inference",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0128",
+        "title": "Client-Side Lateral Movement for Data Exfil",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0127 -> ek_0128"
+    },
+    {
+      "source": "021edf6a551d",
+      "a": {
+        "id": "ek_0129",
+        "title": "Loose Regex Scheme Validation with Whitelist Enforcement",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0131",
+        "title": "Regex Flag Bypass to Pollution Execution",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0129 -> ek_0131"
+    },
+    {
+      "source": "021edf6a551d",
+      "a": {
+        "id": "ek_0130",
+        "title": "Parameter Pollution Syntax Injection",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0131",
+        "title": "Regex Flag Bypass to Pollution Execution",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0130 -> ek_0131"
+    },
+    {
+      "source": "b3fa0424abf9",
+      "a": {
+        "id": "ek_0132",
+        "title": "Internal Admin Portal via Appspot Domain",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0133",
+        "title": "Vendor Supply Chain Blind XSS",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0132 -> ek_0133"
+    },
+    {
+      "source": "2a73188cb4e5",
+      "a": {
+        "id": "ek_0135",
+        "title": "Multi-Channel Replication Logic Vulnerability",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0137",
+        "title": "Malformed HTML as a Debug Signal",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0135 -> ek_0137"
+    },
+    {
+      "source": "2a73188cb4e5",
+      "a": {
+        "id": "ek_0136",
+        "title": "Impact Maximization via Feature Chaining",
+        "category": "tactical_priority"
+      },
+      "b": {
+        "id": "ek_0137",
+        "title": "Malformed HTML as a Debug Signal",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0136 -> ek_0137"
+    },
+    {
+      "source": "25a70a08a097",
+      "a": {
+        "id": "ek_0143",
+        "title": "JSON-in-Script ETAGO Injection",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0144",
+        "title": "AngularJS CSP Bypass Chain",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0143 -> ek_0144"
+    },
+    {
+      "source": "6ab0a18ecfdf",
+      "a": {
+        "id": "ek_0147",
+        "title": "Legacy Auth Page Parameter Priority",
+        "category": "tactical_priority"
+      },
+      "b": {
+        "id": "ek_0148",
+        "title": "Unfiltered Value Attribute Injection",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0147 -> ek_0148"
+    },
+    {
+      "source": "37f6f3edb2ad",
+      "a": {
+        "id": "ek_0149",
+        "title": "The Accidental CSRF Token Leak via XSS",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0150",
+        "title": "XSS-to-CSRF-to-Stored-XSS Escalation",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0149 -> ek_0150"
+    },
+    {
+      "source": "df72e945d98d",
+      "a": {
+        "id": "ek_0152",
+        "title": "Script Context Logic Inversion via Else Injection",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0153",
+        "title": "Logical Execution Block Dead Ends",
+        "category": "pitfall"
+      },
+      "suggested_chain": "ek_0152 -> ek_0153"
+    },
+    {
+      "source": "5d9796cba818",
+      "a": {
+        "id": "ek_0160",
+        "title": "Self-XSS Pivot via Incomplete Session Logout",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0161",
+        "title": "CSP-Induced Redirect Blocking",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0160 -> ek_0161"
+    },
+    {
+      "source": "afdefe0716ac",
+      "a": {
+        "id": "ek_0167",
+        "title": "XML Function WAF Bypass for Extraction",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0170",
+        "title": "Privilege Escalation False Positive in UPDATE Statements",
+        "category": "pitfall"
+      },
+      "suggested_chain": "ek_0167 -> ek_0170"
+    },
+    {
+      "source": "afdefe0716ac",
+      "a": {
+        "id": "ek_0168",
+        "title": "Encrypted Client-Side XML implies Weak Validation",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0169",
+        "title": "Replay of Client-Side Encrypted Blobs",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0168 -> ek_0169"
+    },
+    {
+      "source": "afdefe0716ac",
+      "a": {
+        "id": "ek_0169",
+        "title": "Replay of Client-Side Encrypted Blobs",
+        "category": "tactical_priority"
+      },
+      "b": {
+        "id": "ek_0171",
+        "title": "Ciphertext Length as Content-Type Fingerprint",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0169 -> ek_0171"
+    },
+    {
+      "source": "58fe9fd7fc96",
+      "a": {
+        "id": "ek_0174",
+        "title": "Subdomain Header Divergence",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0175",
+        "title": "CSS Scaling Attack Vector",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0174 -> ek_0175"
+    },
+    {
+      "source": "8a0ed2adcc83",
+      "a": {
+        "id": "ek_0176",
+        "title": "Dual-Context Encoding Bypass via JS Hex Sequence",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0178",
+        "title": "Proxy Denial-of-Service to Context Switching",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0176 -> ek_0178"
+    },
+    {
+      "source": "8a0ed2adcc83",
+      "a": {
+        "id": "ek_0177",
+        "title": "Delimiter Sandwiching for Injected Content Obfuscation",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0178",
+        "title": "Proxy Denial-of-Service to Context Switching",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0177 -> ek_0178"
+    },
+    {
+      "source": "974d1f59ca51",
+      "a": {
+        "id": "ek_0179",
+        "title": "Exfil via Extension Manipulation",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0181",
+        "title": "Origin Relaxation via Plugin DOM",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0179 -> ek_0181"
+    },
+    {
+      "source": "974d1f59ca51",
+      "a": {
+        "id": "ek_0180",
+        "title": "IDAT Chunk Persistence",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0181",
+        "title": "Origin Relaxation via Plugin DOM",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0180 -> ek_0181"
+    },
+    {
+      "source": "974d1f59ca51",
+      "a": {
+        "id": "ek_0180",
+        "title": "IDAT Chunk Persistence",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0182",
+        "title": "DNS Forward-Map Reconnaissance",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0180 -> ek_0182"
+    },
+    {
+      "source": "a92aa4cb30b5",
+      "a": {
+        "id": "ek_0186",
+        "title": "Sample API Persistence In Rich Text Editors",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0188",
+        "title": "History Spoofing for Contextual Impact",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0186 -> ek_0188"
+    },
+    {
+      "source": "e236621f8e22",
+      "a": {
+        "id": "ek_0190",
+        "title": "Indexer as Proxy for XSS Verification",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0191",
+        "title": "XSS Impact Inversion for SEO",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0190 -> ek_0191"
+    },
+    {
+      "source": "a49806c46885",
+      "a": {
+        "id": "ek_0192",
+        "title": "Cross-Account Session Hijacking via Self-XSS",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0194",
+        "title": "OAuth Implementation as an Attack Vector",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0192 -> ek_0194"
+    },
+    {
+      "source": "a49806c46885",
+      "a": {
+        "id": "ek_0193",
+        "title": "navigator.sendBeacon for Stateless Action Automation",
+        "category": "tactical_priority"
+      },
+      "b": {
+        "id": "ek_0194",
+        "title": "OAuth Implementation as an Attack Vector",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0193 -> ek_0194"
+    },
+    {
+      "source": "caeaa87a4728",
+      "a": {
+        "id": "ek_0196",
+        "title": "Ambiguous MIME Enforcement via POC Negotiation",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0197",
+        "title": "Prolific Reporting of Ambiguous MIME Issues",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0196 -> ek_0197"
+    },
+    {
+      "source": "0c96929163f9",
+      "a": {
+        "id": "ek_0198",
+        "title": "Cookie Path Session Hijacking",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0199",
+        "title": "User Dashboard Script Persistence as Weaponizable Storage",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0198 -> ek_0199"
+    },
+    {
+      "source": "0c96929163f9",
+      "a": {
+        "id": "ek_0198",
+        "title": "Cookie Path Session Hijacking",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0200",
+        "title": "Login CSRF to Session Stitching",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0198 -> ek_0200"
+    },
+    {
+      "source": "f316cefe18a5",
+      "a": {
+        "id": "ek_0201",
+        "title": "Support Panel Impact via Profile Poisoning",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0203",
+        "title": "Agent Confusion as Exploit Confirmation",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0201 -> ek_0203"
+    },
+    {
+      "source": "00f581c8afe5",
+      "a": {
+        "id": "ek_0204",
+        "title": "Cognito Tokens in LocalStorage",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0205",
+        "title": "Logout Logic vs Token Validity Gap",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0204 -> ek_0205"
+    },
+    {
+      "source": "02d2acb568b7",
+      "a": {
+        "id": "ek_0208",
+        "title": "Semi-colon JSON XSS Filter Breakout",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0210",
+        "title": "Null-Byte Desync Layer Chain",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0208 -> ek_0210"
+    },
+    {
+      "source": "02d2acb568b7",
+      "a": {
+        "id": "ek_0209",
+        "title": "JSON Encoder State Confusion via Throwaway Attribute",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0210",
+        "title": "Null-Byte Desync Layer Chain",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0209 -> ek_0210"
+    },
+    {
+      "source": "eae7dea021c1",
+      "a": {
+        "id": "ek_0212",
+        "title": "Payload Truncation by Length Constraints",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0213",
+        "title": "Variable Alias Construction for Uppercase Filters",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0212 -> ek_0213"
+    },
+    {
+      "source": "eae7dea021c1",
+      "a": {
+        "id": "ek_0213",
+        "title": "Variable Alias Construction for Uppercase Filters",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0214",
+        "title": "Dependency Race Condition via setTimeout",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0213 -> ek_0214"
+    },
+    {
+      "source": "f11f1548e584",
+      "a": {
+        "id": "ek_0219",
+        "title": "DOM Scope Pollution via ID Attributes",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0221",
+        "title": "Parser Desync between HTML and JS contexts",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0219 -> ek_0221"
+    },
+    {
+      "source": "f11f1548e584",
+      "a": {
+        "id": "ek_0220",
+        "title": "Callback Path Traversal Syntax",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0221",
+        "title": "Parser Desync between HTML and JS contexts",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0220 -> ek_0221"
+    },
+    {
+      "source": "332f38998e23",
+      "a": {
+        "id": "ek_0226",
+        "title": "Differential Header/Body Parsing",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0227",
+        "title": "Path Traversal on Verified Fix",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0226 -> ek_0227"
+    },
+    {
+      "source": "929fb4f495e7",
+      "a": {
+        "id": "ek_0228",
+        "title": "Partial Execution Discrepancy Indicates CSP or SOP",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0229",
+        "title": "DOM Exfiltration Over Remote Script Injection",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0228 -> ek_0229"
+    },
+    {
+      "source": "0392bf190638",
+      "a": {
+        "id": "ek_0241",
+        "title": "N-Level Sandbox Subdomain Indicators",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0242",
+        "title": "Reflection Priority on Empty GET Pages",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0241 -> ek_0242"
+    },
+    {
+      "source": "333d559e9bf9",
+      "a": {
+        "id": "ek_0244",
+        "title": "Differential WAF Filtering on Endpoint Access",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0246",
+        "title": "Self-XSS to Persistent XSS via Remember-Me Greeting",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0244 -> ek_0246"
+    },
+    {
+      "source": "333d559e9bf9",
+      "a": {
+        "id": "ek_0245",
+        "title": "State-Independent CSRF Token Reuse",
+        "category": "bypass_technique"
+      },
+      "b": {
+        "id": "ek_0246",
+        "title": "Self-XSS to Persistent XSS via Remember-Me Greeting",
+        "category": "chain_pattern"
+      },
+      "suggested_chain": "ek_0245 -> ek_0246"
+    },
+    {
+      "source": "4a1119a143a1",
+      "a": {
+        "id": "ek_0247",
+        "title": "Cross-Domain Privilege Escalation via Shared User Database",
+        "category": "chain_pattern"
+      },
+      "b": {
+        "id": "ek_0248",
+        "title": "IDN Homograph Attack for Shortened Script Tags",
+        "category": "bypass_technique"
+      },
+      "suggested_chain": "ek_0247 -> ek_0248"
+    },
+    {
+      "source": "06f02d1208b9",
+      "a": {
+        "id": "ek_0251",
+        "title": "Protobuf Field Inference from Minified Switch Statements",
+        "category": "signal_interpretation"
+      },
+      "b": {
+        "id": "ek_0252",
+        "title": "Automation of Remote Breakpoints for Schema Recovery",
+        "category": "tactical_priority"
+      },
+      "suggested_chain": "ek_0251 -> ek_0252"
+    },
+    {
+      "source": "06f02d1208b9",
+      "a": {
+        "id": "ek_0252",
+        "title": "Automation of Remote Breakpoints for Schema Recovery",
+        "category": "tactical_priority"
+      },
+      "b": {
+        "id": "ek_0253",
+        "title": "Text-Protobuf Type Explosion",
+        "category": "signal_interpretation"
+      },
+      "suggested_chain": "ek_0252 -> ek_0253"
+    }
+  ],
+  "near_duplicates": [],
+  "suggested_chains": [
+    [
+      "ek_0002",
+      "ek_0003"
+    ],
+    [
+      "ek_0012",
+      "ek_0014"
+    ],
+    [
+      "ek_0013",
+      "ek_0014"
+    ],
+    [
+      "ek_0016",
+      "ek_0017"
+    ],
+    [
+      "ek_0018",
+      "ek_0019"
+    ],
+    [
+      "ek_0020",
+      "ek_0021"
+    ],
+    [
+      "ek_0022",
+      "ek_0024"
+    ],
+    [
+      "ek_0023",
+      "ek_0024"
+    ],
+    [
+      "ek_0025",
+      "ek_0026"
+    ],
+    [
+      "ek_0028",
+      "ek_0030"
+    ],
+    [
+      "ek_0029",
+      "ek_0030"
+    ],
+    [
+      "ek_0031",
+      "ek_0032"
+    ],
+    [
+      "ek_0033",
+      "ek_0035"
+    ],
+    [
+      "ek_0034",
+      "ek_0035"
+    ],
+    [
+      "ek_0040",
+      "ek_0041"
+    ],
+    [
+      "ek_0042",
+      "ek_0043"
+    ],
+    [
+      "ek_0049",
+      "ek_0050"
+    ],
+    [
+      "ek_0049",
+      "ek_0051"
+    ],
+    [
+      "ek_0052",
+      "ek_0053"
+    ],
+    [
+      "ek_0054",
+      "ek_0056"
+    ],
+    [
+      "ek_0057",
+      "ek_0058"
+    ],
+    [
+      "ek_0057",
+      "ek_0059"
+    ],
+    [
+      "ek_0067",
+      "ek_0069"
+    ],
+    [
+      "ek_0068",
+      "ek_0069"
+    ],
+    [
+      "ek_0070",
+      "ek_0071"
+    ],
+    [
+      "ek_0072",
+      "ek_0074"
+    ],
+    [
+      "ek_0073",
+      "ek_0074"
+    ],
+    [
+      "ek_0076",
+      "ek_0077"
+    ],
+    [
+      "ek_0082",
+      "ek_0083"
+    ],
+    [
+      "ek_0085",
+      "ek_0086"
+    ],
+    [
+      "ek_0088",
+      "ek_0089"
+    ],
+    [
+      "ek_0089",
+      "ek_0090"
+    ],
+    [
+      "ek_0091",
+      "ek_0092"
+    ],
+    [
+      "ek_0092",
+      "ek_0093"
+    ],
+    [
+      "ek_0093",
+      "ek_0094"
+    ],
+    [
+      "ek_0102",
+      "ek_0103"
+    ],
+    [
+      "ek_0107",
+      "ek_0108"
+    ],
+    [
+      "ek_0110",
+      "ek_0111"
+    ],
+    [
+      "ek_0112",
+      "ek_0113"
+    ],
+    [
+      "ek_0119",
+      "ek_0120"
+    ],
+    [
+      "ek_0122",
+      "ek_0123"
+    ],
+    [
+      "ek_0125",
+      "ek_0126"
+    ],
+    [
+      "ek_0127",
+      "ek_0128"
+    ],
+    [
+      "ek_0129",
+      "ek_0131"
+    ],
+    [
+      "ek_0130",
+      "ek_0131"
+    ],
+    [
+      "ek_0132",
+      "ek_0133"
+    ],
+    [
+      "ek_0135",
+      "ek_0137"
+    ],
+    [
+      "ek_0136",
+      "ek_0137"
+    ],
+    [
+      "ek_0143",
+      "ek_0144"
+    ],
+    [
+      "ek_0147",
+      "ek_0148"
+    ],
+    [
+      "ek_0149",
+      "ek_0150"
+    ],
+    [
+      "ek_0152",
+      "ek_0153"
+    ],
+    [
+      "ek_0160",
+      "ek_0161"
+    ],
+    [
+      "ek_0167",
+      "ek_0170"
+    ],
+    [
+      "ek_0168",
+      "ek_0169"
+    ],
+    [
+      "ek_0169",
+      "ek_0171"
+    ],
+    [
+      "ek_0174",
+      "ek_0175"
+    ],
+    [
+      "ek_0176",
+      "ek_0178"
+    ],
+    [
+      "ek_0177",
+      "ek_0178"
+    ],
+    [
+      "ek_0179",
+      "ek_0181"
+    ],
+    [
+      "ek_0180",
+      "ek_0181"
+    ],
+    [
+      "ek_0180",
+      "ek_0182"
+    ],
+    [
+      "ek_0186",
+      "ek_0188"
+    ],
+    [
+      "ek_0190",
+      "ek_0191"
+    ],
+    [
+      "ek_0192",
+      "ek_0194"
+    ],
+    [
+      "ek_0193",
+      "ek_0194"
+    ],
+    [
+      "ek_0196",
+      "ek_0197"
+    ],
+    [
+      "ek_0198",
+      "ek_0199"
+    ],
+    [
+      "ek_0198",
+      "ek_0200"
+    ],
+    [
+      "ek_0201",
+      "ek_0203"
+    ],
+    [
+      "ek_0204",
+      "ek_0205"
+    ],
+    [
+      "ek_0208",
+      "ek_0210"
+    ],
+    [
+      "ek_0209",
+      "ek_0210"
+    ],
+    [
+      "ek_0212",
+      "ek_0213"
+    ],
+    [
+      "ek_0213",
+      "ek_0214"
+    ],
+    [
+      "ek_0219",
+      "ek_0221"
+    ],
+    [
+      "ek_0220",
+      "ek_0221"
+    ],
+    [
+      "ek_0226",
+      "ek_0227"
+    ],
+    [
+      "ek_0228",
+      "ek_0229"
+    ],
+    [
+      "ek_0241",
+      "ek_0242"
+    ],
+    [
+      "ek_0244",
+      "ek_0246"
+    ],
+    [
+      "ek_0245",
+      "ek_0246"
+    ],
+    [
+      "ek_0247",
+      "ek_0248"
+    ],
+    [
+      "ek_0251",
+      "ek_0252"
+    ],
+    [
+      "ek_0252",
+      "ek_0253"
+    ]
+  ],
+  "source_count": 119
+}

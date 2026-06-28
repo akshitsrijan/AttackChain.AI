@@ -1,0 +1,3055 @@
+{
+  "updated_at": "2026-02-19T10:10:30.877203",
+  "count": 2172,
+  "processed_sources": [
+    "001e3a230e90",
+    "003c2ab72c30",
+    "00425dc3feaa",
+    "0065fc62f04d",
+    "008f1690408c",
+    "00c7482b815e",
+    "00ccbc1efffe",
+    "00ce2bd4b732",
+    "00f0bbdcf380",
+    "00f581c8afe5",
+    "0143fd2006b0",
+    "0152726839c8",
+    "0184c9bb5153",
+    "019e124718bb",
+    "01f21c8f9e7a",
+    "0219a5321ce8",
+    "021edf6a551d",
+    "0294b376eeb1",
+    "02a9542b83a6",
+    "02aeb80c127d",
+    "02cdd3f8c1a4",
+    "02d2acb568b7",
+    "0392bf190638",
+    "039d01ab092a",
+    "03bf4410b0d3",
+    "046e14ed43de",
+    "04718cdf5b52",
+    "05333c37a272",
+    "054a5c581ea4",
+    "055deefd86f7",
+    "057b754e26fe",
+    "05852952e64f",
+    "059e70edce2c",
+    "05e178727f4c",
+    "06018f484d92",
+    "0614b929f435",
+    "0664f2c43a37",
+    "0672dab763c7",
+    "06808dfd1a89",
+    "06f02d1208b9",
+    "072df38d736e",
+    "07407cae2f4b",
+    "076e788c5290",
+    "07e1cf1eef0d",
+    "07ef836de0c0",
+    "08013868a7f2",
+    "0903cf067a3a",
+    "09249f750ec7",
+    "092e5a1092f3",
+    "098a9596b078",
+    "09dc59a44537",
+    "0a0de2eb05b8",
+    "0a1a32ffe7e2",
+    "0a66de8d66d2",
+    "0a8dfbc86990",
+    "0b0def905cdc",
+    "0b452130d790",
+    "0b84843fca3c",
+    "0bd43c15fdeb",
+    "0c1f6d0c7206",
+    "0c2a07829806",
+    "0c38fddbaaa3",
+    "0c3bc60e5ccd",
+    "0c8d1a5c7f9b",
+    "0c96929163f9",
+    "0ca8c12ea697",
+    "0cd1443d2d8e",
+    "0ce10a773e04",
+    "0cebb71350ae",
+    "0d641fc75902",
+    "0d9146fd319a",
+    "0d97a53e8083",
+    "0de88b4fdb39",
+    "0e7156447fbb",
+    "0f03e12909f6",
+    "0f3d375fb033",
+    "0f5e01861119",
+    "0fa5e1486f92",
+    "0fb99c0f44bd",
+    "0fd2b47b9759",
+    "1039cd210a8e",
+    "10a5b3c3b64f",
+    "10ef2c6d0a80",
+    "10f4352f94db",
+    "111b8cf45c66",
+    "11486a630481",
+    "119d088aa5c5",
+    "11c9f60fc547",
+    "1237f3959ae4",
+    "1239bf60ea7f",
+    "12570bbea718",
+    "12a9f5d9bd85",
+    "12dec5c2fd1c",
+    "130f79c263bf",
+    "13102ebbd02a",
+    "133ed192f42a",
+    "1364be855609",
+    "13810d9d1a6d",
+    "13838f3bb857",
+    "13e6b6284ff5",
+    "140014b92567",
+    "1442dba8dd54",
+    "14663bb6d30a",
+    "14bd70e7d9b8",
+    "14eb5f9e744b",
+    "15841f0edb7a",
+    "15a43e3b2dee",
+    "15dfd761d814",
+    "15e57b44b1a6",
+    "15ea4ca92e7f",
+    "15f87b09091e",
+    "169026038c73",
+    "16b8b620d55f",
+    "17318901b046",
+    "176bb33f94f6",
+    "1775199403b9",
+    "179e73664878",
+    "17a6912a15c2",
+    "180f0c1437f3",
+    "182b1eeef408",
+    "1899b24c7d23",
+    "19085741dca0",
+    "19681662c199",
+    "1978d79b3f10",
+    "19e3181c5f2c",
+    "19e77f889c8f",
+    "1a86892daf95",
+    "1a90b15e5afd",
+    "1ab6fed544e7",
+    "1ae2a3d316b7",
+    "1ae9dff36d74",
+    "1aeb4a40cfc4",
+    "1af426e221b7",
+    "1b00158b1c43",
+    "1b5955e85be8",
+    "1b6398265167",
+    "1baaaee3cbb0",
+    "1bc60eef8b8c",
+    "1bf4459dc6a3",
+    "1c028aa76758",
+    "1c110bcf738f",
+    "1c28578bbb23",
+    "1c45fe70bd7d",
+    "1c559cdf81a7",
+    "1c58b09dee12",
+    "1d320378388a",
+    "1d39a72dc145",
+    "1d6179898d20",
+    "1d9b47dd3049",
+    "1dcbf6d8ecad",
+    "1dcf2124949c",
+    "1e162cde176c",
+    "1e3006979036",
+    "1e74c4756325",
+    "1eaa31df4fee",
+    "1ee21e2bbeb9",
+    "1f0880f7483a",
+    "1f12ceafca47",
+    "1f2b8ec9ab23",
+    "2007655fa33a",
+    "2009452111c3",
+    "206d1819cec0",
+    "20803a688979",
+    "208764485c73",
+    "20fb40fdd4c3",
+    "212a41a1e6f1",
+    "212bb7430efc",
+    "212f0f859206",
+    "21423d816c9a",
+    "21576a6c2ee7",
+    "2158fca27cee",
+    "21af1333dc6b",
+    "21c92bc675a4",
+    "21f52bb43388",
+    "2202b0b151ab",
+    "2259ec6299cd",
+    "2283019c5cef",
+    "22ad3ae8f86b",
+    "2326acc6ce20",
+    "235d304016a2",
+    "236fc2825284",
+    "23779a836f05",
+    "237b57768562",
+    "23a47b40dc0f",
+    "23e35083cd9c",
+    "24327af38969",
+    "2444daae1d67",
+    "24a4d8565068",
+    "24c2c88ca537",
+    "25a70a08a097",
+    "25cb95609513",
+    "263accb98aa4",
+    "267254805cfc",
+    "26a5ddcef760",
+    "26cc48a4dc03",
+    "2747dedcc0fc",
+    "276f58c1a02f",
+    "27c904bda584",
+    "28275dbe5adc",
+    "282f021aa661",
+    "2844a9e7c076",
+    "28832388eea6",
+    "288ae8fcff58",
+    "28b5ff34d90d",
+    "28f30437dcc7",
+    "28f69648689b",
+    "29302b669452",
+    "2939bffec041",
+    "297d1466c3b5",
+    "2a07d4b553ea",
+    "2a262ed1ccb9",
+    "2a28d81277bc",
+    "2a2b3e09df36",
+    "2a73188cb4e5",
+    "2abae9a55bab",
+    "2ae5df699448",
+    "2af7ce0529eb",
+    "2b053782303f",
+    "2b074702b06f",
+    "2b48d5d6deff",
+    "2b5cf7f1b6c7",
+    "2baa175fc61c",
+    "2bcc6836e399",
+    "2c0bc7797524",
+    "2c23827d6dc5",
+    "2c2537f61ecd",
+    "2c29448fa4c5",
+    "2c2ea32b0047",
+    "2c3723add447",
+    "2c5b2531315d",
+    "2c65b5a96792",
+    "2c6942a455b4",
+    "2cb9dc7d31c6",
+    "2cbbb6d09a81",
+    "2d37cd2e9879",
+    "2d6a95944260",
+    "2da279bd933e",
+    "2db01d9279c3",
+    "2e1706358bf6",
+    "2e6ef934bf1d",
+    "2ef8bfca50f7",
+    "2f25d816a25b",
+    "2f4ebb258c0c",
+    "2fa6d3398986",
+    "2fcc88537da9",
+    "2fe14f01aee3",
+    "30234bd3f316",
+    "30275e5e3a78",
+    "30aa95c33918",
+    "310c2bc6a680",
+    "3114c2cfcf86",
+    "311d973c46de",
+    "314443a60ac7",
+    "3156552f3811",
+    "318092d691db",
+    "31917d4b1c3a",
+    "3253b3473cac",
+    "329efa8f6c4a",
+    "32f7dd034b7f",
+    "332f38998e23",
+    "333d559e9bf9",
+    "333ed51a51f4",
+    "33bd7aaa7b9d",
+    "33d8d50fffb8",
+    "341ee6140a46",
+    "346efe1e137e",
+    "347b1f0bb177",
+    "34d84cf89603",
+    "34da396ba1be",
+    "34e23cefa0f6",
+    "3506370ad979",
+    "3507f4b535a7",
+    "35c82153acb0",
+    "35eba3b38693",
+    "35fdee996078",
+    "3682aa6e3fa4",
+    "369f7d933f39",
+    "36ba04e620e6",
+    "36e00853cd5c",
+    "3722bd87a829",
+    "379ce4081c84",
+    "37f6f3edb2ad",
+    "3803ec42dac1",
+    "380554c5f8d7",
+    "3816afdef54a",
+    "38381b5d587b",
+    "384e52f6e260",
+    "3877690e5564",
+    "38f54bc00d4a",
+    "38fc2fdcb35f",
+    "393d12d2aa89",
+    "39640cd410bb",
+    "39d2bd9d0be0",
+    "3a2acfc621a1",
+    "3a4a6c347821",
+    "3a5cedee8018",
+    "3a6213fc788a",
+    "3a713686fb05",
+    "3b52bd2d6c5b",
+    "3b86eba3102f",
+    "3b877580ed9e",
+    "3b901cfc7318",
+    "3ba3b4258c6d",
+    "3be309f51f93",
+    "3bec5503965b",
+    "3c1018dcb4e8",
+    "3c2f8c0506e0",
+    "3c51e04302e6",
+    "3c5e752a8947",
+    "3c7dea35c854",
+    "3c9d42b00b98",
+    "3c9f0b657e4f",
+    "3cc20e8a34e2",
+    "3e5c9153e360",
+    "3e77410d21e0",
+    "3e8b96b2f3d3",
+    "3eb1a0016ec9",
+    "3f966b7d90d0",
+    "3ff049cb87a9",
+    "3ff5ed3b6285",
+    "400fe3d5ead6",
+    "4062610fc9a8",
+    "40657a5658ac",
+    "40dd148804c3",
+    "40ef2e09c404",
+    "414e57bc899f",
+    "41b63103a330",
+    "420bb59c2508",
+    "424f5ee805fb",
+    "425b8f587840",
+    "42e306c8fdbb",
+    "44f18195fd4e",
+    "450819710d6a",
+    "4592733b16b6",
+    "45d01975ff3b",
+    "45f4d1c3f534",
+    "46053df29e53",
+    "461e0095e36a",
+    "46582a340db1",
+    "467010237739",
+    "4686bd751c2e",
+    "46c47945052e",
+    "46d22de03fbc",
+    "470ae34af0f3",
+    "470b70ff189a",
+    "473232c8661e",
+    "473e0ee4ee8c",
+    "474874ba65ce",
+    "47a571ffdf68",
+    "47b81dd065b6",
+    "47e6aab48c2a",
+    "47f72b2a0491",
+    "484b2eed8c17",
+    "489395d99b48",
+    "48ec28bd3bc3",
+    "48febd56f406",
+    "495db948ac7b",
+    "49840a5368ef",
+    "4994c4a97a48",
+    "499cefa13f2a",
+    "499cfe8c7c28",
+    "49d69424fcaa",
+    "49f3b5c7062c",
+    "4a1119a143a1",
+    "4a91848ad444",
+    "4ad6f96b5e2f",
+    "4b1c2a50acca",
+    "4b3f5915b243",
+    "4bcd24f730f0",
+    "4c3b54ea7e33",
+    "4c5230735dcc",
+    "4c5d2e0b6860",
+    "4cddff926781",
+    "4ce4141342a0",
+    "4cff7c0e8368",
+    "4d2d325d8b6a",
+    "4d40c00434b1",
+    "4d625badd4c3",
+    "4e3bcae83f70",
+    "4e5c2dd2569a",
+    "4e6480ced360",
+    "4e8747d19017",
+    "4ea7627d83ae",
+    "4ec1ee17f1ef",
+    "4ef8b101ec0d",
+    "4f4ce8dfd358",
+    "4f8413a21a37",
+    "508c810afc2f",
+    "50fc04ab9632",
+    "51323adf7d58",
+    "516a847db44c",
+    "51845a946eb2",
+    "51b166c7e99c",
+    "51e5dac51cfb",
+    "51f6f015eb23",
+    "522b7c29a901",
+    "523da8b55686",
+    "5243b8b6428c",
+    "52453b6d33dd",
+    "5281a959e8b7",
+    "52a04bb6451b",
+    "52f9babd4d60",
+    "531918305728",
+    "53450168c0b1",
+    "534e79901936",
+    "5351dcb820d6",
+    "5372f2c281e8",
+    "5382432c79aa",
+    "539c2d3e5234",
+    "53a1b4bd8852",
+    "53a833ae042e",
+    "53b727f90f7e",
+    "53cd77f5dfcc",
+    "542f58b75bdf",
+    "543518dc6efa",
+    "5458821f27dd",
+    "5458fba7b232",
+    "54d6b9aa63cd",
+    "54fc0c850442",
+    "552d92adb592",
+    "55c653b9d279",
+    "55d0b38881b7",
+    "55ddfbff3de2",
+    "56435795be22",
+    "566a7612c1d5",
+    "56974dd24ebf",
+    "56b91c948f3a",
+    "56fc4a5ad5d4",
+    "572834c9b0ea",
+    "5732760d448b",
+    "577014f2fc6a",
+    "579dd0c20cb5",
+    "57a957f02d9c",
+    "58092a409578",
+    "58164ec68076",
+    "58ba774aceae",
+    "58fcee906885",
+    "58fe9fd7fc96",
+    "59069a18baa8",
+    "5909f8905dcc",
+    "59296d01c881",
+    "598f9b0c595d",
+    "59ebdaa01221",
+    "59ebe36db69e",
+    "59f856ecdee8",
+    "5a171d433203",
+    "5a2674e03950",
+    "5a2b93d009d9",
+    "5a3f5f5c2c9e",
+    "5af3bd2929f1",
+    "5b0a7e200c92",
+    "5b1797097fd2",
+    "5b5966717ba6",
+    "5b609fe1259c",
+    "5bc629c96d85",
+    "5bd215fc949a",
+    "5bfebdf89b26",
+    "5c89be6df4f4",
+    "5c921aa28d12",
+    "5cdb86330a6f",
+    "5d27fc6ec856",
+    "5d547af9ddb7",
+    "5d597a2fc8b2",
+    "5d6c96507db2",
+    "5d90899ef1fa",
+    "5d9796cba818",
+    "5daa5b7e9f0d",
+    "5ddd63d25152",
+    "5ded441c8144",
+    "5e2d27616fdd",
+    "5e312f640517",
+    "5e584393cd4c",
+    "5e7a6924d7aa",
+    "5ea27459243e",
+    "5eac03d4de75",
+    "5eba77094c02",
+    "5ed68e4ae19b",
+    "5f35b3d87e83",
+    "5f6113ec9e8b",
+    "5f624428af1b",
+    "5f98948e288f",
+    "5fa2ec80834c",
+    "5fd863409c80",
+    "60487e3baa91",
+    "6061ddc7040d",
+    "60d57a3d8d96",
+    "6137755b074b",
+    "61d0ac74ccd8",
+    "61e24deebb93",
+    "620c3dfedfbb",
+    "62c11475127b",
+    "6374f4f3b9da",
+    "63808aa1d101",
+    "63f6e942a35e",
+    "6454bf91740d",
+    "6489734d4ac6",
+    "64d6ce24061c",
+    "65076e1f839f",
+    "65229df10f60",
+    "652743f4b291",
+    "65aa53bb500b",
+    "65e91c0812bc",
+    "65ece9a962ba",
+    "65fbfee11c8c",
+    "661476f8267e",
+    "6629628b18b7",
+    "662b91e5c0bd",
+    "663ffb43e372",
+    "664223ea97f6",
+    "667d8896e710",
+    "66847f2e84ae",
+    "672f324707f3",
+    "673863b8ccf2",
+    "677512febff9",
+    "678d34e2f812",
+    "6799d6798984",
+    "67ac26126c47",
+    "67da515645d7",
+    "686c7bc1aa2a",
+    "6875d5676fe1",
+    "689db1b44fed",
+    "68afcc1e4eb1",
+    "68daec14fb5d",
+    "68f5a3133807",
+    "68fddea5e78e",
+    "69223b01da13",
+    "6944c79cc741",
+    "69abc65ccaf2",
+    "69c3a5c22f9e",
+    "69c3c7625554",
+    "6a532e4e7803",
+    "6ab0a18ecfdf",
+    "6ac888448440",
+    "6b156d4d1d35",
+    "6b8cb1ba8489",
+    "6bcd9e86a4c8",
+    "6bf032905740",
+    "6c558f3d5c90",
+    "6c907a3f9e84",
+    "6cd98e05ac73",
+    "6ceaa0f249c9",
+    "6cf14ad37f7b",
+    "6d61a16041ce",
+    "6d6c3738eb88",
+    "6dbb51cb0e61",
+    "6dbb5f99a84f",
+    "6dde44b00105",
+    "6de39f22d76c",
+    "6df3bdcb1016",
+    "6e217739d527",
+    "6e53ca42b971",
+    "6e9f955647d2",
+    "6ea2c6b85801",
+    "6ea425a9579b",
+    "6ecdef889f51",
+    "6ece0720c77c",
+    "6eee297751fa",
+    "6ef204cbde76",
+    "6f7d7112ab4c",
+    "6f97112cbb73",
+    "70ca5269ef38",
+    "70ec8b172561",
+    "711fcbbac38d",
+    "71a188cf206a",
+    "71a7b98ca6f9",
+    "71ab43cb6efd",
+    "71c6d28f4f75",
+    "71e45c52a8e9",
+    "724aa98f7385",
+    "7284e22bd27a",
+    "7304e7085b1b",
+    "7354772ac4ea",
+    "737fb6067f8a",
+    "739be46193e8",
+    "73a493761ca3",
+    "73bb23db1b49",
+    "73bee5da34a3",
+    "7447be58d29d",
+    "744a83573306",
+    "746796ce9e32",
+    "747c40739067",
+    "74d1043498d1",
+    "7513c2925d74",
+    "755614996dc5",
+    "75d2c2930604",
+    "75d9fec176c8",
+    "75df922ac922",
+    "75e941e24516",
+    "75eb4059cc43",
+    "7607f64859b9",
+    "763c041248f2",
+    "76457f7d766f",
+    "764f11451677",
+    "776041f5038b",
+    "777ffc1d241a",
+    "77dab8db9a4a",
+    "7801ae1178bf",
+    "781fd2962071",
+    "7830e5e13f44",
+    "7832df79d0ae",
+    "783f72b66728",
+    "786d645140e2",
+    "78771dd88692",
+    "78a9317de3f8",
+    "78bfca6d4099",
+    "78dc362ac886",
+    "78fbe1bdae3b",
+    "79318598c904",
+    "7952138f4edf",
+    "798cf1c3c0ed",
+    "79d79d4a3ddb",
+    "79f2dd5fe182",
+    "7a1bbe0b2d7d",
+    "7a340c3e7112",
+    "7a45e85c3f25",
+    "7a6c7f0ae3d0",
+    "7a8d7c112b32",
+    "7a91488b2eb0",
+    "7ac12ec1c531",
+    "7b2c7475953d",
+    "7bad9c5cf973",
+    "7bc32218ec4e",
+    "7be7757f4897",
+    "7cb782f20e0f",
+    "7cc26625cc73",
+    "7cce1505ee36",
+    "7cef437ee889",
+    "7d035692c79a",
+    "7d6298a5932c",
+    "7d7c54a4fe6b",
+    "7d978c65fab4",
+    "7dc79c9531e6",
+    "7ddfc3d16a44",
+    "7de82418406d",
+    "7e09b0da0de9",
+    "7e32289ee15c",
+    "7e744167eddb",
+    "7e756ce4239a",
+    "7ec34faab30a",
+    "7f0304180672",
+    "7f3a52856769",
+    "7f43f4711ef2",
+    "7f44ea2e1d51",
+    "7f50d2bbbaf3",
+    "7fcc43dff61c",
+    "8099c36b4168",
+    "80a104c92789",
+    "80cb346cb808",
+    "80d32e4b2b41",
+    "80f92932d825",
+    "81a72f71262c",
+    "81b17405cd12",
+    "81d72576042f",
+    "82232e2dcb26",
+    "8230661e8814",
+    "825e8095769a",
+    "8273f281a9a4",
+    "8276b865b799",
+    "831e591be60a",
+    "8326400bf405",
+    "8378eb3fb15d",
+    "83c922993e70",
+    "83ca93f0f2dc",
+    "83e4b61d712c",
+    "83fe4bc55d0e",
+    "840198d31ac0",
+    "8404e8934858",
+    "842a09cb8650",
+    "8452d8bb66e9",
+    "84878b82557f",
+    "84f6cdb85497",
+    "85104c58b1a5",
+    "851c8ce624ad",
+    "85207f1b2b24",
+    "853d7e7d8ef9",
+    "8565e01c1886",
+    "8585bbb98919",
+    "85d3ef48d476",
+    "863de65ef9ab",
+    "866f8ba4e332",
+    "86d3b7159721",
+    "86f0e5453184",
+    "873ed028f06f",
+    "8757fcfebaa7",
+    "875821312a66",
+    "876ad34fbfc1",
+    "87918597d023",
+    "879a65b236cb",
+    "87e5651b67aa",
+    "87e9808d6521",
+    "88132c684d46",
+    "88af030f9cc5",
+    "88d172e90a97",
+    "88ef5ddbd314",
+    "890caa066471",
+    "891774570478",
+    "8925d115e016",
+    "895c37b1e766",
+    "895d180c5988",
+    "89c50d3e3aea",
+    "89c766eb3150",
+    "8a0ed2adcc83",
+    "8a738ec91510",
+    "8ad1bdccc851",
+    "8b10584977c7",
+    "8b2f29ffa34f",
+    "8b64f3f52881",
+    "8bdad9d8eba4",
+    "8c33f8774983",
+    "8c8651ea9d30",
+    "8c9fa32cb191",
+    "8d29080882b5",
+    "8d2a62687d47",
+    "8d5247aa39f8",
+    "8d7802354093",
+    "8d8837c5f1bd",
+    "8db80b7ba1cb",
+    "8dc9e9543ac7",
+    "8de9e721818a",
+    "8e0688b89957",
+    "8e0dd250dcfc",
+    "8e1ea40c8966",
+    "8e244776006d",
+    "8e264bbced54",
+    "8ee0d03452db",
+    "8f1c04566507",
+    "8fa0d36e5980",
+    "8fb7d7751ba1",
+    "90069e77bcdc",
+    "900f46eff130",
+    "904bbf21b5e6",
+    "905ceec9560b",
+    "9081a3de0aa4",
+    "90c365b89059",
+    "90e3e15ff5f4",
+    "90fcbf58042d",
+    "91458e84b03f",
+    "9158d01d4523",
+    "9291e8ecfc82",
+    "929b4b7e75bb",
+    "929fb4f495e7",
+    "9309b4bd534e",
+    "9340d5173a5a",
+    "93a7a5a4e028",
+    "93bcb988cc70",
+    "93be4ecad9ff",
+    "93d5d549ba32",
+    "93f3e2bd4702",
+    "93ffa2d6f316",
+    "94512341290f",
+    "9470f8b5c026",
+    "94868dd5cf3f",
+    "94e9a64af1fe",
+    "94febf5928a0",
+    "9524d946edd6",
+    "95264b8cbfd7",
+    "955bd0d636b0",
+    "955c222bdd7a",
+    "9563d8e5c7cf",
+    "95ab7e1f5d43",
+    "95cd3ac06262",
+    "9605ed533831",
+    "965060574abb",
+    "96a87a699631",
+    "96b068a0cb7f",
+    "96c63971b670",
+    "96ce6dd22f82",
+    "971dd91ce052",
+    "974d1f59ca51",
+    "9761d2ee999d",
+    "979a89f1c197",
+    "97ab27029c49",
+    "97f3c8582bac",
+    "989a9daad73e",
+    "989e90af7741",
+    "995a6093d8a4",
+    "99dce2ec7074",
+    "99e507579fd2",
+    "99f588de381e",
+    "9a56362db653",
+    "9a7218e71abe",
+    "9a79d9e9f1f1",
+    "9ae06b375cda",
+    "9aec723e01fe",
+    "9b7d6e866a6a",
+    "9b92cf735299",
+    "9ba448110803",
+    "9bfd57ec3a49",
+    "9c51e3ee2e11",
+    "9c57923c8f49",
+    "9cbc8424d3c4",
+    "9ce4ce8574b1",
+    "9d5564f203c7",
+    "9d56be236dd2",
+    "9d5c242adb4c",
+    "9d9ecd8cd6fb",
+    "9e0f54267746",
+    "9e5c192b17d5",
+    "9e822a329367",
+    "9e85bfd34bfa",
+    "9e9222714499",
+    "9ea0afd7ed93",
+    "9ecb44be6767",
+    "9ee2fae8c94e",
+    "9f5e46724f8b",
+    "9fab74bb8803",
+    "9fd3ef8efdf2",
+    "a03dfb1e175e",
+    "a06395fa37e8",
+    "a0b0b620821a",
+    "a0e90e4732bf",
+    "a0fc79afaa04",
+    "a13d1c7ff2bb",
+    "a153b1a8e662",
+    "a21a5ba43798",
+    "a22339875754",
+    "a2680bf38848",
+    "a2d268c1f7bb",
+    "a305fee221f3",
+    "a339a033e140",
+    "a33b3ba004c3",
+    "a38614e377dc",
+    "a3a8d6eb057c",
+    "a3aa88085262",
+    "a439e3bee189",
+    "a49806c46885",
+    "a4a2d7d135b9",
+    "a4b06357259d",
+    "a4c80973b3a5",
+    "a55711a8ae7e",
+    "a59a2e7cd5ae",
+    "a5a8917b935b",
+    "a5b93c828956",
+    "a5d2a8851dbd",
+    "a5f6a4a44c8c",
+    "a60aa8a5794b",
+    "a62a967b33ca",
+    "a63bf0d9a82b",
+    "a671985dbbc4",
+    "a698defbc9cf",
+    "a6a3031079a1",
+    "a6a5d689b9ab",
+    "a74e007104e7",
+    "a85c6f72fe83",
+    "a8e90e3456f9",
+    "a8f1ea2e8e71",
+    "a9253bd22ba1",
+    "a929f4a61eea",
+    "a92aa4cb30b5",
+    "a942a9188a95",
+    "a9b3ff6e4e11",
+    "a9bcb0177cca",
+    "a9e21c99c99a",
+    "a9fa901edd9f",
+    "aa05196f7d1e",
+    "aa210b7c7cc2",
+    "aa60dec1aa2f",
+    "ab164d933d54",
+    "ab31d99e1201",
+    "ab42e8b868bd",
+    "aba261ee9bf2",
+    "abe59eb8e680",
+    "ac17aa6b6dc9",
+    "ac1995511437",
+    "ac1cf4876f97",
+    "ac4100176bcc",
+    "ace88d82093b",
+    "acf06623985f",
+    "ad07a5c24847",
+    "ad405c4afa28",
+    "ad4314721a15",
+    "ad450342fb73",
+    "ad8453cce4de",
+    "adb175751b46",
+    "add253c01696",
+    "ae1589ad89cc",
+    "ae290c7f581c",
+    "ae4caa879d39",
+    "ae775619d6e3",
+    "ae8348e0d9f1",
+    "aebee9031a38",
+    "af481296f1cb",
+    "af8189aabf17",
+    "af96dbae9018",
+    "afc3fc66b03c",
+    "afd1dca7fd7e",
+    "afdefe0716ac",
+    "b003534a9c41",
+    "b0331516f2c9",
+    "b038f0a4ed55",
+    "b0454820b386",
+    "b0a9e9fd8621",
+    "b12e8895f365",
+    "b1e440bbfc61",
+    "b219692c688d",
+    "b2595b4e38ba",
+    "b271a0f0ede5",
+    "b294cefd1c26",
+    "b2a4b54e1563",
+    "b2a894b046cd",
+    "b2c162bd9d59",
+    "b2d5221e74ba",
+    "b2e6525f1385",
+    "b2fccb34d06c",
+    "b35778b8f892",
+    "b39aeece138a",
+    "b3fa0424abf9",
+    "b42969ef99ac",
+    "b42fb5165693",
+    "b43267ecca4e",
+    "b43cca06718c",
+    "b44287f1ba46",
+    "b47d32b8ebe0",
+    "b51465516fa7",
+    "b57b6d17e4dd",
+    "b58b3320fbf1",
+    "b5fd5e9089a0",
+    "b607e9c2c78c",
+    "b61181f6fed6",
+    "b64fe2c9457d",
+    "b699c4a96c0b",
+    "b6b25371460c",
+    "b6fdd5ada41c",
+    "b7068cdd1399",
+    "b7955527f91d",
+    "b7af57a8ef0c",
+    "b801a7fd468b",
+    "b838d2cca9c0",
+    "b84216b923cd",
+    "b8839ca9f0ed",
+    "b8e9aa2fc292",
+    "b8fcb03a64c2",
+    "b938cb023646",
+    "b942ab9d87bf",
+    "b94779bf1de4",
+    "b94af5f2b7b2",
+    "b956bd923c85",
+    "b95ba9525ffb",
+    "b95d62c0a09f",
+    "b9be44e41f59",
+    "ba0f85d92d7f",
+    "ba2266eab417",
+    "baa01b59c9de",
+    "bae094393a1e",
+    "bae6ec962a87",
+    "bae8c6ff5b5f",
+    "bb2addb88bf6",
+    "bb53ff0897eb",
+    "bb69c94738e0",
+    "bbc7c9c6af9c",
+    "bbdc78a1acdb",
+    "bc3799ce3558",
+    "bc3f0242c531",
+    "bc4b1ece4255",
+    "bc89476996fb",
+    "bcb23237bd02",
+    "bcbfb48a5a47",
+    "be8ee40ed59c",
+    "bef985e268a9",
+    "bf5bc028db4a",
+    "bf856d94c84b",
+    "bf9921b7df5e",
+    "bfb1dbeb3034",
+    "c0717799276f",
+    "c0a1fd840233",
+    "c0a8cf8a6ea3",
+    "c0e92963414e",
+    "c1028c8435a7",
+    "c1ab1ea1beaf",
+    "c1b28d05b636",
+    "c24df25fb65c",
+    "c24fecf70812",
+    "c25ea48d8519",
+    "c268c6cbb4c6",
+    "c28d7309b91b",
+    "c2b282c5b9de",
+    "c2cb1ec508bf",
+    "c32e2500ad28",
+    "c33e667dba61",
+    "c3473811f34e",
+    "c34cb1610972",
+    "c423ce4dcb6a",
+    "c4413b6d2c3a",
+    "c44bf3e06455",
+    "c4b48f3bcfe5",
+    "c4baeb507063",
+    "c5095aa7dae4",
+    "c5b48b106b87",
+    "c5faad114907",
+    "c606140ab899",
+    "c63c820fd00a",
+    "c671270c57f9",
+    "c6b621c51130",
+    "c6d730eb7d4a",
+    "c6e9d63447fe",
+    "c721931259ff",
+    "c755bae40686",
+    "c768fa169f14",
+    "c77ead57c057",
+    "c7a06a079fed",
+    "c7b516bb8d86",
+    "c7d0922ab5fb",
+    "c7ff8fb7a337",
+    "c81b09c7fbf1",
+    "c85d4f6f26c1",
+    "c8dfe263ea91",
+    "c8e8eb381b0b",
+    "c9111ba0713f",
+    "c9490f7ed956",
+    "c9abdad5b369",
+    "c9e2046923fb",
+    "c9fa1c22903f",
+    "ca040d226531",
+    "ca3a93274d57",
+    "ca60962bec92",
+    "ca8d47c61a08",
+    "cabd126f0eab",
+    "cadf628a9ca4",
+    "caeaa87a4728",
+    "cb0daf3d9e60",
+    "cb4b58c9c02f",
+    "cb83a11506f9",
+    "cbddf11f680f",
+    "cbf68b1580e1",
+    "cc8d67fb3bf8",
+    "cc9db4c0d80d",
+    "cc9e740dd821",
+    "cca543f271cf",
+    "ccaa911d199b",
+    "cd1b5ee78fd8",
+    "cd3966da7e5b",
+    "cd525fde3fde",
+    "cd96ae04832f",
+    "cdaa59ba81f5",
+    "ce026bf3d400",
+    "ce06c2731f4c",
+    "ce1935b87db9",
+    "ce483f3be0f3",
+    "ce67db7c3319",
+    "ce680993e833",
+    "ce9f6e76b8f7",
+    "cef7bedbad08",
+    "cf8f4ef698e7",
+    "cf96a57d0af3",
+    "cff933f6499a",
+    "d016c56b331e",
+    "d0330f0f0348",
+    "d05213b9b540",
+    "d0621dbe61c7",
+    "d0bc29991643",
+    "d0be04172317",
+    "d0ca8e9953e5",
+    "d10933cc4a76",
+    "d117ba01f024",
+    "d12444c36b7b",
+    "d17180a7fb1d",
+    "d19c80cbdb24",
+    "d1a61ca1fe1a",
+    "d1a9e8309daa",
+    "d243d7e43047",
+    "d2e20c260ae7",
+    "d32a4333544b",
+    "d3750a60a9e9",
+    "d388a10b32e8",
+    "d4623a48d57d",
+    "d47d353932dc",
+    "d4e236920fb6",
+    "d4eebbb908c1",
+    "d5323920bea4",
+    "d535b77646e4",
+    "d5504da611d1",
+    "d5920d595fcf",
+    "d609929fbf30",
+    "d6251b1ec991",
+    "d62a1de29b13",
+    "d66325adcac0",
+    "d6c6bbe7b0c2",
+    "d6ce4c1bbbb2",
+    "d6e5d56bc8de",
+    "d707ee4147dd",
+    "d74b52467cda",
+    "d77bb5e988ea",
+    "d7f75ce5d7bb",
+    "d80494672664",
+    "d8410b973942",
+    "d8a7029d12b1",
+    "d8b51e05bc1b",
+    "d8eeb4f994e7",
+    "d98859a6b903",
+    "d9923420309d",
+    "d9cfae7c4af4",
+    "d9e8c584dfdd",
+    "d9e9dcd48ec3",
+    "d9f1a351636a",
+    "d9f5804e327f",
+    "da060eaa97e5",
+    "da6bf9659c5c",
+    "da97b84f7661",
+    "daa5e08f5c86",
+    "dac9a81eebab",
+    "dacdc88d0130",
+    "db2321c3f92d",
+    "db2bda24cd59",
+    "db3110846a6f",
+    "db6d24f8b151",
+    "db6f817d23df",
+    "db787861ee09",
+    "db98cd0a5d9f",
+    "dbc467baf6a0",
+    "dbf142ffe681",
+    "dc0c9858bf62",
+    "dc25d0d0999e",
+    "dc5714502e34",
+    "dcc7931c82aa",
+    "dd25f3b24b82",
+    "dd623fa52fab",
+    "dd7cf719b3a9",
+    "dd946d386e52",
+    "dd9c0fe72242",
+    "ddc9d02fa701",
+    "dde8fcc7f2dc",
+    "deafce761d6b",
+    "deda1bad694d",
+    "df6927072e6a",
+    "df72e945d98d",
+    "e0b25cdc5c94",
+    "e13ae7901938",
+    "e18950bd8390",
+    "e198a42c7775",
+    "e1a869fa6840",
+    "e1f5222a312b",
+    "e2029ed4dc3a",
+    "e22778d3359c",
+    "e2312bad36cf",
+    "e236621f8e22",
+    "e2c8bc67225e",
+    "e35f2e50f9db",
+    "e373c44f22aa",
+    "e3774fb89a80",
+    "e3dc301dda87",
+    "e415c5d6e5e8",
+    "e437f98c255d",
+    "e44c8c118829",
+    "e46c3d644100",
+    "e48bcb96f234",
+    "e4929a45b920",
+    "e4bd2af55006",
+    "e4c0b44223e7",
+    "e4f2e447b99e",
+    "e51c30bd62ce",
+    "e57a1235544d",
+    "e60baa718c58",
+    "e645fb894e17",
+    "e6539ba3a231",
+    "e665490e4884",
+    "e6751b266b62",
+    "e680a478400c",
+    "e70c7c1cbac0",
+    "e72e346cfd33",
+    "e734f3ee6bb1",
+    "e7498e92716c",
+    "e751d52bd6d3",
+    "e76fa7748801",
+    "e77069e99cf2",
+    "e796dbde2ccc",
+    "e7b6f3833992",
+    "e7f216b4c8a7",
+    "e83319862225",
+    "e874690cf872",
+    "e876146d015a",
+    "e89eacc75128",
+    "e91e6c661105",
+    "e9a3538f8bad",
+    "e9b533098452",
+    "e9e869b1356c",
+    "e9f62a03d128",
+    "ea1098be20f6",
+    "eab1a4beb1e3",
+    "eae7dea021c1",
+    "eaf1bbae46ec",
+    "eb1a1df3a905",
+    "eb3d06b0f935",
+    "eb4a51614556",
+    "eb5971f88903",
+    "eb88f6171b6c",
+    "ebee6cd1fc04",
+    "ec0da944bc1c",
+    "ec6c6839acc3",
+    "ec72160bc029",
+    "ec7d5080310e",
+    "eca917a79ef8",
+    "ecf4eb914719",
+    "ecf52161354e",
+    "ecf780c6422d",
+    "ed0ba5b793e6",
+    "ed7da4e7cda2",
+    "edaff612d696",
+    "edc4275cefe3",
+    "ee590861c042",
+    "ee69eaab65fd",
+    "eea16e4bec73",
+    "eeee5e72a44e",
+    "ef15cdb6da62",
+    "ef2f31b518f4",
+    "ef600a70c4ad",
+    "ef78bac5e12a",
+    "f00dd90c27c6",
+    "f0210b366df3",
+    "f02ee1b3792e",
+    "f030d5e0d2b1",
+    "f086533c8633",
+    "f0c751505050",
+    "f0cd798f5881",
+    "f0d7c54ddbec",
+    "f0f12a2e9a85",
+    "f11f1548e584",
+    "f11f59c50014",
+    "f12cb6d5bbd9",
+    "f19a3c88ec97",
+    "f2197a8f23ed",
+    "f25cbbd94c9c",
+    "f2690af7c5de",
+    "f27e86a06e56",
+    "f30359cd6ec1",
+    "f310d13d4ef4",
+    "f316cefe18a5",
+    "f359d26f12b6",
+    "f3a89382400e",
+    "f4f5016915f7",
+    "f504a9e423f1",
+    "f5393bcceb32",
+    "f54fa0a7a6b2",
+    "f55f0c5caaaf",
+    "f5623e36f9a8",
+    "f58bd1c734eb",
+    "f592e69e316d",
+    "f5a51ba0e760",
+    "f5e0ac49f839",
+    "f6248674e74b",
+    "f6474772e81f",
+    "f64d993c8e23",
+    "f6a549317295",
+    "f6ce6aa53e58",
+    "f6d05b7c297d",
+    "f6f1cac09bbd",
+    "f702cdfe9023",
+    "f79276debab9",
+    "f807f919b080",
+    "f82c951e2bae",
+    "f85500b85920",
+    "f85bf0c6963d",
+    "f8b0ae992989",
+    "f8dfe36377cf",
+    "f93a440a838f",
+    "f946106fc444",
+    "f95a8cd48898",
+    "f97c7f454dff",
+    "f994e0b5af33",
+    "f9bd00b0fe84",
+    "f9c245836b21",
+    "f9e0213a78cd",
+    "fa2ff61e75f3",
+    "fa5f26c9d823",
+    "fa81304d810c",
+    "fa8dfd022953",
+    "facf8c47e694",
+    "fad0910dee4d",
+    "fafb3e267c06",
+    "fafbe5616176",
+    "fb100d3de303",
+    "fb4413dc0981",
+    "fc006ee19fa4",
+    "fc2bf0fe1bf6",
+    "fc303b48f2df",
+    "fccc68c4612e",
+    "fce5b886ec05",
+    "fd3415ecda21",
+    "fd5b1d7cd947",
+    "fd5ca11dd713",
+    "fd784c41b76a",
+    "fdeb6d172c4a",
+    "fe0e696b722e",
+    "fe134c02c1e2",
+    "fe4b3c560faf",
+    "fe772b72692d",
+    "fe98c70422cf",
+    "fea42eeb4428",
+    "ff3be3903060",
+    "ff8b25384c22",
+    "ffab13aa79ec",
+    "ffde5e41ca2c",
+    "fffc1acda996"
+  ],
+  "knowledge": [
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "curl Proxy-Authorization leak on proxy-to-direct redirect transition",
+      "knowledge": "In curl (at least through version 8.17.0), the Proxy-Authorization header is not stripped when following a redirect that transitions the request from a proxied connection to a direct connection. This occurs when the redirect target matches a --noproxy rule or otherwise bypasses the configured proxy. The header, which is semantically hop-by-hop and intended only for the proxy, is sent verbatim to the origin server on the redirected request.",
+      "trigger_condition": [
+        "Encountering a curl-based client or automation that uses an HTTP proxy with authentication and follows redirects (-L)",
+        "Observing that the redirect target resolves to a host that matches --noproxy patterns or falls outside proxy scope",
+        "Confirming that Proxy-Authorization is set via -H flag or proxy credential configuration"
+      ],
+      "applicable_to": {
+        "specific": [
+          "curl <= 8.17.0",
+          "libcurl <= 8.17.0"
+        ],
+        "general": [
+          "HTTP client libraries",
+          "CLI HTTP tools",
+          "proxy-aware HTTP clients",
+          "CI/CD pipeline HTTP requests"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When an HTTP client follows a redirect that changes the connection context (e.g., proxied to direct, or TLS to plain), hop-by-hop headers that were appropriate for the original connection context may be incorrectly carried over to the new connection context. The redirect acts as a context boundary that the client fails to enforce.",
+        "pattern": "IF [HTTP client follows redirects through a proxy] AND [redirect target bypasses the proxy (noproxy match or different routing)] THEN [hop-by-hop headers like Proxy-Authorization may leak to the origin server]",
+        "generalizes_to": [
+          "hop-by-hop header leakage across connection context changes",
+          "credential leakage via redirect-induced context transitions",
+          "HTTP client header sanitization failures on redirect chains"
+        ]
+      },
+      "pitfalls": [
+        "Assuming that only proxy-auth configured via --proxy-user is affected — manually set -H 'Proxy-Authorization: ...' headers exhibit the same behavior",
+        "Testing only same-proxy redirects and missing the proxy-to-direct transition case, which is the specific trigger",
+        "Overlooking this in environments where --noproxy includes localhost/internal ranges, which is common and makes the redirect target likely to match"
+      ],
+      "chain_potential": "An attacker who controls or can influence a proxy response (e.g., via MITM on unencrypted proxy connection, or a malicious proxy) can issue a 302 redirect to an attacker-controlled server. The victim's curl client will follow the redirect and send the Proxy-Authorization credentials directly to the attacker's server, enabling proxy credential theft and subsequent unauthorized proxy access.",
+      "confidence": "high",
+      "confidence_rationale": "Demonstrated with a concrete reproducible PoC against curl 8.17.0, the behavior is deterministic and tied to curl's redirect-following logic not re-evaluating header appropriateness after connection context changes.",
+      "shelf_life": "volatile",
+      "source_id": "484b2eed8c17",
+      "extracted_at": "2026-02-18T01:03:28.279427",
+      "id": "ek_0000"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Proxy-to-direct redirect as credential harvesting vector",
+      "knowledge": "When an HTTP client is configured with both a proxy and a noproxy list that includes internal/localhost addresses, a redirect from the proxied request to a noproxy-matching address creates an implicit trust boundary crossing. The presence of --noproxy 127.0.0.1 or --noproxy localhost in curl configurations is a signal that redirect-based credential harvesting is possible if the attacker can influence 3xx responses from the proxy or proxied target.",
+      "trigger_condition": [
+        "Observing curl invocations or libcurl configurations that combine proxy settings with --noproxy rules covering internal addresses",
+        "Discovering that the proxy endpoint or proxied target is attacker-influenceable (e.g., open proxy, SSRF, or MITM position on HTTP proxy connection)"
+      ],
+      "applicable_to": {
+        "specific": [
+          "curl <= 8.17.0",
+          "libcurl-based applications"
+        ],
+        "general": [
+          "HTTP clients with proxy bypass lists",
+          "enterprise proxy configurations",
+          "container/CI environments with proxy settings"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "A proxy bypass list (noproxy) that includes internal addresses creates a two-zone model where different security contexts apply. Any mechanism that causes a request to cross from the proxied zone to the noproxy zone during a single request lifecycle (such as a redirect) can carry context-specific credentials across the boundary.",
+        "pattern": "IF [client has proxy + noproxy configuration] AND [attacker can trigger redirect from proxied target to noproxy-matching host] THEN [proxy-scoped credentials leak to the redirect target]",
+        "generalizes_to": [
+          "trust boundary violations via redirect chains",
+          "credential scope violations in multi-zone network configurations",
+          "header leakage across security context transitions"
+        ]
+      },
+      "pitfalls": [
+        "Focusing only on the direct client-side curl usage and missing that many higher-level libraries and tools use libcurl internally, inheriting this behavior",
+        "Assuming HTTPS proxy connections are safe — the redirect itself can come from the proxied HTTP target, not just the proxy"
+      ],
+      "chain_potential": "Combine with SSRF or open redirect on any proxied target to redirect the request to an attacker-controlled server matching noproxy rules, harvesting proxy credentials without needing proxy-level access.",
+      "confidence": "medium",
+      "confidence_rationale": "The attack chain is logical and the curl behavior is verified, but real-world exploitability depends on the attacker's ability to influence redirect responses, which varies by deployment.",
+      "shelf_life": "volatile",
+      "source_id": "484b2eed8c17",
+      "extracted_at": "2026-02-18T01:03:28.279444",
+      "id": "ek_0001"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Tiered URL decode rejection flags leave CRLF gaps",
+      "knowledge": "URL decoding functions that offer configurable rejection levels (e.g., reject-null vs reject-all-control-chars) often default to or are called with the minimal rejection tier. When a protocol handler uses the null-byte-only rejection mode, CR/LF bytes survive decoding and reach the wire verbatim. This gap is non-obvious because the presence of *any* rejection flag suggests the developer considered injection, creating a false sense of completeness.",
+      "trigger_condition": [
+        "Observing a URL decoding call site that passes a rejection/filter flag rather than doing blanket sanitization",
+        "The rejection flag specifically targets null bytes or a narrow subset of control characters",
+        "The decoded output is sent over a text-based protocol where line breaks are command delimiters (Gopher, SMTP, Redis RESP, Memcached text protocol)"
+      ],
+      "applicable_to": {
+        "specific": [
+          "curl lib/gopher.c",
+          "libcurl Curl_urldecode with REJECT_ZERO"
+        ],
+        "general": [
+          "HTTP clients with multi-protocol support",
+          "Libraries with configurable input validation strictness",
+          "SSRF-capable proxy components"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a decoding or sanitization function offers multiple strictness levels and a caller chooses a lower tier, the gap between what is blocked and what is dangerous for the specific downstream consumer creates an injection surface. The existence of the filtering mechanism masks the inadequacy of the chosen level.",
+        "pattern": "IF [URL/input decoding uses a tiered rejection mode] AND [the selected tier blocks only a subset of dangerous characters] AND [downstream protocol uses unblocked characters as command delimiters] THEN [injection through the unblocked character class is possible despite apparent sanitization]",
+        "generalizes_to": [
+          "partial input validation in any multi-protocol client",
+          "configurable sanitization where callers choose insufficient strictness",
+          "protocol-specific injection through characters not covered by generic filters"
+        ]
+      },
+      "pitfalls": [
+        "Assuming that the presence of any rejection flag means all dangerous characters are handled - must verify which specific characters the flag covers",
+        "Focusing only on HTTP-relevant injection (header injection) and missing that other supported protocols like Gopher transmit decoded paths with no framing"
+      ],
+      "chain_potential": "Gopher CRLF injection enables SSRF command injection into line-oriented internal services (Redis, Memcached, SMTP) - the CRLF becomes full command injection in the downstream protocol",
+      "confidence": "high",
+      "confidence_rationale": "Verified in curl source code with specific flag constants; the REJECT_ZERO vs REJECT_CTRL distinction is concrete and reproducible",
+      "shelf_life": "semi-permanent",
+      "source_id": "8fb7d7751ba1",
+      "extracted_at": "2026-02-18T01:04:30.361349",
+      "id": "ek_0002"
+    },
+    {
+      "category": "bypass_technique",
+      "knowledge_type": "offensive",
+      "title": "location.pathname double-slash protocol-relative URL hijack in AJAX",
+      "knowledge": "When JavaScript uses location.pathname to construct AJAX request URLs (e.g., `var url = prefix + '/endpoint'` where `prefix = location.pathname`), a path starting with `//attacker.com` is treated as a protocol-relative URL by the browser's HTTP stack. The web server at the target domain may serve the page normally for paths like `https://target.com//attacker.com/path`, but the subsequent AJAX call resolves the constructed URL as `//attacker.com/path/endpoint`, which the browser interprets as `https://attacker.com/path/endpoint`. This causes the AJAX response to be fetched from the attacker's server and, if the response is written to the DOM, achieves XSS under the target's origin.",
+      "trigger_condition": [
+        "Observing JavaScript that reads location.pathname or location.href to construct URLs for AJAX/fetch/XMLHttpRequest calls",
+        "Discovering that the server normalizes or accepts paths with leading double slashes (e.g., https://target.com//anything returns 200 instead of 404/redirect)",
+        "Confirming the AJAX response is inserted into the DOM via innerHTML, jQuery .html(), or similar sink"
+      ],
+      "applicable_to": {
+        "specific": [
+          "jQuery $.ajax with dataType html",
+          "Single-page applications using pathname-based routing"
+        ],
+        "general": [
+          "Any web application using location.pathname for dynamic content loading URLs",
+          "JavaScript applications that construct API endpoints from browser-provided URL components"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When application code treats browser-provided URL path components as implicitly safe for constructing secondary request URLs, an attacker can exploit URL parsing ambiguity. The browser's URL parser for navigation and the URL parser for subsequent requests may interpret the same path differently - particularly when protocol-relative URL syntax (//) appears within a path component, causing requests to be redirected to attacker-controlled servers.",
+        "pattern": "IF [client-side code uses location.pathname to build AJAX/fetch URLs] AND [server accepts paths with leading double slashes] AND [AJAX response is written to DOM] THEN [attacker can serve malicious content from external domain under target origin via //attacker.com path prefix]",
+        "generalizes_to": [
+          "DOM XSS via AJAX response injection",
+          "URL parsing differential between navigation and programmatic requests",
+          "Protocol-relative URL injection in path-derived URL construction",
+          "Client-side request forgery via pathname manipulation"
+        ]
+      },
+      "pitfalls": [
+        "Many web servers or CDNs normalize double slashes in paths to single slashes via redirect, which blocks this attack - always verify the server preserves the double slash",
+        "Same-origin policy and CORS can block the cross-origin AJAX request - the attacker's server must set Access-Control-Allow-Origin headers appropriately",
+        "If the application uses a relative path without the leading location.pathname (e.g., just '/endpoint'), this technique does not apply",
+        "Some frameworks strip or encode the pathname before use, preventing the protocol-relative interpretation"
+      ],
+      "chain_potential": "Achieving JavaScript execution under the target's origin enables session hijacking, credential theft, or pivoting to exploit authenticated API endpoints. Can also be chained with service workers registration for persistent access.",
+      "confidence": "high",
+      "confidence_rationale": "The technique is demonstrated with a working proof-of-concept in a real bug bounty program, and the underlying browser behavior (protocol-relative URL resolution from pathname) is well-defined and consistent across browsers.",
+      "shelf_life": "semi-permanent",
+      "source_id": "f4f5016915f7",
+      "extracted_at": "2026-02-18T01:06:28.937908",
+      "id": "ek_0003"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "location.pathname in URL construction signals AJAX request hijack potential",
+      "knowledge": "The presence of `location.pathname` or `location.href` being concatenated into URL strings for AJAX/fetch requests in JavaScript source code is a strong signal for potential request hijack vulnerabilities. Unlike query parameters or hash fragments, the pathname component is often assumed safe by developers because it appears to be server-controlled, but it is fully attacker-controllable via crafted links. This pattern is especially common in minified production JavaScript files (e.g., pdp.min.js) where the pathname is used as a prefix to construct API endpoint URLs.",
+      "trigger_condition": [
+        "Observing location.pathname or window.location.pathname concatenated with strings to form URLs in JavaScript source (especially in minified bundles)",
+        "Discovering the constructed URL is passed to $.ajax, fetch(), XMLHttpRequest, or similar request APIs",
+        "Confirming the response from the request is rendered into the DOM"
+      ],
+      "applicable_to": {
+        "specific": [
+          "jQuery-based web applications using $.ajax",
+          "E-commerce product detail pages (PDP) with dynamic content loading"
+        ],
+        "general": [
+          "Any JavaScript application constructing request URLs from location properties",
+          "SPAs with client-side routing that also make API calls based on current path"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When reviewing JavaScript for DOM XSS, developers-provided URL components (location.pathname, location.href) being used in request URL construction are often overlooked because the path feels like a server-side concern. But these values are fully attacker-controlled through crafted navigation links and represent a class of source-to-sink flows that static analyzers and manual reviewers frequently miss.",
+        "pattern": "IF [location.pathname is used in string concatenation to build request URLs] AND [the result is passed to a network request API] THEN [the request destination is attacker-controllable, creating a client-side request forgery or XSS vector]",
+        "generalizes_to": [
+          "Client-side request forgery via URL component manipulation",
+          "Taint analysis for browser location properties as XSS sources",
+          "JavaScript code review prioritization for DOM XSS"
+        ]
+      },
+      "pitfalls": [
+        "Grepping only for location.hash or location.search as DOM XSS sources and missing location.pathname as an equally controllable source",
+        "Assuming location.pathname is safe because it does not contain query parameters or fragments",
+        "Overlooking this pattern in minified JavaScript where variable names are obfuscated - the location.pathname reference itself is not minified"
+      ],
+      "chain_potential": "Identifying this pattern is the first step; exploitation requires confirming the server accepts double-slash paths and the response sink allows script execution. Enables prioritization of which JavaScript files to audit deeply.",
+      "confidence": "high",
+      "confidence_rationale": "The writeup demonstrates a real-world instance of this exact code pattern leading to a confirmed DOM XSS. The pattern of using location.pathname for URL construction is common in jQuery-era web applications.",
+      "shelf_life": "semi-permanent",
+      "source_id": "f4f5016915f7",
+      "extracted_at": "2026-02-18T01:06:28.937916",
+      "id": "ek_0004"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "CLI argument parsing as incidental CRLF defense layer in libcurl",
+      "knowledge": "libcurl's CLI frontend (the curl command) performs argument parsing that incidentally strips or rejects CRLF characters from options like username, but the underlying C library API (CURLOPT_USERNAME) passes these characters through to protocol handlers without equivalent sanitization. The imap_atom function in lib/imap.c is responsible for quoting special characters in IMAP protocol fields but does not treat \\r and \\n as characters requiring quoting or rejection. This creates a discrepancy where the same vulnerability is unexploitable via CLI but exploitable in any application using libcurl as a library.",
+      "trigger_condition": [
+        "Encountering an application that uses libcurl programmatically (not via CLI subprocess) for IMAP, SMTP, or similar line-oriented protocols",
+        "Observing that user-controlled input flows into CURLOPT_USERNAME or similar identity-setting options without application-level sanitization",
+        "Confirming that the protocol handler's quoting function (e.g., imap_atom) does not enumerate CR/LF as special characters"
+      ],
+      "applicable_to": {
+        "specific": [
+          "libcurl IMAP handler",
+          "lib/imap.c imap_atom function"
+        ],
+        "general": [
+          "Applications embedding libcurl as a library",
+          "Line-oriented protocol clients with quoting functions",
+          "Any library where CLI wrapper provides incidental input filtering"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a security-sensitive library has both a CLI frontend and a programmatic API, the CLI's input parsing may incidentally sanitize dangerous characters that the library API passes through raw. Vulnerabilities that appear unexploitable via CLI testing may be fully exploitable in applications using the library directly. The attack surface of the library is strictly larger than the attack surface of its CLI wrapper.",
+        "pattern": "IF [a library has a CLI frontend that incidentally sanitizes protocol-injection characters] AND [the library API does not perform equivalent sanitization] THEN [applications using the library API directly are vulnerable to protocol injection that CLI testing would miss]",
+        "generalizes_to": [
+          "library_vs_cli_attack_surface_gap",
+          "incidental_sanitization_bypass",
+          "protocol_injection_in_embedded_libraries"
+        ]
+      },
+      "pitfalls": [
+        "Testing only via the CLI tool (e.g., curl command) and concluding the library is safe — the CLI's argument parsing masks library-level vulnerabilities",
+        "Assuming that because a protocol handler has a quoting/escaping function (like imap_atom), it handles all dangerous characters — the function may only quote a subset of special characters relevant to the protocol grammar but miss injection-relevant characters like CR/LF",
+        "Overlooking that the PoC result may show collapsed output (CRLF rendered on same line in terminal) rather than actual multi-line injection — always verify with hex dump or raw packet capture to confirm true CRLF transmission"
+      ],
+      "chain_potential": "Combining this with an application that accepts untrusted usernames for IMAP operations (e.g., webmail, email migration tools, backup services) enables arbitrary IMAP command injection within an authenticated session context, potentially allowing mailbox deletion, creation, or data exfiltration",
+      "confidence": "medium",
+      "confidence_rationale": "The vulnerability pattern is clearly demonstrated in the code path analysis, but the PoC result as shown in the report (single-line output) does not conclusively demonstrate successful multi-line injection — the CRLF may have been collapsed rather than interpreted as a command separator. The general pattern of CLI-vs-library attack surface gaps is well-established across multiple projects.",
+      "shelf_life": "semi-permanent",
+      "source_id": "7dc79c9531e6",
+      "extracted_at": "2026-02-18T01:08:18.133743",
+      "id": "ek_0005"
+    },
+    {
+      "category": "tactical_priority",
+      "knowledge_type": "offensive",
+      "title": "Protocol injection testing requires library-level API access not CLI",
+      "knowledge": "When auditing protocol client libraries for injection vulnerabilities in identity fields (username, password, mailbox names), testing through the library's CLI tool is insufficient because CLI argument parsing, shell escaping, and input validation layers filter characters that the library API would pass through. Direct API-level testing with programmatic harnesses (C programs, Python bindings, etc.) is necessary to reach the actual protocol serialization code path with arbitrary byte sequences including null bytes, CRLF, and other control characters.",
+      "trigger_condition": [
+        "Encountering a protocol client library that also ships a CLI tool (e.g., curl/libcurl, openssl CLI/libssl)",
+        "Observing that protocol handler code has quoting or escaping functions for protocol-specific special characters",
+        "Discovering that the quoting function's character set does not include all ASCII control characters"
+      ],
+      "applicable_to": {
+        "specific": [
+          "libcurl IMAP/SMTP/POP3 handlers",
+          "Any curl protocol handler using atom/quoting functions"
+        ],
+        "general": [
+          "Protocol client libraries with CLI frontends",
+          "Libraries used for server-side email operations",
+          "Any dual-interface library (CLI + API)"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When testing protocol client libraries for injection, always write minimal programmatic harnesses that call the library API directly rather than relying on the CLI tool. The CLI tool's input processing pipeline introduces filtering that does not exist in the library's API path, creating a false sense of security.",
+        "pattern": "IF [testing a protocol library for injection via its CLI frontend] AND [the CLI performs any input parsing/validation before calling library functions] THEN [the test results underestimate the library's actual attack surface]",
+        "generalizes_to": [
+          "protocol_library_injection_testing",
+          "cli_vs_api_security_boundary",
+          "input_validation_layer_confusion"
+        ]
+      },
+      "pitfalls": [
+        "Writing PoC code that uses system() or popen() to invoke the CLI tool instead of calling the library API directly — this reintroduces the CLI's input filtering",
+        "Assuming that shell escaping is the only barrier — even programmatic language bindings may add their own sanitization layer before calling the C library",
+        "Forgetting to simulate the protocol handshake (server greeting, capability exchange) when testing with raw listeners — libcurl will not send the injection payload until the protocol state machine advances past initial handshake"
+      ],
+      "chain_potential": "Identifying library-level injection that CLI testing misses enables targeting all downstream applications that embed the library, which often have much larger deployment footprints than direct CLI usage",
+      "confidence": "high",
+      "confidence_rationale": "The principle that CLI tools add input filtering absent from their underlying libraries is well-established and has been verified across multiple library/CLI pairs (curl, openssl, wget). The specific IMAP protocol handshake requirement is directly demonstrated in the PoC steps.",
+      "shelf_life": "permanent",
+      "source_id": "7dc79c9531e6",
+      "extracted_at": "2026-02-18T01:08:18.133749",
+      "id": "ek_0006"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Self-XSS to stored XSS via write-capable IDOR",
+      "knowledge": "A self-stored XSS that only fires in the attacker's own session becomes a full stored XSS affecting arbitrary users when a write-capable IDOR exists on the same object. The IDOR's ability to edit another user's data (e.g., via PUT with an incremental ID) allows injecting the XSS payload into a victim's stored records, so the payload executes in the victim's browser context when they interact with that record (e.g., viewing or deleting it).",
+      "trigger_condition": [
+        "Discovering a stored XSS that only triggers in the submitter's own session (self-XSS)",
+        "Observing that the stored object (e.g., supplier record) is editable via API with an object ID parameter",
+        "Confirming that object IDs are sequential/predictable and the edit endpoint lacks proper authorization checks"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Multi-tenant SaaS financial management applications"
+        ],
+        "general": [
+          "Multi-user web applications with per-user stored records",
+          "Applications with CRUD APIs using direct object references"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a stored XSS is dismissed as self-only because the injected content is scoped to the submitting user's data, a write-capable authorization bypass on the same data object converts it into a cross-user stored XSS. The XSS payload is written into another user's record via the authorization flaw, and executes when that user interacts with their own data.",
+        "pattern": "IF [self-stored XSS exists on a user-owned object] AND [write IDOR exists on the same object type] THEN [the self-XSS becomes a stored XSS exploitable against any user whose object ID is known]",
+        "generalizes_to": [
+          "self-XSS escalation in multi-tenant applications",
+          "combining low-severity injection with authorization flaws for cross-user impact",
+          "stored payload delivery via IDOR write primitives"
+        ]
+      },
+      "pitfalls": [
+        "Dismissing self-XSS as unexploitable without checking for write-capable IDORs on the same object — many bug bounty programs reject self-XSS alone, but the chain makes it critical",
+        "Assuming that previous IDOR fixes cover all HTTP methods — read IDORs may be fixed while PUT/PATCH/DELETE remain vulnerable",
+        "The XSS may only trigger on a specific user action (e.g., delete confirmation), making reproduction timing-dependent and requiring social engineering awareness for impact assessment"
+      ],
+      "chain_potential": "The stored XSS executing in victim context enables session hijacking, account takeover, or further CSRF-based actions within the application",
+      "confidence": "high",
+      "confidence_rationale": "This is a well-documented and repeatedly verified chain pattern in bug bounty programs; the writeup demonstrates a concrete real-world instance with payout",
+      "shelf_life": "permanent",
+      "source_id": "9340d5173a5a",
+      "extracted_at": "2026-02-18T01:09:47.680224",
+      "id": "ek_0007"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Partial IDOR fix signals remaining write-method IDOR",
+      "knowledge": "When an application has recently patched IDOR vulnerabilities on read operations (GET/view), the corresponding write operations (PUT/PATCH/DELETE) on the same or related endpoints frequently remain vulnerable. Fixes applied under time pressure to 'sitewide' IDORs often address the most visible access patterns (viewing data) while missing mutation endpoints that use different controller actions or middleware paths.",
+      "trigger_condition": [
+        "Observing that an application recently fixed reported IDOR vulnerabilities on read/view endpoints",
+        "Discovering that the application uses incremental integer IDs for object references in API requests",
+        "Finding that PUT/PATCH requests to the same resource accept arbitrary object IDs without returning authorization errors"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Web applications with RESTful CRUD APIs"
+        ],
+        "general": [
+          "Applications that have undergone partial IDOR remediation",
+          "APIs where authorization is implemented per-endpoint rather than via middleware"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Authorization fixes applied to one HTTP method on a resource endpoint often do not propagate to other methods on the same resource. When read-IDORs are fixed, write-IDORs on the same objects are a high-probability finding because many frameworks route different HTTP methods through different controller actions, each requiring independent authorization checks.",
+        "pattern": "IF [IDOR was recently fixed on read/view operations] AND [the API uses RESTful patterns with per-action authorization] THEN [write operations (PUT/PATCH/DELETE) on the same resource likely remain vulnerable to IDOR]",
+        "generalizes_to": [
+          "incomplete authorization remediation patterns",
+          "per-method authorization gaps in REST APIs",
+          "regression testing after access control fixes"
+        ]
+      },
+      "pitfalls": [
+        "Assuming a 'sitewide IDOR fix' actually covers all HTTP methods and all endpoints — the fix scope is often narrower than described",
+        "Only retesting the exact same endpoints that were reported, rather than testing related mutation endpoints on the same resource"
+      ],
+      "chain_potential": "Write-capable IDORs enable data modification attacks and can escalate otherwise unexploitable injection flaws (self-XSS, self-CSRF) into cross-user attacks",
+      "confidence": "medium",
+      "confidence_rationale": "Based on a single writeup instance, but the pattern of incomplete IDOR fixes is widely corroborated across bug bounty literature",
+      "shelf_life": "permanent",
+      "source_id": "9340d5173a5a",
+      "extracted_at": "2026-02-18T01:09:47.680232",
+      "id": "ek_0008"
+    },
+    {
+      "category": "tactical_priority",
+      "knowledge_type": "offensive",
+      "title": "Prioritize deletion UI paths for XSS trigger discovery",
+      "knowledge": "Stored XSS payloads in record name/title fields that do not fire during normal display or editing often trigger during deletion confirmation flows. Delete confirmation dialogs frequently render the object name in a different template context (modal, popup, inline confirmation) that lacks the output encoding applied to the main list/detail views.",
+      "trigger_condition": [
+        "Observing that an XSS payload stored in a name/title field does not execute when viewing or editing the record",
+        "Discovering that the application has delete functionality with confirmation dialogs for the same records",
+        "Noticing that the confirmation dialog renders the record name dynamically (e.g., 'Are you sure you want to delete <name>?')"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Web applications with CRUD interfaces for named records"
+        ],
+        "general": [
+          "Applications with confirmation dialogs that reflect stored data",
+          "Admin panels and management interfaces with delete functionality"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Secondary rendering paths for stored data (deletion confirmations, export previews, email notifications, error messages) often have weaker output encoding than primary display paths. When an injection payload does not fire in the main view, alternative rendering contexts for the same data field are high-value targets for execution.",
+        "pattern": "IF [stored XSS payload in a name field does not trigger in primary display] AND [the application renders that field in secondary UI paths like delete confirmation] THEN [the secondary rendering path likely lacks equivalent output encoding and will execute the payload]",
+        "generalizes_to": [
+          "secondary rendering path XSS",
+          "inconsistent output encoding across UI contexts",
+          "stored XSS in non-primary display flows"
+        ]
+      },
+      "pitfalls": [
+        "Only testing XSS execution in the primary list/detail view and concluding the field is properly sanitized",
+        "Missing that the delete confirmation might be rendered server-side in some cases and client-side in others, with different encoding behavior"
+      ],
+      "chain_potential": "Identifying the trigger path is essential for demonstrating exploitability — a stored XSS that only fires on delete requires either social engineering the victim to delete the record or chaining with a CSRF to trigger deletion",
+      "confidence": "medium",
+      "confidence_rationale": "The specific observation about delete dialogs as XSS trigger paths is documented in this report and consistent with general knowledge about inconsistent encoding, but limited to one concrete instance",
+      "shelf_life": "semi-permanent",
+      "source_id": "9340d5173a5a",
+      "extracted_at": "2026-02-18T01:09:47.680235",
+      "id": "ek_0009"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Error/edge-case pages bypass input validation enforced on main flows",
+      "knowledge": "In large web applications with a shared parameter (like 'continue' or 'redirect') used across many pages, error-state or edge-case pages (such as 'service not allowed', 'account disabled', or 'access denied' interstitials) frequently lack the same input validation applied to the parameter on primary login/redirect flows. These conditional pages are often developed by different teams or added later and miss security controls that the main flow enforces.",
+      "trigger_condition": [
+        "Encountering a well-validated redirect/continue parameter across primary authentication or navigation flows in a large application",
+        "Observing error pages, interstitial pages, or edge-case flows that also accept the same redirect parameter",
+        "Discovering that the application requires a specific state to reach these pages (e.g., multi-account login, misconfigured service, expired session)"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Google Apps Admin Console (pre-2014 fix)",
+          "Google multi-account login flow"
+        ],
+        "general": [
+          "Large SaaS platforms with multi-tenant admin consoles",
+          "Applications with shared redirect parameters across many endpoints",
+          "OAuth/SSO login flows with multiple account states"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a redirect or continuation parameter is used across dozens of endpoints in a large application, the validation is typically enforced at the main flow level. Edge-case pages — error handlers, service interstitials, account-switching pages — are often built separately and may not inherit the same validation logic. Testing these less-traveled paths with the same injection payloads that fail on the main flow can reveal bypasses.",
+        "pattern": "IF a redirect/continue parameter is validated on primary flows AND the application has error/interstitial pages accepting the same parameter THEN those edge-case pages are likely to have weaker or missing validation of that parameter",
+        "generalizes_to": [
+          "redirect parameter validation bypass on error pages",
+          "input validation inconsistency across application states",
+          "security control gaps in conditional/edge-case UI flows"
+        ]
+      },
+      "pitfalls": [
+        "Assuming that if the main login flow validates the parameter, all pages do — validation is often per-handler, not global middleware",
+        "Only testing the parameter on pages that are easily reachable — the vulnerable pages may require specific account states (multi-login, specific domain configs) to even render",
+        "Missing the vulnerable page entirely because it only appears under compound conditions (e.g., logged into multiple accounts AND accessing an unconfigured service)"
+      ],
+      "chain_potential": "XSS on an admin console domain enables full account takeover chains: creating super-admin users, disabling 2FA, resetting passwords, and modifying DNS/mail routing settings",
+      "confidence": "high",
+      "confidence_rationale": "Verified in Google's admin console, and the pattern of inconsistent validation across page states is a recurring finding in large web applications with many endpoints sharing parameters",
+      "shelf_life": "permanent",
+      "source_id": "1039cd210a8e",
+      "extracted_at": "2026-02-18T01:11:32.281885",
+      "id": "ek_0010"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Redirect parameter to DOM XSS via form value population",
+      "knowledge": "When a URL parameter is not directly used in a redirect but instead populated into HTML form element values (such as radio button values) that are later read by JavaScript and assigned to window.location.href, the injection vector is indirect. Standard redirect-parameter validation often checks the server-side redirect but misses the client-side path where the parameter value flows into DOM element attributes first and then into navigation. The javascript: URI scheme is executable when assigned to window.location.href, turning what appears to be a URL parameter into a DOM XSS vector.",
+      "trigger_condition": [
+        "Observing a URL parameter value reflected into form element attributes (radio buttons, hidden inputs, select options) rather than directly into a redirect",
+        "Discovering JavaScript that reads form element values and assigns them to window.location.href or window.location",
+        "Finding that server-side redirect validation is absent because the server treats the value as a form pre-fill rather than a redirect target"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Google Apps Admin Console ServiceNotAllowed page",
+          "Google multi-account switcher flows"
+        ],
+        "general": [
+          "Account-switching interfaces",
+          "Multi-step form flows with URL-driven pre-population",
+          "Any page where URL parameters populate form values consumed by client-side navigation"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Server-side validation of redirect parameters often only covers direct server-side redirects (302 responses). When the same parameter is instead embedded into HTML form element values and later consumed by client-side JavaScript for navigation, the server may not apply redirect validation because from the server's perspective the parameter is just populating a form field, not performing a redirect. The actual redirect happens entirely client-side.",
+        "pattern": "IF a URL parameter populates a form element value AND client-side JavaScript reads that value for window.location assignment THEN server-side redirect validation is likely bypassed because the server does not recognize the value as a redirect target",
+        "generalizes_to": [
+          "server-side vs client-side redirect validation gaps",
+          "indirect DOM XSS through form value population",
+          "javascript: URI injection via non-redirect parameter paths"
+        ]
+      },
+      "pitfalls": [
+        "Only testing for direct redirects (302/meta refresh) and missing the client-side navigation path through form values",
+        "Dismissing a parameter as non-exploitable because the server doesn't perform a redirect, when the client-side code does",
+        "Failing to trace the full data flow from URL parameter -> HTML attribute -> JavaScript read -> navigation assignment"
+      ],
+      "chain_potential": "DOM XSS on admin domains enables same-origin JavaScript execution, allowing CSRF-free API calls to perform any admin action including user creation, permission changes, and security setting modifications",
+      "confidence": "high",
+      "confidence_rationale": "Confirmed exploitation path in Google's admin console; the indirect data flow pattern (URL param -> DOM attribute -> JS navigation) is a well-established but frequently overlooked DOM XSS class",
+      "shelf_life": "permanent",
+      "source_id": "1039cd210a8e",
+      "extracted_at": "2026-02-18T01:11:32.281890",
+      "id": "ek_0011"
+    },
+    {
+      "category": "tactical_priority",
+      "knowledge_type": "offensive",
+      "title": "Prioritize compound-state pages when testing shared parameters",
+      "knowledge": "Pages that require multiple simultaneous conditions to render (e.g., being logged into multiple accounts, having a specific service configuration, being in a particular tenant state) are significantly more likely to contain validation gaps than single-condition pages. These compound-state pages have lower test coverage both from automated scanners (which rarely achieve the required state) and from manual testers (who may not explore all state combinations). The ServiceNotAllowed page in Google's admin required being logged into at least two accounts AND accessing an unconfigured service — this compound requirement meant it received less security scrutiny.",
+      "trigger_condition": [
+        "Encountering an application with multi-account or multi-tenant functionality where different states produce different page variants",
+        "Observing that certain pages only appear under specific account/configuration combinations",
+        "Discovering that a shared parameter (redirect, continue, callback) appears on these hard-to-reach pages"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Google Apps multi-account flow",
+          "Google Admin Console service configuration"
+        ],
+        "general": [
+          "Multi-tenant SaaS platforms",
+          "Applications with multi-account login support",
+          "Enterprise admin consoles with service/feature toggles"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Security testing effort follows accessibility: easily reachable pages get the most scrutiny while pages requiring compound conditions to render get the least. When a security-critical parameter is shared across both well-tested and hard-to-reach pages, the hard-to-reach pages are the highest-value targets because they're most likely to have validation gaps.",
+        "pattern": "IF a security-critical parameter exists on pages requiring compound state conditions to render THEN those pages are disproportionately likely to have weaker validation compared to easily-reachable pages using the same parameter",
+        "generalizes_to": [
+          "compound-state page testing priority",
+          "validation coverage gaps in hard-to-reach application states",
+          "security testing of multi-condition application flows"
+        ]
+      },
+      "pitfalls": [
+        "Spending all testing time on easily reachable endpoints and never achieving the compound state needed to reach the vulnerable page",
+        "Not systematically mapping which pages accept shared parameters — the vulnerable endpoint may not be discoverable through normal crawling",
+        "Assuming that because the parameter is validated on the main flow, other pages must use the same validation library or middleware"
+      ],
+      "chain_potential": "Finding unvalidated parameters on admin-scoped pages directly enables high-impact exploitation since the execution context already has elevated privileges",
+      "confidence": "high",
+      "confidence_rationale": "The principle that hard-to-reach pages have less security coverage is consistently validated across bug bounty findings; this specific example confirms the pattern for Google's admin infrastructure",
+      "shelf_life": "permanent",
+      "source_id": "1039cd210a8e",
+      "extracted_at": "2026-02-18T01:11:32.281892",
+      "id": "ek_0012"
+    },
+    {
+      "category": "bypass_technique",
+      "knowledge_type": "offensive",
+      "title": "HTML blacklist bypass via deprecated and non-standard tags",
+      "knowledge": "HTML sanitizers that use a blacklist of tag names (filtering known dangerous tags like script, iframe, img, svg) are vulnerable to bypass through deprecated or non-standard HTML tags such as <fn>, <credit>, or other obscure tags that browsers still parse as valid DOM elements capable of carrying event handler attributes. These tags are rarely included in manually-curated blacklists because they are not commonly associated with XSS vectors.",
+      "trigger_condition": [
+        "Observing that common HTML tags (script, a, span, img, iframe) are stripped or filtered from user input",
+        "Discovering that the filtering appears to be blacklist-based rather than whitelist-based (some tags pass through while known-dangerous ones are removed)",
+        "Confirming that attribute-level filtering is separate from tag-level filtering (event handlers may still be allowed on tags that pass the blacklist)"
+      ],
+      "applicable_to": {
+        "specific": [
+          "eBay myworld.ebay.com profile editor (2013)"
+        ],
+        "general": [
+          "Web applications using blacklist-based HTML tag filtering",
+          "Custom HTML sanitizers that enumerate blocked tags",
+          "Legacy web applications with hand-rolled input validation"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When an application filters HTML by maintaining a list of blocked tag names rather than allowing only known-safe tags, obscure, deprecated, or non-standard tags that browsers still render as DOM elements can bypass the filter. These elements can carry event handler attributes (onmouseover, onfocus, etc.) enabling script execution.",
+        "pattern": "IF [HTML tags are filtered by blacklist] AND [obscure/deprecated tags are not in the blacklist] AND [event handler attributes are permitted on surviving tags] THEN [XSS is achievable via non-standard tag with event handler]",
+        "generalizes_to": [
+          "blacklist-based input validation bypass",
+          "HTML sanitizer evasion",
+          "any deny-list approach to content filtering"
+        ]
+      },
+      "pitfalls": [
+        "Using <plaintext> as the bypass tag will cause the remainder of the page to render as unformatted text, destroying page layout and making the injection immediately obvious — prefer tags like <fn> or <credit> that render invisibly",
+        "Some browsers may not recognize all non-standard tags equally — test across target browsers before relying on a specific obscure tag",
+        "Modern HTML sanitizers (DOMPurify, etc.) use whitelist approaches and will not be vulnerable to this technique"
+      ],
+      "chain_potential": "Enables stored XSS which can be chained with missing CSRF protections on profile edit forms to create self-propagating XSS worms",
+      "confidence": "high",
+      "confidence_rationale": "Demonstrated and verified in a real-world eBay bug bounty finding; blacklist bypass via obscure tags is a well-established class of vulnerability that recurs in custom sanitizers",
+      "shelf_life": "semi-permanent",
+      "source_id": "dacdc88d0130",
+      "extracted_at": "2026-02-18T01:19:32.658465",
+      "id": "ek_0013"
+    },
+    {
+      "category": "pitfall",
+      "knowledge_type": "offensive",
+      "title": "Plaintext tag destroys page rendering making XSS injection obvious",
+      "knowledge": "The <plaintext> HTML tag, while useful as a proof-of-concept for blacklist bypass, causes all subsequent page content to render as unformatted plain text. This makes the injection immediately visible to users and site operators, destroying operational stealth. Alternative obscure tags like <fn> and <credit> achieve the same blacklist bypass without disrupting page rendering, as they are parsed as inline elements with no default visual behavior.",
+      "trigger_condition": [
+        "Discovering that <plaintext> passes through an HTML tag blacklist",
+        "Observing that injecting <plaintext> causes the rest of the page to render as raw HTML source text",
+        "Needing a stealthy persistent XSS payload that does not alert users or operators"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Any HTML context where <plaintext> is not blacklisted"
+        ],
+        "general": [
+          "Stored XSS scenarios requiring stealth",
+          "Wormable XSS development",
+          "Bug bounty demonstrations requiring clean proof-of-concept"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When selecting HTML tags for injection-based attacks, some tags that bypass filters have severe side effects on page rendering. Tags that alter the parsing mode of the document (plaintext, xmp, listing) will make the injection immediately obvious. Prefer tags with no default rendering behavior that still accept event handler attributes.",
+        "pattern": "IF [a tag bypasses the filter] AND [that tag alters document parsing mode] THEN [the injection will be immediately visible and operationally unsuitable for persistent/stealthy XSS]",
+        "generalizes_to": [
+          "operational security in XSS exploitation",
+          "payload selection for persistent injection",
+          "choosing injection vectors that minimize detection"
+        ]
+      },
+      "pitfalls": [
+        "Reporting a <plaintext>-based XSS PoC may appear low-impact to triage teams because the visible page destruction seems to 'break' the attack — always provide an alternative clean tag in the report",
+        "The <xmp> and <listing> tags have similar page-destructive behavior to <plaintext> and should also be avoided for stealth"
+      ],
+      "chain_potential": "Selecting a non-destructive tag enables the stored XSS to remain undetected longer, increasing the window for worm propagation or session theft",
+      "confidence": "high",
+      "confidence_rationale": "Directly observed behavior — <plaintext> rendering behavior is defined in HTML spec and consistently implemented across browsers",
+      "shelf_life": "permanent",
+      "source_id": "dacdc88d0130",
+      "extracted_at": "2026-02-18T01:19:32.658473",
+      "id": "ek_0014"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Stored profile XSS plus missing CSRF on profile edit enables self-propagating worm",
+      "knowledge": "On platforms where user profiles are publicly viewable and editable, the combination of stored XSS in a profile field and absent CSRF protection on the profile edit endpoint creates a self-propagating worm condition. The XSS payload on an attacker's profile can read the viewing user's identity from the DOM, construct a form POST to the profile edit endpoint (requiring no CSRF token), and inject the same payload into the victim's profile — causing exponential propagation as each newly-infected profile infects its viewers.",
+      "trigger_condition": [
+        "Discovering stored XSS in a user profile field that is rendered when other users view the profile",
+        "Observing that the profile edit/save endpoint lacks CSRF token validation",
+        "Confirming that the DOM exposes the currently logged-in user's identity (e.g., username in a page element)"
+      ],
+      "applicable_to": {
+        "specific": [
+          "eBay myworld.ebay.com (2013)"
+        ],
+        "general": [
+          "Social platforms with user-editable profiles",
+          "Marketplace platforms with seller pages",
+          "Forum or community platforms with profile bios",
+          "Any multi-user application with viewable and editable user-generated content"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a stored XSS exists in content that is viewed by other authenticated users, and the endpoint that stores that content lacks CSRF protection, the XSS can programmatically replicate itself into other users' content. This transforms a single stored XSS from an isolated compromise into a platform-wide worm. The severity multiplier is exponential rather than linear.",
+        "pattern": "IF [stored XSS exists in user-viewable profile content] AND [profile edit endpoint has no CSRF protection] AND [logged-in user identity is readable from DOM or cookies] THEN [self-propagating XSS worm is achievable with exponential spread]",
+        "generalizes_to": [
+          "XSS worm construction on social platforms",
+          "severity escalation of stored XSS findings",
+          "chaining low-severity findings into critical impact"
+        ]
+      },
+      "pitfalls": [
+        "If cookies are HTTPOnly, the worm can still propagate via CSRF-based replication even though direct cookie theft is prevented — do not dismiss the worm vector just because cookies are protected",
+        "Character limits on the profile field may require loading external scripts, which introduces a dependency on an attacker-controlled server remaining available",
+        "Wildcard cookie domains (*.ebay.com) expand the blast radius but are not strictly required for the worm to function on the same subdomain"
+      ],
+      "chain_potential": "Combined with cookies stored on wildcard domain without HTTPOnly flag, the worm can simultaneously steal session cookies and propagate, enabling mass account takeover alongside viral spread",
+      "confidence": "high",
+      "confidence_rationale": "Demonstrated end-to-end in a real-world eBay bug bounty finding; XSS worm patterns are historically validated (Samy worm on MySpace followed identical chain logic)",
+      "shelf_life": "permanent",
+      "source_id": "dacdc88d0130",
+      "extracted_at": "2026-02-18T01:19:32.658475",
+      "id": "ek_0015"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Encoder/decoder asymmetry as vulnerability signal in protocol implementations",
+      "knowledge": "When a protocol library implements both encoding and decoding for the same field, the encoder may correctly enforce specification limits while the decoder does not. This asymmetry is a reliable indicator of exploitable parsing bugs because developers often implement the encoder first (or more carefully, since it handles trusted internal data) and treat the decoder as a simple mirror without applying the same boundary checks. In libcurl's MQTT implementation, mqtt_encode_len correctly limited Remaining Length to 4 bytes per MQTT v3.1.1 spec, while mqtt_decode_len had no such limit.",
+      "trigger_condition": [
+        "Encountering a protocol library that implements both serialization and deserialization of the same structured field",
+        "Observing that the encoder/serializer contains explicit bounds checks or loop iteration limits",
+        "Discovering that the decoder/deserializer uses a data-driven loop termination (e.g., continuation bits) without an equivalent hard limit"
+      ],
+      "applicable_to": {
+        "specific": [
+          "libcurl MQTT implementation",
+          "lib/mqtt.c"
+        ],
+        "general": [
+          "Protocol parsers with encode/decode pairs",
+          "Binary protocol implementations",
+          "Any library implementing variable-length encoding schemes"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "In protocol implementations, encoder and decoder functions for the same field are often written with different trust assumptions. The encoder handles internal trusted data and is written to produce spec-compliant output, while the decoder handles external untrusted data but paradoxically may lack the same validation. Diffing the constraints between the encode and decode paths for the same protocol field reveals missing validation in the decoder.",
+        "pattern": "IF [encoder for field X enforces limit N] AND [decoder for field X uses data-driven loop termination without limit N] THEN [decoder accepts malformed input beyond spec limits, enabling protocol desynchronization or overflow]",
+        "generalizes_to": [
+          "Variable-length integer decoding in any binary protocol",
+          "TLV (Type-Length-Value) parsers",
+          "ASN.1 BER/DER length decoding",
+          "Protocol Buffers varint decoding in custom implementations",
+          "MQTT/CoAP/other IoT protocol parsers"
+        ]
+      },
+      "pitfalls": [
+        "Assuming the decoder is correct because the encoder works properly — they may have been written at different times or by different developers",
+        "Only auditing the decoder in isolation without comparing it to the encoder's constraints, missing the asymmetry signal",
+        "Assuming that because the encoder limits to N bytes, the decoder must also — this needs explicit verification"
+      ],
+      "chain_potential": "Decoder accepting excess bytes leads to protocol desynchronization, which can enable response injection or stream confusion attacks depending on the protocol's framing model",
+      "confidence": "high",
+      "confidence_rationale": "This pattern is directly demonstrated in the libcurl MQTT code with exact encoder/decoder functions shown. The encode/decode asymmetry pattern is a well-established class of bugs across protocol implementations.",
+      "shelf_life": "permanent",
+      "source_id": "495db948ac7b",
+      "extracted_at": "2026-02-18T01:20:58.435810",
+      "id": "ek_0016"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Multiplier overflow to zero silently consumes input without affecting decoded length",
+      "knowledge": "In variable-length integer decoding schemes that use a running multiplier (mult *= base), on architectures where the multiplier variable can overflow to exactly zero, all subsequent input bytes are consumed and advance the read pointer but contribute nothing to the decoded value (since N * 0 = 0). This creates a situation where the decoded length is smaller than expected while the parser's position has advanced past 'hidden' bytes. On 32-bit systems with libcurl's MQTT decoder, mult (size_t) overflows to 0 after 5 multiplications by 128, meaning bytes 5+ of a Remaining Length field are consumed but invisible to the length calculation.",
+      "trigger_condition": [
+        "Encountering a variable-length integer decoder using a running multiplier pattern (accumulator += (byte & mask) * mult; mult *= base)",
+        "Observing that the multiplier variable is a fixed-width integer type (especially 32-bit size_t or uint32_t)",
+        "Discovering that the loop has no iteration count limit independent of the continuation-bit check"
+      ],
+      "applicable_to": {
+        "specific": [
+          "libcurl mqtt_decode_len on 32-bit systems",
+          "Any MQTT Remaining Length decoder on 32-bit"
+        ],
+        "general": [
+          "Variable-length quantity (VLQ) decoders",
+          "MIDI variable-length decoders on embedded systems",
+          "Custom varint implementations on constrained architectures"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a multiplier-based variable-length integer decoder runs on an architecture where the multiplier can overflow to zero, excess continuation bytes are silently consumed. The parser advances past these bytes (they are 'read') but the decoded integer does not reflect them. This desynchronizes the parser's stream position from the logical message boundaries, causing subsequent data to be misinterpreted.",
+        "pattern": "IF [multiplier-based VLQ decoder] AND [no iteration limit] AND [multiplier overflows to zero at iteration N] THEN [bytes beyond iteration N are consumed but invisible to decoded value, causing stream position to desynchronize from logical framing]",
+        "generalizes_to": [
+          "Protocol desynchronization via length field manipulation",
+          "32-bit embedded system protocol attacks",
+          "Any variable-length encoding on memory-constrained architectures"
+        ]
+      },
+      "pitfalls": [
+        "Assuming integer overflow in the multiplier causes a crash or detectable error — overflow to zero is silent and the computation continues producing plausible-looking (but wrong) results",
+        "Testing only on 64-bit systems where the overflow requires far more iterations to trigger, making the bug appear unreachable",
+        "Focusing only on the decoded length value being wrong, while missing that the more exploitable consequence is the input pointer advancement past hidden bytes"
+      ],
+      "chain_potential": "The desynchronization between decoded length and actual bytes consumed can cause payload bytes to be interpreted as packet headers, potentially enabling protocol-level injection of crafted MQTT control packets into the stream",
+      "confidence": "high",
+      "confidence_rationale": "The arithmetic progression is deterministic and verified through the multiplication table shown in the report. The overflow-to-zero behavior of unsigned integer multiplication by powers of 2 is well-defined in C.",
+      "shelf_life": "semi-permanent",
+      "source_id": "495db948ac7b",
+      "extracted_at": "2026-02-18T01:20:58.435818",
+      "id": "ek_0017"
+    },
+    {
+      "category": "tactical_priority",
+      "knowledge_type": "offensive",
+      "title": "Audit protocol spec mandatory limits as first pass in protocol parser review",
+      "knowledge": "Protocol specifications that use the word 'MUST' or 'MUST NOT' for field size limits (per RFC 2119) represent hard constraints that parsers are required to enforce. Searching for these mandatory limits in the spec and then checking whether the parser actually enforces them is a high-yield first-pass audit strategy. The MQTT v3.1.1 spec states 'The number of bytes in the Remaining Length field MUST NOT exceed four bytes' — libcurl's decoder did not enforce this. Specification-mandated limits that are missing from parsers create undefined protocol states that are exploitable for desynchronization.",
+      "trigger_condition": [
+        "Encountering a library implementing a well-specified protocol (MQTT, CoAP, HTTP/2, AMQP, etc.)",
+        "Observing that the protocol specification defines explicit MUST/MUST NOT constraints on field sizes or value ranges",
+        "Discovering variable-length or extensible fields in the protocol format that require parser-side enforcement"
+      ],
+      "applicable_to": {
+        "specific": [
+          "libcurl MQTT v3.1.1 implementation",
+          "MQTT Remaining Length field"
+        ],
+        "general": [
+          "Any protocol parser implementing an RFC or formal specification",
+          "IoT protocol libraries",
+          "Binary protocol implementations in C/C++"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Mandatory specification limits (MUST/MUST NOT per RFC 2119) in protocol specifications are frequently unenforced in parser implementations, especially for variable-length fields where the natural loop termination condition (e.g., continuation bit not set) appears sufficient. The spec limit exists precisely because the natural termination is insufficient — violating it puts the parser into states the protocol designers explicitly prohibited.",
+        "pattern": "IF [protocol spec defines MUST/MUST NOT constraint on field size] AND [parser uses data-driven termination for that field] AND [no explicit check enforces the spec limit] THEN [malformed input can push parser into undefined protocol state]",
+        "generalizes_to": [
+          "RFC compliance auditing",
+          "Protocol fuzzing target prioritization",
+          "Specification-driven vulnerability discovery"
+        ]
+      },
+      "pitfalls": [
+        "Assuming that data-driven loop termination (e.g., stop when continuation bit is clear) is equivalent to enforcing the spec limit — these are different constraints",
+        "Only checking the happy path where input happens to comply with the spec, missing that the parser must reject non-compliant input",
+        "Overlooking that 'entering an undefined protocol state' is exploitable even without memory corruption — desynchronization itself is impactful"
+      ],
+      "chain_potential": "Undefined protocol states from spec violations can cascade into desynchronization, enabling packet injection, denial of service, or confusion attacks depending on how the implementation handles subsequent malformed framing",
+      "confidence": "high",
+      "confidence_rationale": "This audit strategy is demonstrated directly in the report and generalizes well — missing MUST constraints are a recurring class of parser bugs across protocols.",
+      "shelf_life": "permanent",
+      "source_id": "495db948ac7b",
+      "extracted_at": "2026-02-18T01:20:58.435820",
+      "id": "ek_0018"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Server-side data fetch + content-type mismatch = reflected XSS via third-party profile",
+      "knowledge": "When an application scrapes or fetches data from an external source (e.g., a user's social media profile) and reflects it through an API endpoint that has an incorrect Content-Type header (text/html instead of application/json), the scraped content is rendered as HTML by browsers when the endpoint is visited directly. The payload resides in the third-party data source rather than in the request to the vulnerable endpoint, creating a stored-like XSS that is triggered via a simple GET request. Escaping performed client-side in the consuming JavaScript is irrelevant when the endpoint itself is browsed directly.",
+      "trigger_condition": [
+        "Discovering an application feature that scrapes or imports data from an external URL or third-party profile",
+        "Observing that the AJAX/API endpoint returns Content-Type: text/html while the response body is actually JSON",
+        "Confirming the endpoint is accessible via direct GET request without CSRF tokens or session-bound restrictions"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Facebook Studio (2013)",
+          "Web applications using server-side scraping of social media profiles"
+        ],
+        "general": [
+          "Web applications with URL/page scraping features",
+          "API endpoints that import external content",
+          "Gallery/submission systems that auto-populate from external sources"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When an application fetches user-controlled data from a third-party source and reflects it through an endpoint with a misconfigured content-type, the combination creates an XSS where the attacker controls the payload indirectly. The attacker sets a malicious value in the source (e.g., their own profile description on another platform), and the vulnerable application fetches and serves it as HTML.",
+        "pattern": "IF [API endpoint fetches data from attacker-controlled external source] AND [endpoint returns Content-Type: text/html while serving JSON/data] AND [endpoint is directly browsable without auth/CSRF] THEN [attacker can achieve XSS by poisoning their external profile data and directing victims to the raw endpoint]",
+        "generalizes_to": [
+          "server-side request forgery reflection patterns",
+          "import/scrape feature XSS",
+          "content-type mismatch exploitation on data aggregation endpoints"
+        ]
+      },
+      "pitfalls": [
+        "Focusing only on whether the client-side JavaScript escapes the data properly, missing that the raw endpoint is directly accessible and renders as HTML",
+        "Assuming that because the consuming page handles data safely, the underlying API endpoint is also safe",
+        "Overlooking the content-type header when the response looks like JSON — browsers respect content-type for rendering decisions"
+      ],
+      "chain_potential": "The indirect payload delivery mechanism means the XSS payload is not visible in server access logs for the vulnerable endpoint, making detection harder. The external data source acts as a payload staging area.",
+      "confidence": "high",
+      "confidence_rationale": "Verified in a real-world Facebook bug bounty finding with confirmed fix. The content-type mismatch pattern is a well-understood root cause, and the chain with external data sourcing is a concrete demonstrated technique.",
+      "shelf_life": "semi-permanent",
+      "source_id": "182b1eeef408",
+      "extracted_at": "2026-02-18T01:22:08.043444",
+      "id": "ek_0019"
+    },
+    {
+      "category": "bypass_technique",
+      "knowledge_type": "offensive",
+      "title": "Browser XSS auditor bypass via server-side fetched payloads",
+      "knowledge": "Chrome's XSS Auditor and IE's XSS Filter operate by comparing the request parameters against the response body to detect reflected XSS. When the XSS payload is not present in the request (URL, body, or headers) but is instead fetched server-side from a third-party source and injected into the response, these client-side protections have no matching input to flag. The payload is effectively invisible to request-response correlation defenses because the malicious content enters the response through a server-side channel, not through the client's request.",
+      "trigger_condition": [
+        "Encountering a reflected XSS scenario where the payload originates from server-side data fetching rather than direct user input in the request",
+        "Observing that the vulnerable endpoint pulls content from an external or database source that the attacker can influence indirectly",
+        "Confirming that the malicious string does not appear anywhere in the HTTP request to the vulnerable page"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Chrome XSS Auditor (deprecated in Chrome 78, but relevant for older targets)",
+          "IE XSS Filter"
+        ],
+        "general": [
+          "Client-side XSS filters that use request-response correlation",
+          "WAFs that only inspect request parameters for XSS patterns",
+          "Security tools that match input to output for reflected XSS detection"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Any XSS defense mechanism that works by correlating the request content with the response content can be bypassed when the payload enters the response through a server-side channel (database lookup, third-party API call, file read) rather than through the attacker's direct request. The defense sees a clean request and fails to flag the malicious response.",
+        "pattern": "IF [XSS defense relies on request-response payload matching] AND [payload is injected into response via server-side data source rather than request parameters] THEN [the defense is bypassed because the malicious content has no corresponding request-side signature]",
+        "generalizes_to": [
+          "WAF bypass via indirect payload injection",
+          "second-order XSS avoiding input filters",
+          "server-side data channel abuse for filter evasion"
+        ]
+      },
+      "pitfalls": [
+        "Assuming this technique still works against Chrome's XSS Auditor — it was removed in Chrome 78 (2019), so this is primarily relevant for IE/legacy browsers or WAFs using similar correlation logic",
+        "Conflating this with stored XSS — the payload is not stored on the vulnerable application itself but on a third-party source, creating a hybrid between reflected and stored XSS",
+        "Forgetting that modern Content Security Policy (CSP) would still block inline script execution regardless of whether the auditor is bypassed"
+      ],
+      "chain_potential": "Combines with content-type mismatch vulnerabilities to create XSS that evades both server-side content-type defenses and client-side auditor defenses simultaneously. Also useful when targeting environments with WAFs that inspect request bodies for XSS patterns.",
+      "confidence": "high",
+      "confidence_rationale": "Demonstrated in a confirmed Facebook bug bounty report. The mechanism (request-response correlation bypass) is well-understood in the security community but the specific application via server-side scraping as a delivery channel is a non-obvious tactical insight.",
+      "shelf_life": "semi-permanent",
+      "source_id": "182b1eeef408",
+      "extracted_at": "2026-02-18T01:22:08.043450",
+      "id": "ek_0020"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Conditional macro write with unconditional pointer adjust pattern",
+      "knowledge": "When a C macro or inline function conditionally writes to a buffer (guarded by a bounds check) but the calling code unconditionally adjusts the pointer afterward (e.g., `ptr -= 2` to 'undo' the writes), the pointer adjustment still executes even when the writes were skipped. This mismatch between conditional accumulation and unconditional correction creates a pointer underflow condition when the buffer is full. The pattern is especially insidious because the adjustment code appears correct when reading the happy path - it only fails when the guard condition suppresses the write.",
+      "trigger_condition": [
+        "Encountering a macro or helper function that conditionally increments a buffer pointer only when space remains",
+        "Observing unconditional pointer arithmetic (decrement/subtraction) on the same pointer immediately after the conditional macro calls",
+        "Discovering a buffer size limit that can be reached through external input (e.g., protocol data filling a fixed-size buffer)"
+      ],
+      "applicable_to": {
+        "specific": [
+          "curl lib/telnet.c CURL_SB_ACCUM macro",
+          "curl telnet suboption handling"
+        ],
+        "general": [
+          "C/C++ codebases with macro-based buffer accumulation",
+          "Protocol parsers with fixed-size suboption buffers",
+          "Any code using conditional-write macros followed by pointer corrections"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When buffer write operations are conditional (guarded by bounds checks) but subsequent pointer adjustments assume the writes always occurred, filling the buffer to capacity causes the adjustments to underflow the pointer. The conditional path and the unconditional correction path become desynchronized at boundary conditions.",
+        "pattern": "IF [macro/function conditionally writes to buffer and advances pointer] AND [calling code unconditionally decrements/adjusts the same pointer assuming writes occurred] THEN [filling the buffer to capacity causes pointer underflow by the adjustment amount]",
+        "generalizes_to": [
+          "conditional_write_unconditional_adjust_desync",
+          "macro_hidden_guard_with_exposed_correction",
+          "buffer_boundary_condition_bugs_in_protocol_parsers"
+        ]
+      },
+      "pitfalls": [
+        "The pattern is invisible during normal code review because the happy path (buffer not full) works correctly - the bug only manifests at the exact boundary condition",
+        "Macros hide the conditionality, making the calling code appear to have a straightforward write-then-adjust pattern",
+        "Static analyzers may not trace through macro expansions to detect the conditional/unconditional mismatch"
+      ],
+      "chain_potential": "Pointer underflow lands on adjacent struct members, potentially enabling information disclosure of heap pointers or other sensitive fields that precede the buffer in the struct layout",
+      "confidence": "high",
+      "confidence_rationale": "The pattern is directly demonstrated in the curl source code with clear root cause analysis; the conditional macro vs unconditional adjustment mismatch is a verifiable code pattern",
+      "shelf_life": "permanent",
+      "source_id": "d9e8c584dfdd",
+      "extracted_at": "2026-02-18T01:23:14.359021",
+      "id": "ek_0021"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Struct-adjacent field leak via intra-struct pointer underflow",
+      "knowledge": "When a pointer underflows within a C struct (pointing before the buffer's start but still within the struct), the read lands on whatever struct fields are declared before the buffer. In structs containing pointer-rich types (like dynamic buffer descriptors with heap addresses) adjacent to fixed-size protocol buffers, an underflow of even 2 bytes can reach into those fields. The subsequent use of the corrupted pointer in length-calculating macros (e.g., `end - start` where start is now before the buffer) produces large wrapped/negative lengths, causing read functions to dump adjacent memory contents. When verbose/debug output is enabled, this leaked data is written to logs or stderr.",
+      "trigger_condition": [
+        "Discovering a pointer underflow primitive within a struct containing both fixed-size buffers and pointer/heap-referencing fields",
+        "Observing that the struct layout places sensitive fields (heap pointers, dynamic buffer descriptors) immediately before the vulnerable fixed-size buffer",
+        "Discovering that a length-calculation macro uses pointer subtraction on the corrupted pointers, and the result feeds into a read/print function"
+      ],
+      "applicable_to": {
+        "specific": [
+          "curl TELNET struct with dynbuf out adjacent to subbuffer[512]",
+          "curl printsub() verbose output path"
+        ],
+        "general": [
+          "C protocol handlers with struct-embedded fixed buffers",
+          "Network protocol implementations with debug/verbose output modes",
+          "Any C struct where pointer-containing metadata is adjacent to data buffers"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "A buffer pointer underflow within a struct turns a buffer-related bug into an information disclosure of struct fields that precede the buffer in memory. When those fields contain heap pointers or other sensitive metadata, and the application has a verbose/debug output path that renders the buffer contents, the leaked data becomes visible to the attacker. The severity multiplies when the leaked pointers can be used for ASLR bypass in a chained exploit.",
+        "pattern": "IF [pointer underflow occurs within a struct-embedded buffer] AND [struct fields preceding the buffer contain heap pointers or sensitive data] AND [a read/print function consumes the corrupted pointer range] THEN [adjacent struct field contents are disclosed, potentially leaking heap layout information]",
+        "generalizes_to": [
+          "intra_struct_information_disclosure",
+          "debug_output_as_side_channel",
+          "pointer_leak_for_aslr_bypass_chaining"
+        ]
+      },
+      "pitfalls": [
+        "The leaked data is only visible when verbose/debug mode is active, so the vulnerability may appear unexploitable in default configurations",
+        "Struct field ordering can vary between compiler versions and optimization levels, making the exact fields reached by underflow platform-dependent",
+        "ASLR bypass value of leaked pointers depends on the target having additional exploitable vulnerabilities to chain with"
+      ],
+      "chain_potential": "Leaked heap pointers from the struct field disclosure can defeat ASLR, enabling exploitation of separate memory corruption vulnerabilities that require known addresses",
+      "confidence": "medium",
+      "confidence_rationale": "The struct layout and underflow mechanics are verified in curl source, but the practical exploitability of the leak depends on verbose mode being enabled and on specific compiler struct layout decisions",
+      "shelf_life": "permanent",
+      "source_id": "d9e8c584dfdd",
+      "extracted_at": "2026-02-18T01:23:14.359027",
+      "id": "ek_0022"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Inconsistent control character rejection across protocol handler parsing functions indicates injection surfaces",
+      "knowledge": "In libcurl's SMTP handler, the `smtp_parse_address` function (handling CURLOPT_MAIL_FROM, CURLOPT_MAIL_RCPT, CURLOPT_MAIL_AUTH) lacks the REJECT_CTRL validation that is present in other SMTP input paths such as custom request handling. When a library applies control character filtering in some protocol parsing paths but not others, the unprotected paths are injection surfaces. The 'suffix' component parsed by smtp_parse_address is concatenated directly into raw protocol commands via Curl_pp_sendf without sanitization.",
+      "trigger_condition": [
+        "Observing that a protocol client library has multiple input parsing functions for the same protocol (e.g., separate parsers for address fields vs. custom commands)",
+        "Discovering that one parsing path applies control character rejection (like REJECT_CTRL or equivalent) while another does not",
+        "Confirming that the unvalidated output is concatenated into raw protocol command strings"
+      ],
+      "applicable_to": {
+        "specific": [
+          "libcurl SMTP handler",
+          "curl CURLOPT_MAIL_FROM/CURLOPT_MAIL_RCPT/CURLOPT_MAIL_AUTH"
+        ],
+        "general": [
+          "Protocol client libraries with multiple input parsing paths",
+          "Libraries using shared formatting functions (like pingpong sendf) with inconsistent input validation"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a protocol client library has multiple entry points that feed into the same protocol command construction, inconsistent input validation across those entry points creates injection surfaces. The presence of validation in one path serves as evidence that the developers recognized the risk, making unvalidated paths likely oversights rather than intentional design.",
+        "pattern": "IF [a protocol library validates control characters in one parsing function] AND [a sibling parsing function for the same protocol lacks equivalent validation] THEN [the unvalidated function is a CRLF/command injection surface]",
+        "generalizes_to": [
+          "protocol_client_library_auditing",
+          "input_validation_consistency_analysis",
+          "CRLF_injection_in_text_based_protocols"
+        ]
+      },
+      "pitfalls": [
+        "Assuming that because one input path is validated, all paths must be — the inconsistency IS the vulnerability",
+        "Only checking the obvious input fields (like custom commands) and missing structured fields (like email address components) that are decomposed into sub-parts before concatenation",
+        "Missing that the 'suffix' portion of a parsed address (everything after the email in angle brackets) may be passed through unfiltered even when the core address is validated"
+      ],
+      "chain_potential": "The CRLF injection enables protocol desynchronization when combined with missing overflow detection in response handlers, escalating from injection to full command smuggling with misattributed responses",
+      "confidence": "high",
+      "confidence_rationale": "Directly demonstrated in the report with code-level evidence from libcurl source; the inconsistency pattern between REJECT_CTRL usage across functions is a concrete, verifiable observation",
+      "shelf_life": "semi-permanent",
+      "source_id": "00425dc3feaa",
+      "extracted_at": "2026-02-18T01:24:48.313020",
+      "id": "ek_0023"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "CRLF injection + missing pingpong overflow check enables protocol desynchronization with misattributed responses",
+      "knowledge": "In libcurl's SMTP implementation, the pingpong mechanism (lib/pingpong.c) sends one command and expects one response. When CRLF injection causes multiple commands to be sent in a single write, the server returns multiple responses. The STARTTLS handler correctly checks the `pp.overflow` flag to detect extra buffered responses, but the MAIL, RCPT, and DATA response handlers (at lines ~1152, ~1173, ~1233 in smtp.c) do not check this flag. This means injected command responses remain in the buffer and are consumed as responses to subsequent legitimate commands, causing curl to report success or failure based on responses to smuggled commands rather than the actual commands it intended to send.",
+      "trigger_condition": [
+        "Discovering a request-response protocol client that uses a sequential 'send one, read one' state machine pattern (pingpong-style)",
+        "Observing that some state handlers check for extra/overflow buffered data while others do not",
+        "Confirming that an injection point exists that allows multiple protocol commands to be sent in a single transmission"
+      ],
+      "applicable_to": {
+        "specific": [
+          "libcurl pingpong protocol handler (lib/pingpong.c)",
+          "libcurl SMTP state machine (lib/smtp.c)",
+          "curl SMTP operations"
+        ],
+        "general": [
+          "Protocol client libraries using sequential request-response state machines",
+          "FTP/SMTP/POP3/IMAP clients with line-based command-response patterns",
+          "Any pingpong-style protocol handler"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a protocol client uses a strict one-command-one-response state machine and an attacker can inject additional commands, the server's extra responses accumulate in the receive buffer. If the client does not verify that no extra data exists after reading an expected response, subsequent state transitions consume the stale buffered responses instead of the actual server replies to legitimate commands. This desynchronizes the client's understanding of the protocol state from reality, allowing the attacker to control what the client believes succeeded or failed.",
+        "pattern": "IF [a protocol client uses sequential send-one-read-one state machine] AND [CRLF injection allows multiple commands in one send] AND [response handlers do not check for extra buffered data] THEN [client-server protocol state becomes desynchronized and the client misattributes responses to wrong commands]",
+        "generalizes_to": [
+          "protocol_desynchronization_attacks",
+          "response_smuggling_in_text_protocols",
+          "state_machine_confusion_via_buffer_pollution",
+          "FTP_command_injection_via_similar_pingpong_patterns"
+        ]
+      },
+      "pitfalls": [
+        "Assuming CRLF injection alone is the full impact — without the missing overflow check, the client would likely error on unexpected responses rather than silently misattribute them",
+        "Testing only with simple single-command injection and missing the desynchronization effect that requires observing multi-step protocol interaction",
+        "Overlooking that libcurl uses the same pingpong mechanism for FTP, POP3, and IMAP — similar overflow check inconsistencies may exist in those protocol handlers",
+        "Crafting injection payloads that produce response codes mismatched with what the state machine expects, causing an error instead of silent desynchronization — the attacker must align injected response codes with the expected state transitions"
+      ],
+      "chain_potential": "The desynchronization enables silent email fraud where curl reports successful delivery to legitimate recipients while actually having delivered to smuggled recipients, and can be leveraged as an SSRF vector to tunnel commands into internal SMTP relays",
+      "confidence": "high",
+      "confidence_rationale": "The report provides specific code line references showing the presence of pp.overflow checking in STARTTLS and its absence in MAIL/RCPT/DATA handlers, with a working PoC demonstrating the desynchronization",
+      "shelf_life": "semi-permanent",
+      "source_id": "00425dc3feaa",
+      "extracted_at": "2026-02-18T01:24:48.313025",
+      "id": "ek_0024"
+    },
+    {
+      "category": "tactical_priority",
+      "knowledge_type": "offensive",
+      "title": "When auditing pingpong protocol handlers, diff the overflow/extra-data checks across all state handlers",
+      "knowledge": "In libcurl's pingpong-based protocol handling, the presence of a `pp.overflow` check in the STARTTLS handler but not in MAIL/RCPT/DATA handlers reveals that the defensive pattern was known to the developers but inconsistently applied. When auditing any protocol client library that uses a shared response-reading mechanism, the most efficient approach is to identify all state handler functions and diff which ones implement extra-data/overflow detection versus which ones skip it. The handlers that skip the check are the highest-priority injection targets because they allow silent desynchronization rather than error-causing failures.",
+      "trigger_condition": [
+        "Encountering a protocol client library that uses a shared request-response reading mechanism (like libcurl's pingpong) across multiple protocol states",
+        "Discovering that at least one state handler implements an overflow or extra-data safety check",
+        "Observing that the protocol accepts user-controlled input that flows into command construction"
+      ],
+      "applicable_to": {
+        "specific": [
+          "libcurl lib/pingpong.c and all protocol handlers using it (SMTP, FTP, POP3, IMAP)",
+          "libcurl pp.overflow flag"
+        ],
+        "general": [
+          "Protocol client libraries with shared response-parsing infrastructure",
+          "Any client using sequential state machines for text-based protocols"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a security check exists in one handler of a shared protocol mechanism but is absent in sibling handlers, the inconsistency itself is the signal. The existing check proves the developers knew about the risk class, and every handler missing that check is a candidate vulnerability. Systematically diffing all handlers against the one with the check is far more efficient than blind fuzzing.",
+        "pattern": "IF [a shared protocol mechanism has a safety check in one state handler] AND [sibling state handlers lack the same check] THEN [the unchecked handlers are high-priority targets for the exact attack class the check was meant to prevent]",
+        "generalizes_to": [
+          "security_check_consistency_auditing",
+          "protocol_handler_review_methodology",
+          "defensive_code_pattern_diffing"
+        ]
+      },
+      "pitfalls": [
+        "Assuming the overflow check was added proactively rather than reactively — it may have been added for STARTTLS specifically due to TLS upgrade sensitivity and not considered for other states",
+        "Only checking the same protocol (SMTP) and missing that libcurl's pingpong mechanism is shared across FTP, POP3, and IMAP, which may have similar inconsistencies",
+        "Focusing only on the overflow flag and missing other inconsistent safety patterns in the same codebase"
+      ],
+      "chain_potential": "Identifying all unprotected pingpong state handlers across libcurl's supported protocols could reveal similar desynchronization vulnerabilities in FTP, POP3, and IMAP handlers",
+      "confidence": "high",
+      "confidence_rationale": "The specific inconsistency between STARTTLS and MAIL/RCPT/DATA handlers is documented with exact line numbers in the report, and the audit methodology of diffing safety checks across sibling handlers is a proven technique",
+      "shelf_life": "permanent",
+      "source_id": "00425dc3feaa",
+      "extracted_at": "2026-02-18T01:24:48.313028",
+      "id": "ek_0025"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Inconsistent format specifier usage as over-read signal",
+      "knowledge": "When a codebase correctly uses precision-limited format specifiers (e.g., %.*s) for non-null-terminated buffers in one code path but uses unbounded %s in another code path within the same file, the inconsistent path is likely a buffer over-read vulnerability. In curl's lib/http2.c, the trailer-handling code correctly used %.*s with length parameters from nghttp2, while the PUSH_PROMISE handling used bare %s on the same type of non-null-terminated buffer pointers, indicating the PUSH_PROMISE path was written or reviewed with less rigor.",
+      "trigger_condition": [
+        "Observing a C/C++ codebase that processes callback data from a library providing non-null-terminated buffers with explicit length parameters",
+        "Discovering that some code paths in the same file use precision specifiers (%.*s) while others use bare %s on the same buffer type",
+        "Confirming that the inconsistent code path handles a less common or default-disabled feature"
+      ],
+      "applicable_to": {
+        "specific": [
+          "curl/libcurl",
+          "nghttp2 on_header callback",
+          "HTTP/2 PUSH_PROMISE handling"
+        ],
+        "general": [
+          "C libraries processing protocol callbacks",
+          "HTTP/2 implementations",
+          "Any code using printf-family functions on length-delimited buffers"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Within a single source file handling multiple subtypes of the same event callback, if the common subtypes correctly apply bounds-checked formatting but a rarer subtype does not, the rarer subtype likely has a buffer over-read. Developers often get the pattern right for the primary code path but miss it on secondary paths that share the same raw pointer contract.",
+        "pattern": "IF [same callback provides non-null-terminated buffers] AND [common frame type handler uses %.*s correctly] AND [rare frame type handler uses %s on same buffer type] THEN [rare path has heap buffer over-read]",
+        "generalizes_to": [
+          "protocol_parser_auditing",
+          "callback_handler_consistency_review",
+          "format_string_safety_auditing"
+        ]
+      },
+      "pitfalls": [
+        "Assuming that if one code path in a file handles buffers correctly, all paths do - developers copy-paste patterns inconsistently",
+        "Only auditing the most common frame type handlers and skipping rarely-triggered ones like PUSH_PROMISE",
+        "Missing the vulnerability because the inconsistency is separated by hundreds of lines in the same file"
+      ],
+      "chain_potential": "The over-read can leak adjacent heap data into header strings that may be logged or forwarded, enabling information disclosure from a client application's memory",
+      "confidence": "high",
+      "confidence_rationale": "Verified in curl source code; the fix is straightforward and the inconsistency is directly observable by diffing format specifier usage across frame type handlers in the same file",
+      "shelf_life": "permanent",
+      "source_id": "d9e9dcd48ec3",
+      "extracted_at": "2026-02-18T01:26:18.645686",
+      "id": "ek_0026"
+    },
+    {
+      "category": "tactical_priority",
+      "knowledge_type": "offensive",
+      "title": "Default-disabled protocol features as high-value audit targets",
+      "knowledge": "Protocol features that are disabled by default in the most common client interface (e.g., HTTP/2 Server Push is disabled in curl CLI) but enabled in library usage (libcurl) tend to have less battle-tested code paths. These paths receive minimal fuzzing and real-world exercise, making them disproportionately likely to contain memory safety bugs. In curl, the PUSH_PROMISE handling code had a format string vulnerability that survived in the same file where the heavily-exercised trailer path was correctly implemented.",
+      "trigger_condition": [
+        "Encountering a protocol library that exposes features disabled by default in its primary CLI or reference client",
+        "Observing that the feature is still available and enabled in the library API used by third-party applications",
+        "Discovering that the default-disabled feature's code path handles the same types of untrusted input as the well-tested paths"
+      ],
+      "applicable_to": {
+        "specific": [
+          "curl/libcurl HTTP/2 push support",
+          "nghttp2-based HTTP/2 implementations"
+        ],
+        "general": [
+          "Protocol libraries with CLI wrappers",
+          "HTTP/2 implementations",
+          "Any library where default configuration differs between CLI and API usage"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a protocol implementation's primary interface disables a feature by default, the code implementing that feature receives dramatically less real-world testing. If the library API still allows enabling it, applications using that API inherit undertested code paths that may contain vulnerabilities absent from the well-exercised default paths.",
+        "pattern": "IF [feature disabled by default in primary client] AND [feature available via library API] AND [feature handles same untrusted input types as tested paths] THEN [feature's code path is disproportionately likely to contain bugs]",
+        "generalizes_to": [
+          "protocol_feature_attack_surface_prioritization",
+          "library_vs_cli_security_gap_analysis",
+          "undertested_code_path_identification"
+        ]
+      },
+      "pitfalls": [
+        "Dismissing default-disabled features as unexploitable without checking if downstream library consumers enable them",
+        "Assuming the feature is entirely dead code when it may be activated by server-initiated negotiation or library-level configuration",
+        "Focusing only on features visible in CLI help output rather than auditing the full library API surface"
+      ],
+      "chain_potential": "Identifying undertested paths provides a focused attack surface for finding memory corruption, which can chain with information disclosure or denial of service depending on how the calling application handles the corrupted data",
+      "confidence": "high",
+      "confidence_rationale": "This pattern is well-demonstrated by the curl PUSH_PROMISE case and generalizes to many protocol libraries where CLI and library exposure diverge; similar patterns have appeared in OpenSSL optional extensions and other network libraries",
+      "shelf_life": "permanent",
+      "source_id": "d9e9dcd48ec3",
+      "extracted_at": "2026-02-18T01:26:18.645694",
+      "id": "ek_0027"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Server-initiated frame + non-null-terminated callback buffer = client over-read",
+      "knowledge": "In HTTP/2, PUSH_PROMISE is a server-initiated frame that causes the client to process attacker-controlled header names and values via the nghttp2 on_header callback. The callback provides raw pointers with separate length fields (not null-terminated). When client code concatenates these into strings using printf-family functions without precision specifiers, a malicious server can trigger heap over-reads on the client by sending PUSH_PROMISE frames with crafted headers. The over-read size is unbounded (reads until a null byte in heap), potentially causing OOM crashes or leaking heap contents into the constructed header string.",
+      "trigger_condition": [
+        "Encountering an HTTP/2 client implementation that accepts server push (PUSH_PROMISE)",
+        "Observing that the client processes pushed headers through a callback providing non-null-terminated buffers",
+        "Discovering that the header assembly code uses unbounded string operations (sprintf %s, strcpy, strcat) on these buffers"
+      ],
+      "applicable_to": {
+        "specific": [
+          "curl/libcurl with nghttp2",
+          "Any nghttp2-based HTTP/2 client implementation"
+        ],
+        "general": [
+          "HTTP/2 client implementations",
+          "Protocol clients processing server-initiated frames",
+          "Callback-based protocol parsing libraries in C/C++"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Server-initiated protocol frames (push promises, server-sent events, unsolicited notifications) give attackers a vector to inject data into client-side processing paths. When these paths use a callback API that provides length-delimited (non-null-terminated) buffers, and the consuming code treats them as C strings, the server can trigger unbounded heap reads on the client.",
+        "pattern": "IF [server can initiate frames containing attacker-controlled data] AND [client callback receives non-null-terminated buffers with length] AND [client code uses C string operations without length bounds] THEN [malicious server triggers heap over-read on client]",
+        "generalizes_to": [
+          "server_initiated_frame_client_exploitation",
+          "callback_api_contract_violation_exploitation",
+          "protocol_downgrade_to_memory_corruption"
+        ]
+      },
+      "pitfalls": [
+        "Assuming HTTP/2 push is never enabled - many library-level consumers (web browsers, API clients) may enable it",
+        "Testing only with well-behaved servers that happen to send null-terminated data, masking the bug",
+        "Overlooking that the over-read data may end up in logs, error messages, or forwarded headers, creating a secondary information disclosure channel"
+      ],
+      "chain_potential": "The over-read string is stored as a header value, which may be logged by the application (leaking heap data to log files), forwarded to upstream services (leaking data cross-service), or cause OOM when the over-read spans megabytes of heap until finding a null byte",
+      "confidence": "high",
+      "confidence_rationale": "Directly verified in curl source code with ASAN-confirmed reproduction; the nghttp2 documentation explicitly states buffers are not null-terminated, making this a documented API contract violation",
+      "shelf_life": "semi-permanent",
+      "source_id": "d9e9dcd48ec3",
+      "extracted_at": "2026-02-18T01:26:18.645696",
+      "id": "ek_0028"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Vendor-patched XSS regression via payload variant in CMS settings APIs",
+      "knowledge": "When a CMS vendor claims to have patched a stored XSS vulnerability in a settings API endpoint, the fix is often payload-specific rather than implementing proper output encoding. The original proof-of-concept payload may be blocked while variant payloads (e.g., different script block closure/injection sequences) remain effective. In Ghost Blog, the XSS patched in v0.5.9 was reachable again from at least v1.24.9 through v2.2.0 because the remediation addressed the specific payload rather than the root cause of unsanitized rendering of settings values into page templates.",
+      "trigger_condition": [
+        "Encountering a CMS or web application that previously disclosed and 'patched' a stored XSS in its settings or configuration API",
+        "Observing that the original PoC payload from the prior disclosure no longer triggers execution",
+        "Discovering that the settings values (logo URLs, header/footer injection fields, image paths) are still rendered directly into HTML templates without context-aware output encoding"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Ghost Blog v1.24.9 through v2.2.0",
+          "Ghost API /ghost/api/v0.1/settings/"
+        ],
+        "general": [
+          "Node.js CMS platforms",
+          "Blog platforms with theme/template rendering",
+          "Any CMS with admin-configurable site-wide settings rendered into HTML"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a content management system patches a stored XSS by blocking a specific payload pattern rather than implementing proper context-aware output encoding at the template rendering layer, the vulnerability is likely to be re-exploitable with payload variants. The fix addresses symptoms rather than the root cause, making regression inevitable across version upgrades or when new features touch the same rendering path.",
+        "pattern": "IF [CMS has prior XSS disclosure in settings/config endpoint] AND [original PoC payload is blocked but values still rendered into HTML without encoding] THEN [variant payloads closing/reopening script or tag contexts are likely to succeed]",
+        "generalizes_to": [
+          "CMS stored XSS regression testing",
+          "patch validation for output encoding vulnerabilities",
+          "settings API security in template-rendering platforms"
+        ]
+      },
+      "pitfalls": [
+        "Assuming a vendor's patch actually addressed the root cause rather than just blocking the specific reported payload",
+        "Stopping testing after confirming the original PoC no longer works, rather than trying variant payloads",
+        "Overlooking that template rendering contexts differ between fields - logo may render in an img src attribute context while ghost_head renders in a raw script context, requiring different payload variants"
+      ],
+      "chain_potential": "A regression XSS in site-wide settings means every page served by the CMS executes the payload, enabling credential harvesting, session hijacking of other admins, or watering-hole attacks against all site visitors if an admin account is compromised through any means",
+      "confidence": "medium",
+      "confidence_rationale": "Confirmed in one specific product (Ghost) across multiple versions, but the pattern of payload-specific XSS patches rather than root-cause fixes is commonly observed across CMS platforms",
+      "shelf_life": "semi-permanent",
+      "source_id": "7fcc43dff61c",
+      "extracted_at": "2026-02-18T01:28:13.467685",
+      "id": "ek_0029"
+    },
+    {
+      "category": "bypass_technique",
+      "knowledge_type": "offensive",
+      "title": "Partial JSON body in PUT settings APIs accepts subset of fields",
+      "knowledge": "CMS settings APIs that accept PUT requests with JSON bodies often do not require the complete settings object to be submitted. Sending only the targeted parameter (e.g., a single field like 'logo' or 'cover_image') with a malicious value is sufficient for the server to process and persist the change. This means an attacker does not need to know or reconstruct the full settings schema to exploit injection points in any individual field.",
+      "trigger_condition": [
+        "Encountering a CMS or application settings API that accepts PUT requests with a JSON body containing multiple configuration fields",
+        "Observing that the API returns a large settings object with many fields on GET requests",
+        "Discovering that the API does not enforce schema validation requiring all fields to be present in PUT/PATCH requests"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Ghost Blog API /ghost/api/v0.1/settings/"
+        ],
+        "general": [
+          "RESTful CMS settings APIs",
+          "JSON-based configuration endpoints",
+          "Node.js Express-based API frameworks with permissive body parsing"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Configuration or settings endpoints in web applications frequently accept partial updates even when the HTTP method is PUT (which semantically implies full resource replacement). This permissive behavior reduces the prerequisite knowledge an attacker needs - instead of reconstructing the entire settings schema, they can target individual fields for injection. This is especially useful when combined with stored XSS or injection into fields that are rendered application-wide.",
+        "pattern": "IF [settings API accepts PUT with JSON body] AND [multiple fields exist in the settings object] THEN [submitting only the targeted field with a malicious value is likely sufficient for persistence]",
+        "generalizes_to": [
+          "API input validation testing",
+          "stored injection via partial resource updates",
+          "REST API semantic method handling weaknesses"
+        ]
+      },
+      "pitfalls": [
+        "Assuming PUT strictly requires the full resource representation - many implementations treat PUT like PATCH for backwards compatibility or developer convenience",
+        "Failing to test individual fields in isolation, which may reveal that some fields have stricter validation than others",
+        "Sending all fields when only one is needed, which may trigger validation errors on unrelated fields and mask the actual vulnerability"
+      ],
+      "chain_potential": "Reduces exploitation complexity for stored XSS or injection attacks by eliminating the need to enumerate and correctly populate all settings fields, making automated exploitation more reliable",
+      "confidence": "medium",
+      "confidence_rationale": "Directly confirmed in Ghost Blog, and consistent with common REST API implementation patterns where frameworks like Express merge partial JSON bodies into existing objects",
+      "shelf_life": "semi-permanent",
+      "source_id": "7fcc43dff61c",
+      "extracted_at": "2026-02-18T01:28:13.467691",
+      "id": "ek_0030"
+    },
+    {
+      "category": "tactical_priority",
+      "knowledge_type": "offensive",
+      "title": "First-visit-only parameters as hidden XSS attack surface",
+      "knowledge": "Web applications that display one-time UI elements to new visitors (age verification gates, compliance popups, onboarding flows, cookie consent dialogs) frequently inject additional URL parameters that are only present during that first interaction. These parameters are under-tested because most bug hunters browse a site in an authenticated/returning-user state before beginning testing, meaning these parameters never appear in their workflow. The attack surface of these ephemeral parameters is disproportionately likely to contain reflected XSS because they receive less scrutiny from both internal QA and external researchers.",
+      "trigger_condition": [
+        "Encountering a web application that has a first-visit gate, age verification popup, compliance dialog, or onboarding flow before main content access",
+        "Observing that the URL changes or gains new parameters after interacting with the first-visit element (e.g., a compliancePop, gateway, or welcome parameter appears)",
+        "Discovering that these parameters are absent when revisiting the site in the same browser session"
+      ],
+      "applicable_to": {
+        "specific": [
+          "PornHub Premium (age gate compliance popup)",
+          "Adult content platforms with age verification"
+        ],
+        "general": [
+          "Any web application with first-visit-only UI flows",
+          "Sites with age/compliance/GDPR gates",
+          "SaaS onboarding wizards",
+          "E-commerce first-visit discount popups"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Applications that conditionally inject URL parameters based on session state (first visit, unauthenticated, specific user segment) create attack surface that is invisible to testers who have already established a session. Testing from a fresh/incognito state reveals parameters and input vectors that are hidden from returning visitors, and these parameters tend to be less hardened because they receive less testing attention.",
+        "pattern": "IF [application shows one-time UI elements to new visitors] AND [URL parameters change after interacting with those elements] THEN [those ephemeral parameters are disproportionately likely to be vulnerable to injection because they are undertested]",
+        "generalizes_to": [
+          "session-state-dependent parameter injection",
+          "conditional UI flow testing",
+          "attack surface that varies by user state or segment",
+          "any feature gated behind a one-time interaction"
+        ]
+      },
+      "pitfalls": [
+        "Forgetting to clear cookies/use incognito for each test iteration, causing the first-visit flow to not trigger again",
+        "Assuming that because the main application input fields are well-sanitized, ancillary one-time parameters receive the same sanitization pipeline",
+        "Only testing the visible form inputs on the gate page while ignoring URL parameters that were silently added during the redirect"
+      ],
+      "chain_potential": "First-visit parameters with reflected XSS can be weaponized against all new visitors since victims by definition have not yet established a session - making phishing links more credible as the victim expects to see a gate/verification page",
+      "confidence": "medium",
+      "confidence_rationale": "Demonstrated in one public report on a major platform; the pattern is logical and consistent with the general principle that less-tested code paths have more bugs, but limited to a single confirmed instance in this writeup",
+      "shelf_life": "semi-permanent",
+      "source_id": "b58b3320fbf1",
+      "extracted_at": "2026-02-18T01:29:04.244425",
+      "id": "ek_0031"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "Fragment-routed AJAX + unanchored regex domain check = CORS-based XSS",
+      "knowledge": "When a single-page application uses URL fragment routing to load pages via AJAX, and the domain validation regex is not anchored to the start of the string (e.g., /m\\.flickr\\.com/ instead of /^https?:\\/\\/m\\.flickr\\.com/), the validation can be satisfied by placing the target domain string anywhere in an attacker-controlled URL (such as a query parameter value). Combined with CORS headers on the attacker's server and the application inserting AJAX responses via innerHTML, this creates a full XSS chain where the attacker's external content is fetched cross-origin and rendered in the target application's DOM context.",
+      "trigger_condition": [
+        "Observing a single-page application that loads page content via AJAX based on URL fragment values",
+        "Discovering a domain validation regex in client-side JavaScript that lacks start-of-string anchoring (^ anchor)",
+        "Confirming the AJAX response body is inserted into the DOM via innerHTML or similar unsanitized method"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Flickr mobile (m.flickr.com)",
+          "Fragment-based SPA routing circa 2013"
+        ],
+        "general": [
+          "Single-page applications with fragment-based routing",
+          "Client-side URL validation in AJAX loaders",
+          "Pre-pushState SPAs using hash routing"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When an application validates that a URL belongs to a trusted domain using a regex that is not anchored to the beginning of the string, an attacker can satisfy the check by embedding the trusted domain string elsewhere in a URL pointing to attacker-controlled infrastructure. If the application then fetches that URL cross-origin (enabled by CORS) and renders the response unsafely, the attacker achieves code execution in the application's origin.",
+        "pattern": "IF [client-side URL validation uses unanchored domain regex] AND [validated URL is fetched via AJAX] AND [response is inserted via innerHTML] THEN [attacker can serve malicious content from external domain that includes the trusted domain string as a parameter value, achieving XSS]",
+        "generalizes_to": [
+          "client-side URL validation bypass",
+          "CORS-assisted content injection",
+          "fragment-routing security in SPAs",
+          "regex-based allowlist bypass patterns"
+        ]
+      },
+      "pitfalls": [
+        "Assuming a domain regex provides security without checking for ^ anchor — many developers visually verify 'does it check the domain' without noticing the missing anchor",
+        "Forgetting that the attacker's server must return proper CORS headers (Access-Control-Allow-Origin, Access-Control-Allow-Headers) for the cross-origin AJAX request to succeed",
+        "Missing that the leading-slash prepend logic can be bypassed with protocol-relative URLs (//attacker.com) — a double slash passes a 'starts with slash' check while being a valid cross-origin URL",
+        "Overlooking that additional Access-Control-Allow-Headers may be needed to prevent JavaScript parsing errors in the application's AJAX handler"
+      ],
+      "chain_potential": "The innerHTML injection enables full XSS, which can be chained into session hijacking, CSRF token theft, or API abuse within the authenticated session on the target origin",
+      "confidence": "high",
+      "confidence_rationale": "Verified in a real-world bug bounty finding on Flickr (Yahoo), with complete exploit chain demonstrated and fix confirmed",
+      "shelf_life": "semi-permanent",
+      "source_id": "a13d1c7ff2bb",
+      "extracted_at": "2026-02-18T01:31:55.272885",
+      "id": "ek_0032"
+    },
+    {
+      "category": "bypass_technique",
+      "knowledge_type": "offensive",
+      "title": "Satisfying unanchored domain regex via query parameter embedding",
+      "knowledge": "An unanchored domain validation regex (one missing the ^ start anchor) can be satisfied by placing the required domain string as a query parameter value in an attacker-controlled URL. For example, a regex checking for 'm.flickr.com' anywhere in a URL is satisfied by '//attacker.com/page?bypass=m.flickr.com'. This works because regex engines search the entire string by default. The technique is especially effective when combined with protocol-relative URLs (//) that also bypass 'starts with slash' checks while resolving to the attacker's server.",
+      "trigger_condition": [
+        "Discovering a client-side regex that validates a URL against a domain pattern without ^ anchoring",
+        "Observing that the code also checks for a leading slash character but does not distinguish single slash from double slash (protocol-relative URL)",
+        "Confirming the validated URL is subsequently used in a fetch/AJAX call rather than just navigation"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Flickr mobile SPA routing",
+          "JavaScript URL validation with RegExp.test()"
+        ],
+        "general": [
+          "Any client-side or server-side URL allowlist using unanchored regex",
+          "URL validation in redirect parameters",
+          "Domain validation in postMessage origin checks",
+          "OAuth redirect_uri validation"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a system validates that a URL contains a trusted domain string using regex without anchoring to the start, the trusted string can be embedded as a query parameter, path segment, or subdomain of an attacker-controlled URL to pass the check while the URL still resolves to the attacker's server.",
+        "pattern": "IF [URL validation regex lacks ^ anchor] AND [attacker controls the full URL structure] THEN [trusted domain string can be placed in query parameters or path while URL resolves to attacker infrastructure]",
+        "generalizes_to": [
+          "regex-based URL allowlist bypasses",
+          "OAuth redirect_uri validation bypasses",
+          "SSRF URL filter bypasses",
+          "open redirect filter bypasses"
+        ]
+      },
+      "pitfalls": [
+        "The dot character in domain regex (e.g., m.flickr.com) often is not escaped, meaning 'mXflickrYcom' would also match — but exploiting this is rarely needed when the query parameter technique works",
+        "Some implementations may parse the URL before regex matching, extracting just the hostname — in that case this bypass fails and a different approach is needed",
+        "Protocol-relative URLs (//) may be blocked by some URL parsers or CSP policies, requiring alternative bypass approaches"
+      ],
+      "chain_potential": "Enables loading attacker-controlled content in the context of the target application, which can be chained with DOM-based injection sinks (innerHTML, document.write, eval) for XSS",
+      "confidence": "high",
+      "confidence_rationale": "This is a well-established regex bypass pattern verified across multiple bug bounty reports, and the specific query-parameter embedding technique is a proven reliable method",
+      "shelf_life": "permanent",
+      "source_id": "a13d1c7ff2bb",
+      "extracted_at": "2026-02-18T01:31:55.272893",
+      "id": "ek_0033"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Fragment-based AJAX routing signals potential CORS-assisted content injection",
+      "knowledge": "When a web application uses URL fragment (hash) routing to determine which content to load via AJAX (common in pre-pushState SPAs), the AJAX loading function typically contains URL validation logic that may be bypassable. The presence of fragment-based routing combined with AJAX content loading is a strong signal that the application may be vulnerable to content injection if the URL validation has flaws, because: (1) the fragment value is fully attacker-controlled via crafted links, (2) AJAX requests can be made cross-origin with CORS, and (3) AJAX responses are commonly inserted into the DOM unsafely. This pattern is distinct from modern pushState routing which typically uses server-side routing and is less likely to have client-side-only URL validation.",
+      "trigger_condition": [
+        "Observing a web application where page navigation updates location.hash and triggers AJAX content loading",
+        "Discovering that the JavaScript reads location.hash and passes it to an AJAX fetch function",
+        "Noticing client-side URL validation (regex or string checks) in the AJAX loading path rather than server-side enforcement"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Flickr mobile (m.flickr.com)",
+          "jQuery Mobile-era SPAs",
+          "Pre-2014 AJAX-heavy mobile web applications"
+        ],
+        "general": [
+          "Single-page applications with fragment routing",
+          "Legacy mobile web applications",
+          "Any application loading content via AJAX based on user-controlled URL input"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Applications that use client-controlled URL fragments to determine AJAX content sources are inherently trusting client input for content origin decisions. When the validation of that input occurs only in client-side JavaScript (which the attacker can study), any flaw in the validation creates a direct path to content injection in the application's DOM.",
+        "pattern": "IF [application uses fragment-based AJAX content loading] AND [URL validation is client-side only] THEN [validation logic is fully visible to attacker and any bypass leads to cross-origin content injection]",
+        "generalizes_to": [
+          "client-side routing security assessment",
+          "AJAX content loading attack surface",
+          "client-side-only security control bypass"
+        ]
+      },
+      "pitfalls": [
+        "Modern SPAs using pushState may still have similar patterns but with different URL handling — the absence of fragment routing does not mean the application is safe from similar issues",
+        "Some fragment-routed applications use server-side proxies for AJAX requests, which would prevent direct CORS-based exploitation",
+        "The CORS preflight (OPTIONS request) may fail if the attacker's server is not properly configured, causing the exploit to silently fail without obvious error"
+      ],
+      "chain_potential": "Identifying this pattern focuses subsequent testing on the specific URL validation logic, which if bypassed enables serving attacker content into the application's DOM for XSS",
+      "confidence": "medium",
+      "confidence_rationale": "Fragment-based AJAX routing is increasingly rare in modern applications, but the pattern remains relevant for legacy applications and the underlying principle transfers to modern client-side routing",
+      "shelf_life": "semi-permanent",
+      "source_id": "a13d1c7ff2bb",
+      "extracted_at": "2026-02-18T01:31:55.272895",
+      "id": "ek_0034"
+    },
+    {
+      "category": "chain_pattern",
+      "knowledge_type": "offensive",
+      "title": "XSS to RCE chain in Electron-based desktop apps via Node.js bridge",
+      "knowledge": "Desktop applications built on Electron (or similar Node.js-based frameworks) that render user-controlled content have an implicit bridge between DOM-level XSS and operating system-level code execution. When the renderer process has Node.js integration enabled, standard browser-context XSS payloads gain access to Node.js APIs such as `process.open`, `require('child_process').exec`, and filesystem operations. The XSS impact jumps from session-level to system-level without any additional exploit or privilege escalation being required.",
+      "trigger_condition": [
+        "Encountering a desktop application that renders user-supplied content (usernames, chat messages, display names) in its UI",
+        "Observing that the application is built on Electron, NW.js, or another Node.js-backed desktop framework (visible in binary inspection, process listing, or shipped node_modules)",
+        "Confirming that Node.js integration is enabled in the renderer context (process object is accessible from injected JavaScript)"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Electron desktop applications",
+          "NW.js desktop applications"
+        ],
+        "general": [
+          "Desktop applications with embedded web renderers and native code bridges",
+          "Hybrid desktop applications",
+          "Chat and conferencing clients"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When a desktop application uses a web rendering engine with a bridge to native/system APIs, any XSS vulnerability in that renderer context implicitly becomes a remote code execution vulnerability. The severity of XSS findings must be re-evaluated based on the execution context—browser-context XSS in a desktop app with native bridges is fundamentally different from browser-context XSS in an actual browser.",
+        "pattern": "IF [XSS exists in user-controlled content rendered by a desktop app] AND [the rendering engine has Node.js integration or native API bridge enabled] THEN [XSS is equivalent to RCE on every user who renders that content]",
+        "generalizes_to": [
+          "Electron app security assessments",
+          "Any hybrid app with web-to-native bridges (React Native with native modules, Cordova with plugins)",
+          "WebView-based mobile apps with JavaScript bridges"
+        ]
+      },
+      "pitfalls": [
+        "Assuming Electron apps have nodeIntegration disabled by default—older versions had it enabled by default, and many apps still explicitly enable it or use preload scripts that expose equivalent functionality",
+        "Reporting this as just XSS without demonstrating the RCE chain, which drastically undervalues the finding's severity",
+        "Overlooking contextIsolation settings—even with nodeIntegration disabled, if contextIsolation is off, prototype pollution can reach the Node.js context"
+      ],
+      "chain_potential": "In multi-user applications (conferencing, chat), this chain becomes wormable—one user's XSS payload executes on every other participant's machine, enabling mass RCE without individual targeting",
+      "confidence": "high",
+      "confidence_rationale": "This is a well-demonstrated pattern confirmed across multiple real-world Electron app vulnerabilities (conferencing apps, Slack, VS Code extensions, etc.)",
+      "shelf_life": "semi-permanent",
+      "source_id": "6a532e4e7803",
+      "extracted_at": "2026-02-18T01:54:22.467767",
+      "id": "ek_0035"
+    },
+    {
+      "category": "tactical_priority",
+      "knowledge_type": "offensive",
+      "title": "eval(prompt()) as interactive XSS debug console",
+      "knowledge": "The payload `<img src=x onerror=eval(prompt())>` at only 35 characters provides an interactive JavaScript execution console within a live XSS context. Each time the payload triggers, a prompt dialog appears where arbitrary JavaScript can be typed and executed immediately in the vulnerable page's context. This is significantly more efficient for impact exploration than encoding each test payload via String.fromCharCode or other filter-bypass encoding, especially when character limits or quote filtering exist.",
+      "trigger_condition": [
+        "Discovering a reflected or stored XSS with character-length constraints or input filtering (e.g., quote stripping)",
+        "Observing that the XSS fires in a context where interactive dialog boxes (prompt/alert) are functional",
+        "Needing to rapidly test multiple follow-on payloads to assess impact depth without re-injecting each time"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Stored XSS in web applications with input length limits",
+          "XSS in Electron/desktop app contexts"
+        ],
+        "general": [
+          "Any XSS exploitation scenario requiring iterative payload development",
+          "Constrained injection points where payload iteration cost is high"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When exploring the impact of an XSS vulnerability under constrained conditions (character limits, filtering), injecting a minimal interactive execution primitive (eval + prompt) is more efficient than crafting complete encoded payloads for each test. The one-time cost of a small bootstrap payload amortizes across many rapid iterations of impact assessment.",
+        "pattern": "IF [XSS is confirmed but payload space is constrained or filtering exists] AND [interactive dialogs are functional in the target context] THEN [a minimal eval(prompt()) bootstrap payload enables rapid iterative exploration at far lower cost per test than individually crafted payloads]",
+        "generalizes_to": [
+          "Constrained injection exploitation",
+          "XSS impact assessment methodology",
+          "Bootstrapping larger payloads from minimal injection points"
+        ]
+      },
+      "pitfalls": [
+        "This only works when the XSS fires in a context where the user (attacker) can interact with the prompt dialog—it is useless for blind/stored XSS targeting other users where you need a non-interactive payload",
+        "Some modern browsers and Electron configurations suppress or block prompt() dialogs in certain contexts",
+        "The approach requires the XSS to fire while the tester is actively viewing the page—timing-dependent stored XSS may not cooperate"
+      ],
+      "chain_potential": "Enables rapid discovery of available APIs in the execution context (e.g., testing for process.open, require, filesystem access) which determines the ultimate severity of the chain",
+      "confidence": "high",
+      "confidence_rationale": "Directly demonstrated in this engagement and is a reusable technique applicable to any interactive XSS assessment",
+      "shelf_life": "semi-permanent",
+      "source_id": "6a532e4e7803",
+      "extracted_at": "2026-02-18T01:54:22.467773",
+      "id": "ek_0036"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Unauthenticated multi-user contexts as XSS severity multipliers",
+      "knowledge": "In applications where sessions are unauthenticated or use easily guessable/public identifiers (e.g., conferencing meeting IDs, public chat rooms, shared documents), stored XSS in user-controlled display fields (names, avatars, status messages) has a multiplicative blast radius. Every participant who joins the shared context renders the attacker's payload. The combination of unauthenticated entry plus stored XSS in a shared rendering context transforms a single injection into a mass-targeting vector without requiring any social engineering per-victim.",
+      "trigger_condition": [
+        "Encountering a multi-user application feature where joining does not require per-user authentication (public meeting links, open chat rooms, shared workspaces with link-only access)",
+        "Observing that user-controlled display data (display names, profile fields) is rendered to all other participants in the shared context",
+        "Discovering that input validation on these display fields is performed client-side only or is inconsistent between web and native clients"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Video conferencing platforms",
+          "Collaborative editing tools",
+          "Public chat/forum platforms"
+        ],
+        "general": [
+          "Any multi-user application with unauthenticated or low-authentication shared contexts",
+          "Applications where user-supplied display data is rendered to other participants"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When an application allows unauthenticated or low-barrier entry into shared contexts where user-controlled data is rendered to all participants, the blast radius of any stored injection vulnerability scales with the number of participants rather than requiring individual targeting. The severity assessment must account for the authentication model of the shared context, not just the injection itself.",
+        "pattern": "IF [shared context allows unauthenticated or link-only joining] AND [user-controlled display data is rendered to all participants] AND [injection is possible in display fields] THEN [a single injection targets all current and future participants without per-victim effort]",
+        "generalizes_to": [
+          "Mass exploitation via shared unauthenticated contexts",
+          "Wormable XSS in collaborative applications",
+          "Severity assessment for injection vulnerabilities in multi-tenant shared spaces"
+        ]
+      },
+      "pitfalls": [
+        "Assuming that brute-forcing the meeting/room ID space is necessary—many meeting links are shared publicly on calendars, social media, or support pages",
+        "Underestimating severity because the initial XSS payload seems benign—the multiplication effect across all participants makes even information-stealing XSS high severity",
+        "Forgetting that validation differences between web and native clients may mean the native client accepts payloads the web client blocks (bypassing length limits or filtering)"
+      ],
+      "chain_potential": "Combined with the Electron/Node.js RCE chain, this creates a wormable RCE vector: join any public meeting → inject display name → achieve RCE on all participants' machines",
+      "confidence": "high",
+      "confidence_rationale": "Directly demonstrated in this report and the pattern is broadly applicable to the entire class of collaborative applications",
+      "shelf_life": "permanent",
+      "source_id": "6a532e4e7803",
+      "extracted_at": "2026-02-18T01:54:22.467775",
+      "id": "ek_0037"
+    },
+    {
+      "category": "bypass_technique",
+      "knowledge_type": "offensive",
+      "title": "$.getScript as compact XSS payload stager bypassing quote filters",
+      "knowledge": "When jQuery is loaded on the target page and quote characters are filtered, `$.getScript(String.fromCharCode(...))` serves as an extremely compact external script loader (the entire bootstrap payload fits in ~80 characters). Unlike constructing inline payloads that must work around character filtering and length limits, this technique offloads all complexity to an attacker-controlled external script. The jQuery `$.getScript` function both fetches and executes the remote JavaScript in the page's context, including any Node.js/native bridges available.",
+      "trigger_condition": [
+        "Observing that the target application loads jQuery ($ or jQuery object available in global scope)",
+        "Encountering quote character filtering or stripping in the injection point that prevents inline string construction",
+        "Operating under a character length constraint that prohibits complex inline payloads"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Web applications using jQuery",
+          "Electron apps bundling jQuery"
+        ],
+        "general": [
+          "Any XSS scenario with character constraints where a JavaScript library with script-loading capabilities is already present",
+          "Staged payload delivery through existing library functions"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When an injection point has both character constraints and character filtering, leveraging an already-loaded JavaScript library's remote script loading capability converts the constrained injection into an unconstrained external payload. The injection point only needs to bootstrap a loader, not contain the full exploit.",
+        "pattern": "IF [XSS injection point has character limits and quote filtering] AND [a JavaScript library with remote script loading is already loaded on the page] THEN [the injection can be reduced to a minimal loader call with String.fromCharCode encoding, offloading all payload complexity to an external server]",
+        "generalizes_to": [
+          "Staged XSS payload delivery",
+          "Leveraging existing page libraries for exploitation",
+          "Bypassing input length restrictions via external resource loading"
+        ]
+      },
+      "pitfalls": [
+        "Content Security Policy (CSP) with script-src restrictions will block the external script fetch—this technique fails silently if CSP is enforced",
+        "Assuming jQuery is the only option—other libraries like Angular (ng-include), Prototype, or even native fetch/import() may serve the same purpose",
+        "The external hosting domain must serve the script with appropriate CORS headers or be same-protocol, and short domains (like xor.cc) help fit within character limits"
+      ],
+      "chain_potential": "Enables loading arbitrarily complex second-stage payloads including reverse shells, credential harvesters, or in the Electron context, full system compromise via Node.js APIs",
+      "confidence": "high",
+      "confidence_rationale": "Well-established technique demonstrated in this report and widely applicable wherever jQuery is present",
+      "shelf_life": "semi-permanent",
+      "source_id": "6a532e4e7803",
+      "extracted_at": "2026-02-18T01:54:22.467776",
+      "id": "ek_0038"
+    },
+    {
+      "category": "bypass_technique",
+      "knowledge_type": "offensive",
+      "title": "Cross-parameter tag splitting to bypass per-parameter XSS filters",
+      "knowledge": "When a server-side XSS filter checks for the co-occurrence of '<' followed by '>' within the same parameter value (e.g., matching <.*>), the filter is defeatable if two parameters are reflected adjacently in the same HTML/script context. The HTML parser's tag-matching behavior is tolerant of intervening characters between a closing tag's slash and its final '>', meaning '</script/','dest':\">' still functions as a valid closing </script> tag from the HTML parser's perspective, even though the ',' '\"', ':' characters appear between '</script/' and '>'.",
+      "trigger_condition": [
+        "Observing that a reflected parameter encodes or strips content only when both '<' and '>' appear together in the same parameter value",
+        "Discovering that two or more parameters are reflected adjacently within the same inline <script> block or HTML context",
+        "Confirming that '<' alone and '>' alone pass through the filter unencoded in separate parameters"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Tokopedia train ticket search (tiket.tokopedia.com)",
+          "Server-side regex filters using <.*> pattern"
+        ],
+        "general": [
+          "Web applications with per-parameter XSS sanitization",
+          "Multi-parameter reflection in inline script contexts",
+          "Applications using regex-based HTML tag detection"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "When input sanitization operates independently on each parameter but multiple parameters are rendered contiguously in the same execution context, payloads can be split across parameters to avoid triggering per-parameter pattern detection. The HTML parser reconstructs a valid tag from fragments that span across non-tag content because HTML parsing is more permissive than the sanitizer's regex assumes.",
+        "pattern": "IF [per-parameter sanitizer blocks co-occurrence of open+close angle brackets] AND [multiple parameters reflected adjacently in same context] THEN [splitting tag opener into one parameter and closer into another bypasses the filter because HTML parsers tolerate intervening characters in malformed closing tags]",
+        "generalizes_to": [
+          "per-field WAF rule bypass",
+          "multi-input injection recombination",
+          "any context where sanitization boundary differs from parser boundary"
+        ]
+      },
+      "pitfalls": [
+        "The intervening characters between the two parameters must not break the HTML parser's ability to match the closing tag — test with the specific rendering template to confirm",
+        "Browser XSS auditors (e.g., Chrome's now-removed XSS Auditor) may still block the payload even if the server-side filter is bypassed, so testing in multiple browsers is necessary",
+        "The </script/> alternate closing syntax is HTML-parser specific and does not work in all contexts — it works for closing script tags but may not generalize to other tags"
+      ],
+      "chain_potential": "Once script context is escaped, arbitrary JavaScript execution enables session theft, especially if httpOnly cookies are leaked into JS variables",
+      "confidence": "high",
+      "confidence_rationale": "Verified in a real-world bug bounty finding on a production application, with working proof of concept demonstrated",
+      "shelf_life": "semi-permanent",
+      "source_id": "2cbbb6d09a81",
+      "extracted_at": "2026-02-18T01:56:08.377963",
+      "id": "ek_0039"
+    },
+    {
+      "category": "signal_interpretation",
+      "knowledge_type": "offensive",
+      "title": "Inconsistent encoding across parameters signals separate code paths with different security controls",
+      "knowledge": "When different URL parameters reflected on the same page exhibit different encoding behaviors (e.g., some encode double quotes as %22 while others encode as \\\", or some encode angle brackets while others do not), this indicates the parameters are processed by different server-side code paths with different sanitization logic. Parameters with weaker or different encoding are likely handled by a less mature or separately maintained code path and are higher-priority targets for injection.",
+      "trigger_condition": [
+        "Observing that the same special character (e.g., \", <, >) is encoded differently across different parameters reflected on the same page",
+        "Confirming that at least two parameters appear in the same execution context (e.g., same inline script block) despite having different encoding"
+      ],
+      "applicable_to": {
+        "specific": [
+          "Tokopedia train ticket search parameters (ori/dest vs adult/infant/trip)"
+        ],
+        "general": [
+          "Web applications with URL path parameters mixed with query parameters",
+          "Applications where routing parameters and form parameters are handled by different middleware",
+          "Monolithic applications with multiple internal services rendering to one page"
+        ]
+      },
+      "abstracted_pattern": {
+        "narrative": "Encoding inconsistency across co-rendered parameters is a reliable signal that different code paths handle different parameters. Differential encoding means differential security controls, and the weakest code path determines the exploitability of the combined rendering context.",
+        "pattern": "IF [multiple parameters rendered in same context show different encoding behavior for the same character] AND [parameters share an execution context] THEN [at least one code path has weaker sanitization and is the primary exploitation target]",
+        "generalizes_to": [
+          "multi-service page composition",
+          "mixed legacy/modern endpoint testing",
+          "microservice-to-monolith rendering pipelines"
+        ]
+      },
+      "pitfalls": [
+        "The encoding difference might be intentional and both paths might be secure — differential encoding alone does not confirm vulnerability, only that different code paths exist",
+        "Testing only one parameter and assuming all parameters share the same filter will cause you to miss the vulnerability entirely"
+      ],
+      "chain_potential": "Identifying the weakly-sanitized parameter enables targeted payload crafting, especially when combined with cross-parameter payload splitting",
+      "confidence": "high",
+      "confidence_rationale": "Directly observed pattern that led to a validated vulnerability; encoding inconsistency as a signal for differing code paths is a well-established testing heuristic confirmed here",
+      "shelf_life": "permanent",
+      "source_id": "2cbbb6d09a81",
+      "extracted_at": "2026-02-18T01:56:08.377971",
+      "id": "ek_0040"
+    }
+  ]
+}

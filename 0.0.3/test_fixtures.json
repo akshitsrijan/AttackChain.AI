@@ -1,0 +1,146 @@
+{
+  "observation": "I'm proxying requests through gopher and noticed CRLF sequences are tolerated inside the gopher URI without rejection",
+
+  "person_a_output": [
+    {
+      "id": "ek_0002",
+      "title": "Gopher Protocol CRLF Tolerance",
+      "category": "signal_interpretation",
+      "knowledge": "Some HTTP client libraries construct gopher:// URIs by directly embedding user-controlled data without sanitizing CRLF sequences, because gopher is treated as a legacy protocol with relaxed validation compared to http/https.",
+      "trigger_condition": [
+        "Observing that a gopher:// request is constructed from user input",
+        "Confirming CRLF sequences pass through unescaped into the gopher URI"
+      ],
+      "applicable_to": {
+        "specific": ["curl <= 8.17.0", "libcurl"],
+        "general": ["HTTP client libraries with gopher support", "SSRF-prone URL fetchers"]
+      },
+      "abstracted_pattern": {
+        "narrative": "Legacy protocol handlers often receive less input validation than primary protocols.",
+        "pattern": "IF [client supports a legacy/rarely-used protocol scheme] AND [CRLF is not stripped from that scheme's URI] THEN [arbitrary line injection into the underlying raw socket stream is possible]",
+        "generalizes_to": ["protocol smuggling via under-validated legacy schemes"]
+      },
+      "pitfalls": ["Assuming all protocol handlers share the same sanitization as http/https"],
+      "chain_potential": "Enables raw protocol smuggling to non-HTTP services reachable via SSRF.",
+      "confidence": "high",
+      "confidence_rationale": "Reproducible with a concrete PoC.",
+      "shelf_life": "semi-permanent",
+      "source_id": "8fb7d7751ba1",
+      "extracted_at": "2026-01-10T00:00:00",
+      "similarity": 0.87
+    },
+    {
+      "id": "ek_0003",
+      "title": "Gopher SSRF for Non-HTTP Services",
+      "category": "tactical_priority",
+      "knowledge": "Once CRLF injection into a gopher URI is confirmed, the same SSRF primitive can be redirected at non-HTTP services (Redis, SMTP, Memcached) that interpret raw line-based protocols.",
+      "trigger_condition": [
+        "Confirming CRLF injection into a gopher:// request (see ek_0002)",
+        "Identifying internal non-HTTP services reachable from the vulnerable host"
+      ],
+      "applicable_to": {
+        "specific": ["SSRF-vulnerable URL fetchers using gopher"],
+        "general": ["internal service exploitation via protocol smuggling"]
+      },
+      "abstracted_pattern": {
+        "narrative": "An SSRF primitive that allows raw line injection can be repurposed to speak arbitrary line-based protocols to internal services.",
+        "pattern": "IF [SSRF supports gopher and CRLF injection] AND [internal line-based service is reachable] THEN [attacker can issue arbitrary commands to that internal service]",
+        "generalizes_to": ["SSRF protocol pivoting", "internal service command injection via URL fetchers"]
+      },
+      "pitfalls": ["Forgetting that some internal services require multi-step handshakes that gopher's single payload can't replicate"],
+      "chain_potential": "Direct continuation of ek_0002; can chain further into service-specific exploitation.",
+      "confidence": "high",
+      "confidence_rationale": "Demonstrated against Redis and SMTP in prior public write-ups.",
+      "shelf_life": "permanent",
+      "source_id": "8fb7d7751ba1",
+      "extracted_at": "2026-01-10T00:05:00",
+      "similarity": 0.74
+    },
+    {
+      "id": "ek_0012",
+      "title": "Inconsistent Cross-Protocol Header Validation",
+      "category": "signal_interpretation",
+      "knowledge": "Backends sometimes validate headers differently depending on whether the request arrived over HTTP/1.1 or HTTP/2, creating a discrepancy an attacker can exploit.",
+      "trigger_condition": [
+        "Observing different header validation outcomes for the same payload depending on protocol version"
+      ],
+      "applicable_to": {
+        "specific": ["HTTP/2-to-HTTP/1.1 downgrading proxies"],
+        "general": ["protocol-version-dependent validation logic"]
+      },
+      "abstracted_pattern": {
+        "narrative": "Validation logic tied to one protocol version may not be re-applied after a downgrade.",
+        "pattern": "IF [request is downgraded across protocol versions] AND [validation is version-specific] THEN [a bypass may exist at the downgrade boundary]",
+        "generalizes_to": ["protocol downgrade bypass patterns"]
+      },
+      "pitfalls": ["Testing only one protocol version and missing the discrepancy"],
+      "chain_potential": "Feeds into cross-protocol downgrade injection (ek_0014).",
+      "confidence": "medium",
+      "confidence_rationale": "Observed in fewer real-world cases than ek_0002/ek_0003.",
+      "shelf_life": "semi-permanent",
+      "source_id": "db3110846a6f",
+      "extracted_at": "2026-01-12T00:00:00",
+      "similarity": 0.51
+    }
+  ],
+
+  "person_b_output": [
+    {
+      "id": "ek_0002",
+      "title": "Gopher Protocol CRLF Tolerance",
+      "similarity": 0.87,
+      "confidence_tier": "high",
+      "quality_note": "8/8 quality checks passed",
+      "composite_score": 0.91
+    },
+    {
+      "id": "ek_0003",
+      "title": "Gopher SSRF for Non-HTTP Services",
+      "similarity": 0.74,
+      "confidence_tier": "high",
+      "quality_note": "8/8 quality checks passed",
+      "composite_score": 0.80
+    },
+    {
+      "id": "ek_0012",
+      "title": "Inconsistent Cross-Protocol Header Validation",
+      "similarity": 0.51,
+      "confidence_tier": "needs_validation",
+      "quality_note": "6/8 checks passed (failed: trigger_situation_first, abstraction_distance)",
+      "composite_score": 0.39
+    }
+  ],
+
+  "person_c_output": {
+    "for_entry_id": "ek_0002",
+    "next": [
+      {"id": "ek_0003", "title": "Gopher SSRF for Non-HTTP Services", "category": "tactical_priority"}
+    ],
+    "prev": [],
+    "truncated_ids": []
+  },
+
+  "person_c_output_truncated_example": {
+    "for_entry_id": "ek_0016",
+    "next": [
+      {"id": "ek_0067", "title": "[outside curated set]", "category": "unknown"}
+    ],
+    "prev": [
+      {"id": "ek_0013", "title": "RFC Violation Bypass via Leading Whitespace", "category": "bypass_technique"}
+    ],
+    "truncated_ids": ["ek_0067"]
+  },
+
+  "person_d_final_response_shape": {
+    "matched_entry_id": "ek_0002",
+    "matched_entry_title": "Gopher Protocol CRLF Tolerance",
+    "reasoning": "Matched because the observation describes CRLF tolerance in a gopher URI, which is the exact trigger condition for ek_0002.",
+    "pitfalls": ["Assuming all protocol handlers share the same sanitization as http/https"],
+    "confidence": "high",
+    "shelf_life": "semi-permanent",
+    "chain": {
+      "next": ["ek_0003"],
+      "prev": []
+    }
+  }
+}
